@@ -8,25 +8,26 @@ import { PrimeReactProvider } from 'primereact/api';
 import { Helmet } from 'react-helmet';
 import { getTitleFromRoute } from './utils/docTile';
 import { router } from './route';
+import App from './App';
 import { NavBar } from './components/NavBar';
 
-export default function App() {
+export default function AppContainer() {
   const location = useLocation();
-
+    console.log(router)
   return (
     <PrimeReactProvider>
       <Helmet>
         <title>{getTitleFromRoute(location.pathname)}</title>
       </Helmet>
       <Suspense fallback={<div>Loading...</div>}>
- 
+        <App>
           <NavBar />
           <Routes>
             {router.map((route) => (
               <Route key={route.path} path={route.path} element={route.element} />
             ))}
           </Routes>
-
+        </App>
       </Suspense>
     </PrimeReactProvider>
   );
