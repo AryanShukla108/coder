@@ -3,6 +3,7 @@
 import React, { Suspense } from 'react';
 import './App.css';
 import './css/index.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { PrimeReactProvider } from 'primereact/api';
 import { Helmet } from 'react-helmet';
@@ -13,7 +14,7 @@ import { NavBar } from './components/NavBar';
 
 export default function AppContainer() {
   const location = useLocation();
-    console.log(router)
+  console.log(router)
   return (
     <PrimeReactProvider>
       <Helmet>
