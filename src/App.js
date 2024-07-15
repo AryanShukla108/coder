@@ -3,6 +3,7 @@
 import React, { Suspense } from 'react';
 import './App.css';
 import './css/index.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { PrimeReactProvider } from 'primereact/api';
 import { Helmet } from 'react-helmet';
@@ -19,13 +20,13 @@ export default function App() {
         <title>{getTitleFromRoute(location.pathname)}</title>
       </Helmet>
       <Suspense fallback={<div>Loading...</div>}>
- 
-          <NavBar />
-          <Routes>
-            {router.map((route) => (
-              <Route key={route.path} path={route.path} element={route.element} />
-            ))}
-          </Routes>
+
+        <NavBar />
+        <Routes>
+          {router.map((route) => (
+            <Route key={route.path} path={route.path} element={route.element} />
+          ))}
+        </Routes>
 
       </Suspense>
     </PrimeReactProvider>
