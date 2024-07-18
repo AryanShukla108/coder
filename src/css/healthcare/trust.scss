@@ -1,0 +1,50 @@
+.Trust-care{
+    padding: 0px 102px 72px 102px;
+
+    .box{
+        border: 1px solid #EA4232;
+        background-color: #FFF9F3;
+        width: 1236px;
+            height: 286px;
+            border-radius: 16px;
+    }
+
+    .box-1{
+        padding: 48px;
+        width: 411.33px;
+            height: 284px;
+    border-right: 1px solid #1D243414
+    }
+
+    .box-1:last-child{
+        border-right: none;
+    }
+
+    .current-icon{
+        padding: 15px;
+        width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            border: 1px solid #EF5F32;
+            margin-bottom: 11.5px;
+    }
+
+    .head{
+        font-family: "Poppins";
+            font-size: 30.94px;
+            font-weight: 600;
+            line-height: 28px;
+            color: #133B58;
+            margin-bottom: 23.5px;
+    }
+
+    .sm-head{
+        width: 178.78px;
+        font-family: Poppins;
+            font-size: 16.03px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #1D2434B8;
+    }
+
+}

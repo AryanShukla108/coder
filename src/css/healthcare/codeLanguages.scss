@@ -1,0 +1,107 @@
+.CodeLanguages{
+    padding: 50px 90px;
+    
+    .box{
+        padding: 48px;
+        background: #FFF9F3;
+    }
+
+    .head{
+        font-family: "Poppins";
+            font-size: 47.23px;
+            font-weight: 600;
+            line-height: 60px;
+            text-align: left;
+            margin-bottom: 24px;
+    }
+
+    .check{
+        margin-right: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+            height: 24px;
+            background: #EA4232;
+            border-radius: 50%;
+    }
+
+    .CheckIcon{
+        color: white;
+width: 18px;
+height: 18px;
+    }
+
+    .text{
+        font-family: "Poppins";
+            font-size: 15.75px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #1D2434B8;
+    }
+
+    .check-data{
+        margin-bottom: 48px;
+    }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 62px;
+        }
+
+        .skill-card{
+            width: 132.38px;
+                height: 132px;
+                padding: 20px 31px;
+                border-radius: 16px;
+                border: 2px solid #EA4232;
+        }
+
+        .skill-icon{
+            width: 56px;
+                height: 64px;
+        }
+
+        .name{
+            font-family: "Poppins";
+                font-size: 13.88px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+                color: #1D2434;
+        }
+
+        .call{
+            width: 230px;
+                height: 50px;
+                top: 545px;
+                padding: 12px 41.73px 12px 40px;
+                border-radius: 50px;
+                background: #EA4232;
+                font-family: "Poppins";
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    color: white;
+                    border: none;
+        }
+
+        .expert{
+        width: 230px;
+            height: 50px;
+            top: 545px;
+            padding: 12px 41.73px 12px 40px;
+            border-radius: 50px;
+            background: transparent;
+            font-family: "Poppins";
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 26px;
+            color: #EA4232;
+            border: 1px solid #EA4232;
+            text-decoration: underline;
+        }
+}

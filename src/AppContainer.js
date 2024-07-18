@@ -11,10 +11,11 @@ import { getTitleFromRoute } from './utils/docTile';
 import { router } from './route';
 import App from './App';
 import { NavBar } from './components/NavBar';
+import Faq from './components/faq/Faq';
+import Footer from './components/footer/Footer';
 
 export default function AppContainer() {
   const location = useLocation();
-  console.log(router)
   return (
     <PrimeReactProvider>
       <Helmet>
@@ -28,6 +29,8 @@ export default function AppContainer() {
               <Route key={route.path} path={route.path} element={route.element} />
             ))}
           </Routes>
+          <Faq />
+          <Footer />
         </App>
       </Suspense>
     </PrimeReactProvider>

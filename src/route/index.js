@@ -1,4 +1,4 @@
-import HomePage from "../components/Homepage";
+import HomePage from "../components/home/Homepage";
 import { NavBar } from "../components/NavBar";
 import Landing from "../components/healthcare/Landing";
 

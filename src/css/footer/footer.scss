@@ -1,0 +1,76 @@
+.Footer{
+    padding: 58px 110px;
+    background: #FFF9F3;
+
+    .coder{
+        width: 149px;
+            height: 90px;
+        
+    }
+
+    .linkdin-text{
+        padding: 6px 16px;
+        width: 279px;
+            height: 36px;
+            background: linear-gradient(90deg, #FEBF24 0%, #EA4232 100%);
+            font-family: "Poppins";
+                font-size: 13.88px;
+                font-weight: 400;
+                line-height: 24px;
+                color: white;
+                border-radius: 8px;
+                margin-top: 34px;
+                margin-bottom: 34.5px;
+    }
+
+    .normal-text{
+        font-family: "Poppins";
+            font-size: 13.75px;
+            font-weight: 400;
+            line-height: 22px;
+            color: #EA4232;
+    }
+
+    .space{
+        margin-bottom: 60px;
+    }
+
+    .head{
+        font-family: "Poppins";
+            font-size: 15.38px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #EA4232;
+            margin-bottom: 24px;
+    }
+
+    .haed-text{
+        font-family: "Poppins";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: -0.20499999821186066px;
+            color: #EA4232;
+    }
+
+    .sp{
+        margin-bottom: 25.5px;
+    }
+
+    .d-space{
+        margin-top: 75.5px;
+    }
+
+    .icon-div{
+        margin-top: 46.1px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .icon-color{
+        color: #EA4232;
+    }
+
+
+}

@@ -10,6 +10,8 @@ import { Helmet } from 'react-helmet';
 import { getTitleFromRoute } from './utils/docTile';
 import { router } from './route';
 import { NavBar } from './components/NavBar';
+import Faq from './components/faq/Faq';
+import Footer from './components/footer/Footer';
 
 export default function App() {
   const location = useLocation();
@@ -27,6 +29,8 @@ export default function App() {
             <Route key={route.path} path={route.path} element={route.element} />
           ))}
         </Routes>
+        <Faq />
+        <Footer />
 
       </Suspense>
     </PrimeReactProvider>
