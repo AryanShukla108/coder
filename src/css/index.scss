@@ -1,2 +1,47 @@
-@import url("./homepage/homepage.scss");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+@import url("./homepage/index.scss");
 @import url("./healthcare/index.scss");
+@import url("./navbar/navbar.scss");
+@import url("./faq/faq.scss");
+@import url("./footer/footer.scss");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    overflow-y: auto;
+        height: 100vh;
+        width: 100%;
+        scrollbar-width: none;
+}
+
+#root::-webkit-scrollbar {
+    display: none;
+}
+
+  .heading-main {
+      margin-bottom: 28px;
+      font-family: "Poppins";
+      font-size: 53.89px;
+      font-weight: 600;
+      line-height: 66px;
+      text-align: left;
+      color: #133b58;
+  }
+
+  .heading-color {
+      font-family: "Poppins";
+      font-size: 53.89px;
+      font-weight: 600;
+      background: linear-gradient(90deg, #febf24 0%, #ea4232 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+  }

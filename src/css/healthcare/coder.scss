@@ -1,0 +1,78 @@
+.Coder-health {
+  padding: 130px 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .heading-main {
+    width: 950px;
+    font-family: "Poppins";
+    font-size: 45.4px !important;
+    font-weight: 600 !important;
+    line-height: 60px !important;
+    text-align: center !important;
+    margin-bottom: 24px !important;
+  }
+
+  .heading-color {
+    font-size: 45.4px !important;
+  }
+
+  .small-text {
+    font-family: "Poppins";
+    margin-bottom: 70px;
+    width: 515.53px !important;
+    font-size: 15.61px !important;
+    line-height: 24px !important;
+  }
+
+  .small-higlight {
+    font-family: "Poppins";
+    font-size: 15.61px !important;
+    font-weight: 700;
+    line-height: 24px !important;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 288.75px;
+        height: 157px;
+        padding: 26px 26px 46px 26px;
+        border-radius: 16px;
+        border: 1px solid #EA4232;
+  }
+
+  .ArrowBackIosNewIcon{
+    font-family: "Poppins";
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        color: #EA4232;
+        width: 35.04px;
+            height: 60px;
+  }
+
+  .bolder-red{
+    font-family: "Poppins";
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        color: #EA4232;
+        margin-bottom: 8.5px;
+  }
+
+  .text{
+    font-family: "Poppins";
+        font-size: 13.88px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        color: #1D2434B8;
+  }
+}

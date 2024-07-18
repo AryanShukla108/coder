@@ -1,0 +1,96 @@
+.Customer {
+  padding: 67px 81px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .dash {
+    width: 69px;
+    height: 5px;
+    background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+    margin-bottom: 20px;
+  }
+
+  .head1 {
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+    color: #133b58;
+  }
+
+  .head2 {
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    color: #133b58;
+  }
+
+  .mySwiper {
+    margin-top: 60px;
+
+    .swiper-wrapper {
+      .swiper-slide-active {
+        // display: flex;
+        //     justify-content: center;
+        padding-left: 328px;
+            padding-right: 265px;
+      }
+
+      .testimonial-card {
+       
+      }
+
+      .review {
+        font-family: "Inter";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 36px;
+            text-align: center;
+            color: #718096;
+      }
+    }
+
+    .swiper-button-prev {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      // border: 1px solid #EA4232;
+      color: #ea4232;
+      color: #ffffff;
+      background: linear-gradient(180deg, #febf24 0%, #ea4232 100%);
+    }
+
+    .swiper-button-disabled {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 1px solid #ea4232;
+      color: #ea4232;
+      background: transparent;
+    }
+
+    .swiper-button-next {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      color: #ffffff;
+      background: linear-gradient(180deg, #febf24 0%, #ea4232 100%);
+    }
+
+    .swiper-button-prev::after {
+      font-size: 24px !important;
+    }
+
+    .swiper-button-next::after {
+      font-size: 24px !important;
+    }
+
+    .swiper-pagination {
+      display: none;
+    }
+  }
+}

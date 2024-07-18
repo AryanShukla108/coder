@@ -1,0 +1,135 @@
+.Faq {
+  background: #fff9f3;
+  padding: 41px 90px;
+
+  .head {
+    font-family: "Poppins";
+    font-size: 45.5px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #133b58;
+    margin-bottom: 60px;
+  }
+
+  .MuiAccordion-root {
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: 1px solid #1d243414;
+
+    .MuiAccordionSummary-root {
+      padding: 25px !important;
+
+      .MuiAccordionSummary-content {
+        margin: 0;
+        .MuiTypography-root {
+          font-family: "Poppins";
+          font-size: 15.61px !important;
+          font-weight: 600 !important;
+          line-height: 24px !important;
+          color: #000000 !important;
+        }
+      }
+    }
+
+    .MuiSvgIcon-root {
+      width: 24px;
+      height: 24px;
+      color: #000000 !important;
+    }
+
+    .MuiCollapse-root {
+      .MuiAccordionDetails-root {
+        padding: 0px 25px 25px 25px;
+
+        .text {
+          font-family: "Poppins";
+          font-size: 13.75px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #000000;
+          margin-bottom: 15.5px;
+        }
+
+        li {
+          list-style: none;
+        }
+
+        .sm-text {
+          font-family: "Poppins";
+          font-size: 13.75px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  .contact{
+    width: 432px;
+  }
+
+  .int-head {
+    width: 316.12px;
+    font-family: "Poppins";
+    font-size: 27.25px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #1d2434;
+    margin-bottom: 40px;
+
+    span {
+      font-family: "Poppins";
+      font-size: 27.25px;
+      font-weight: 600;
+      background: linear-gradient(90deg, #febf24 0%, #ea4232 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+  }
+
+  .input-text-container {
+    display: flex;
+    align-items: center;
+    gap: 7.8px;
+    border: 1px solid #ea4232;
+    padding: 13px 25px;
+    border-radius: 25px;
+    width: 432px;
+    height: 46px;
+    margin-bottom: 20px;
+  }
+
+  .sm-input-text{
+    font-family: "Poppins";
+        font-size: 16.03px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #EA4232;
+        width: 92px;
+  }
+
+  .form-control {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    background: transparent;
+    color: #1d243485;
+  }
+
+  .form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  ::placeholder {
+    color: #1d243485;
+    font-size: 16px;
+  }
+}
