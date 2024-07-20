@@ -16,6 +16,7 @@ import Footer from './components/footer/Footer';
 
 export default function AppContainer() {
   const location = useLocation();
+  console.log(router, "aryannsnndnwj")
   return (
     <PrimeReactProvider>
       <Helmet>

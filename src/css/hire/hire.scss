@@ -1,0 +1,182 @@
+.Connect-hire {
+  .form-hire-page {
+    padding: 62px 41px 62px 50px;
+    width: 916px;
+  }
+
+  .heading-main {
+    font-size: 31.36px !important;
+    margin-bottom: 56.5px;
+  }
+
+  .heading-color {
+    font-size: 31.36px !important;
+  }
+
+  .hire-img {
+    object-fit: contain;
+    width: 619px;
+    // height: 1023px;
+  }
+
+  .info {
+    font-family: "Poppins";
+    font-size: 15.47px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #212529;
+    margin-bottom: 12px;
+  }
+
+  .from-data {
+    margin-bottom: 19px;
+  }
+
+  label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1d2434b8;
+    margin-bottom: 4px;
+  }
+
+  .form-control {
+    font-family: "Inter";
+    border: 0.5px solid #febf24;
+    // border-image-slice: 1;
+    // border-image-source: linear-gradient(180deg, #FEBF24 0%, #EA4232 100%);
+    border-radius: 8px;
+    height: 45px;
+    padding: 11px 12px 11px 24px;
+    font-size: 14px;
+    color: #252525 !important;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+    //  color: #252525 !important;
+  }
+
+  .form-control:focus {
+    background-color: #fff;
+    border-color: #febf24;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .ind-input {
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .countrycode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #000000de;
+    width: 76.38px;
+    padding: 12px;
+    border-top-right-radius: 0px !important;
+    height: 45px;
+    border: 0.5px solid #febf24;
+    border-radius: 8px;
+    border-bottom-right-radius: 0px !important;
+  }
+
+  .flag {
+    margin-right: 2px;
+    width: 23px;
+    height: 15px;
+  }
+
+  .job-card {
+    display: flex;
+    gap: 63px;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 177px;
+    height: 120px;
+    border-radius: 12px;
+    border: 1px solid #febf24;
+  }
+
+  .txt {
+    margin-top: 19px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #0000006b;
+  }
+
+  .skills {
+    margin-top: 28px;
+  }
+
+  .skills-head {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1d24346b;
+    margin-bottom: 8px;
+  }
+
+  .search {
+    font-family: "Poppins";
+    font-size: 11.81px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1d24346b;
+  }
+
+  .trend {
+    margin-top: 10px;
+  }
+
+  .search {
+    margin-bottom: 4px;
+  }
+
+  .box-skilss{
+    width: 114.31px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #febf24;
+        font-family: "Poppins";
+            font-size: 12.25px;
+            font-weight: 500;
+            line-height: 21px;
+            color: #212529;
+  }
+
+  .lets-connect{
+    margin-top: 33px;
+    width: 730px;
+        height: 52px;
+        border-radius: 50px;
+        border: none;
+        background: #EA4232;
+        font-family: "Poppins";
+            font-size: 16.73px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF;
+  }
+}
