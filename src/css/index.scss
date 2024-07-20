@@ -7,6 +7,8 @@
 @import url("./navbar/navbar.scss");
 @import url("./faq/faq.scss");
 @import url("./footer/footer.scss");
+@import url("./hire/hire.scss");
+@import url("./job/jobHired.scss");
 
 *{
     padding: 0;
@@ -44,4 +46,12 @@
       background-clip: text;
       -webkit-text-fill-color: transparent;
       color: transparent;
+  }
+
+  .mandatory{
+    font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #ea4232;
   }
