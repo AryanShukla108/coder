@@ -1,0 +1,67 @@
+.ProjectLanding{
+
+    .head{
+        padding: 47px 47px 37px 47px;
+    }
+
+
+    .heading-color{
+        font-weight: 700 !important;
+            text-align: center !important;
+        font-size: 42px !important;
+    }
+
+    .sm-head{
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22.51px;
+            text-align: center;
+            color: #656267;
+    }
+
+    .img-sec{
+        display: flex;
+        justify-content: space-between;
+        background: #FFF9F3;
+        padding: 123px 80px 0px 80px;
+    }
+
+    .text-section{
+        width: 579px;
+    }
+
+    .img-project{
+        width: 579px;
+            height: 609.56px;
+            object-fit: contain;
+    }
+
+    .very-small{
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+           color: #EA4232;
+    }
+
+    .big-text{
+        font-family: "Poppins";
+            font-size: 64.26px;
+            font-weight: 500;
+            line-height: 78px;
+            letter-spacing: -0.15000000596046448px;
+            text-align: left;
+            color: #133B58;
+            margin-bottom: 20px;
+    }
+
+    .para{
+        font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            text-align: left;
+            color: #000000;
+    }
+}

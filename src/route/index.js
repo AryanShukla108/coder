@@ -3,6 +3,8 @@ import { NavBar } from "../components/NavBar";
 import Landing from "../components/healthcare/Landing";
 import Hire from "../components/hire/Hire";
 import JobHired from "../components/job/JobHired";
+import Project from "../components/project/Project";
+import AboutUsMain from "../components/aboutus/AboutUsMain";
 
 
 export const router = [
@@ -26,6 +28,17 @@ export const router = [
   {
     path: '/job',
     element: <JobHired />
+  },
+
+  {
+    path: '/project',
+    element: <Project />
+  },
+
+
+  {
+    path: '/about-us',
+    element: <AboutUsMain />
   },
 
 ]  

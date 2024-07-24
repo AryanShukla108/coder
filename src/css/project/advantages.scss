@@ -1,0 +1,81 @@
+.project-Advantages{
+padding: 0px 80px 56px 80px;
+
+.head{
+        font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: center;
+            color: #133B58;
+            margin-bottom: 19px;
+}
+
+.bg-head{
+    font-family: Poppins;
+        font-size: 47.84px;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: -0.15000000596046448px;
+        text-align: center;
+        color: #133B58;
+        margin-bottom: 19.5px;
+}
+
+.para{
+    font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+}
+
+.box-card{
+    background: linear-gradient(180deg, rgba(254, 191, 36, 0.03) 0%, rgba(234, 66, 50, 0.1) 100%);
+    width: 394.67px;
+        height: 368px;
+        padding: 41px;
+        border-radius: 10px;
+        border: 1px solid #FEBF2466;
+
+}
+
+.rate{
+    font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: -0.15000000596046448px;
+        text-align: left;
+        color: #EA4232;
+        opacity: 1px;
+        margin-bottom: 60.5px;
+}
+
+.text{
+    font-family: "Poppins";
+        font-size: 27.54px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: -0.15000000596046448px;
+        text-align: left;
+        color: #EA4232;
+        margin-bottom: 39.5px;
+}
+
+.para-2{
+    font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: #000000;
+}
+
+.main-card{
+    justify-content: center;
+    display: flex;
+    gap: 32px;
+}
+}
