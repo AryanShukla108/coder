@@ -1,0 +1,44 @@
+.aboutus-values {
+  padding: 0px 162px 248px 162px;
+
+  .heading-color {
+    font-size: 96px !important;
+    font-weight: 500 !important;
+    line-height: 102.82px !important;
+    text-align: center !important;
+    margin-bottom: 81px;
+  }
+
+  .main-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .box {
+    width: 267px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    // padding: 42px 93.5px 42.5px 93.5px;
+    border-radius: 30px;
+    border: 1px solid #febf24;
+  }
+
+  .box-icon {
+    text-align: center;
+    margin-bottom: 59.58px;
+  }
+
+  .txt{
+    font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25.7px;
+        text-align: center;
+        color: #000000;
+  }
+}

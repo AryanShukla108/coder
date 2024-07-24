@@ -1,0 +1,130 @@
+.SnapShot{
+    padding: 100px 80px;
+
+    .head{
+        font-family: Poppins;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 60px;
+            letter-spacing: -0.15000000596046448px;
+            text-align: center;
+            color: #133B58;
+            margin-bottom: 80px;
+    }
+
+    .details{
+display: flex;
+    }
+
+    .in-head{
+        font-family: Poppins;
+            font-size: 24.14px;
+            font-weight: 300;
+            line-height: 38px;
+            letter-spacing: -0.15000000596046448px;
+            color: #000000;
+            margin-bottom: 40px;
+    }
+
+    .sm-card{
+        border-radius: 10px;
+        background: linear-gradient(180deg, rgba(254, 191, 36, 0.03) 0%, rgba(234, 66, 50, 0.1) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #EA423266;
+        padding: 24px;
+        margin-bottom: 20px;
+    }
+
+    .sm-card:last-child{
+        margin: 0;
+    }
+
+    .sm-svg{
+        margin-right: 12px;
+    }
+
+    .AccountCircleIcon{
+        width: 60px;
+            height: 60px;
+        color: #EA4232;
+    }
+
+    .name{
+        font-family: "Poppins";
+            font-size: 17.16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: -0.15000000596046448px;
+            color: #000000;
+            margin-bottom: 8px;
+    }
+
+    .des{
+        font-family: "Poppins";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #000000;
+    }
+
+    .result{
+        margin-left: 80px;
+    }
+
+    .other-card{
+        display: flex;
+        gap: 20px;
+    }
+
+    .box{
+        background: linear-gradient(180deg, rgba(254, 191, 36, 0.03) 0%, rgba(234, 66, 50, 0.1) 100%);
+        border: 1px solid #EA423266;
+        padding: 21px;
+        width: 278.67px;
+            height: 120px;
+            border-radius: 10px;
+    }
+
+    .nmu{
+        font-family: "Poppins";
+            font-size: 36.09px;
+            font-weight: 300;
+            line-height: 48px;
+            letter-spacing: -0.15000000596046448px;
+            text-align: left;
+            margin-bottom: 4px;
+            color: #000000;
+    }
+
+    .num-text{
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: left;
+            color: #000000;
+
+    }
+
+    .small-other-card{
+        margin-top: 40px;
+        display: flex;
+        gap: 12px;
+    }
+
+    .small-box-recatngle{
+        background: linear-gradient(180deg, rgba(254, 191, 36, 0.03) 0%, rgba(234, 66, 50, 0.1) 100%);
+            border: 1px solid #EA423266;
+            padding: 6px 11px;
+           border-radius: 10px;
+        font-family: "Poppins";
+            font-size: 12.58px;
+            font-weight: 400;
+            line-height: 22px;
+            color: #000000;
+    }
+
+
+}

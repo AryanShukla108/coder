@@ -1,0 +1,119 @@
+.Challenge{
+    padding: 1px 79px 56px 79px;
+
+    .inner-challenge{
+        background: #FFF9F3;
+        padding: 20px;
+border: 1px solid #EA4232;
+    border-radius: 20px;
+    }
+
+    .head{
+        font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: left;
+            color: #EA4232;
+            margin-bottom: 20px;
+    }
+
+    .heads{
+        font-family: "Poppins";
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 60px;
+            letter-spacing: -0.15000000596046448px;
+            text-align: left;
+            color: #133B58;
+            margin-bottom: 26.5px;
+    }
+
+    .para{
+        width: 579px;
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: left;
+            color: #000000;
+            margin-bottom: 13px;
+    }
+
+    .text-space{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-box{
+        justify-content: end;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box{
+        display: flex;
+        align-items: center;
+        width: 282.83px;
+            height: 140px;
+            padding: 41px 57.49px 41px 41px;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(254, 191, 36, 0.03) 0%, rgba(234, 66, 50, 0.1) 100%);
+            border: 1px solid #EA423266;
+    }
+
+    .app{
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+            color: #EA4232;
+    }
+
+    .number{
+        font-family: "Poppins";
+            font-size: 36.09px;
+            font-weight: 300;
+            line-height: 48px;
+            letter-spacing: -0.15000000596046448px;
+            text-align: left;
+            color: #EA4232;
+    }
+
+    .button-chalenge{
+        width: 276.05px;
+            height: 48px;
+            border-radius: 10px;
+            border: 2px solid #FEBF24 !important;
+            font-family: "Poppins";
+                font-size: 17.58px;
+                font-weight: 500;
+                line-height: 26px;
+                text-align: center;
+                color: #EA4232;
+                border: none;
+                background: transparent;
+    }
+
+    .button-chalenge-2{
+        border: none;
+        width: 275.95px;
+            height: 48px;
+            border-radius: 10px;
+        background: linear-gradient(90deg, #FEBF24 0%, #EA4232 100%);
+        font-family: "Poppins";
+            font-size: 16.59px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+    }
+
+    .button-main{
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

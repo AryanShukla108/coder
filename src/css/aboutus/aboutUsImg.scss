@@ -1,0 +1,50 @@
+.AboutUsImg{
+    padding: 73px 100px 35px 70px;
+    background: linear-gradient(119.07deg, #FFF7E0 7.82%, #F2D3C9 84.24%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .heading-color{
+    line-height: 53px !important;
+    text-align: left !important;
+    margin-bottom: 31px;
+    }
+
+    .para{
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: left;
+            color: #133B58;
+            width: 501.3px;
+            margin-bottom: 57px;
+    }
+
+    .enquire{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 225.02px;
+            height: 50.95px;
+            border-radius: 25.47px;
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24.03px;
+            background: #EA4232;
+            text-align: left;
+            color: #FFFFFF;
+            border: none;
+    }
+
+    .aboutimg{
+        width: 517.88px;
+            height: 536.64px;
+            border-radius: 213.53px 0px 218.78px 216px;
+            object-fit: cover;
+    }
+
+}
