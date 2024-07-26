@@ -4,205 +4,242 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { InputTextarea } from "primereact/inputtextarea";
+
 
 const Faq = () => {
     return (
-        <div className="Faq">
-            <div className="head">FAQs</div>
-            <div className="row d-flex justify-content-between">
-                <div className="">
-                    <div>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    How is Coder different from other hiring platforms?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    What is the process of hiring a developer at Coder?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    How do you ensure the security and integrity of the work that Coder
-                                    developers do?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    What if I’m not satisfied with the Coder’s developer?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    Is it possible to hire software engineers through Coder within a week?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    Is Coder costlier than other hiring platforms?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                            >
-                                <Typography>
-                                    How do you ensure the smooth collaboration between developers and clients?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    <div className="text">
-                                        With Coder, clients can hire software developers with ease.
-                                    </div>
-                                    <ul>
-                                        <li className="sm-text">Top vetted profiles available within a week</li>
-                                        <li className="sm-text">99% guaranteed remote joining</li>
-                                        <li className="sm-text">Best post-hiring services</li>
-                                        <li className="sm-text">2-weeks trial period</li>
-                                    </ul>
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                    </div>
-                </div>
-                <div className=" contact">
-                    <div className="int-head">
-                        Find Interview-ready
-                        candidates in <span>24 hours</span>
-                    </div>
-                    <div className="input-text-container">
+        <>
+            <div className="Faq">
+                <div className="head">FAQs</div>
+                <div className="row d-flex justify-content-between">
+                    <div className="">
                         <div>
-                            <div className="sm-input-text">Book A Call</div>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        How is Coder different from other hiring platforms?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        What is the process of hiring a developer at Coder?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        How do you ensure the security and integrity of the work that Coder
+                                        developers do?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        What if I’m not satisfied with the Coder’s developer?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        Is it possible to hire software engineers through Coder within a week?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        Is Coder costlier than other hiring platforms?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion defaultExpanded>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    <Typography>
+                                        How do you ensure the smooth collaboration between developers and clients?
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        <div className="text">
+                                            With Coder, clients can hire software developers with ease.
+                                        </div>
+                                        <ul>
+                                            <li className="sm-text">Top vetted profiles available within a week</li>
+                                            <li className="sm-text">99% guaranteed remote joining</li>
+                                            <li className="sm-text">Best post-hiring services</li>
+                                            <li className="sm-text">2-weeks trial period</li>
+                                        </ul>
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
                         </div>
-                        <input type="text" className="form-control" placeholder="Learn more with our experts" />
                     </div>
-                    <div className="input-text-container">
-                        <div>
-                            <div className="sm-input-text">Email Us</div>
+                    <div className=" contact">
+                        <div className="int-head">
+                            Find Interview-ready
+                            candidates in <span>24 hours</span>
                         </div>
-                        <input type="text" className="form-control" placeholder="sales@coder.com" />
+                        <div className="input-text-container">
+                            <div>
+                                <div className="sm-input-text">Book A Call</div>
+                            </div>
+                            <input type="text" className="form-control" placeholder="Learn more with our experts" />
+                        </div>
+                        <div className="input-text-container">
+                            <div>
+                                <div className="sm-input-text">Email Us</div>
+                            </div>
+                            <input type="text" className="form-control" placeholder="sales@coder.com" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div className="faq-form">
+                <div className="txt">Discover how we can help your business grow</div>
+                <form>
+                    <div className="row">
+                        <div className="col-6">
+                            <input type="text" placeholder="Name" className="form-control" />
+                        </div>
+                        <div className="col-6">
+                            <input type="text" placeholder="Company" className="form-control" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-6">
+                            <input type="text" placeholder="Email" className="form-control" />
+                        </div>
+                        <div className="col-6">
+                            <input type="text" placeholder="Phone Number" className="form-control" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <InputTextarea
+                                className="form-control textarea"
+                                placeholder="Your Message"
+                            />
+                        </div>
+                    </div>
+
+                    <div className="d-flex justify-content-center">
+                        <button className="message-now">GET QUOTE NOW</button>
+                    </div>
+                </form>
+            </div>
+        </>
     );
 };
 
