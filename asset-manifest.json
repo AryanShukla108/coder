@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4be480a3.css",
+    "main.js": "/static/js/main.a90ea5f8.js",
+    "static/media/contactusimg.jpg": "/static/media/contactusimg.8fed3e864366e1181ad5.jpg",
+    "static/media/human2.png": "/static/media/human2.3df000c76c56f487348e.png",
+    "static/media/glimpse2.png": "/static/media/glimpse2.d81da2209c75564024eb.png",
+    "static/media/glimpse1.png": "/static/media/glimpse1.4ca9f6cf8e5a7b6060fc.png",
+    "static/media/privacyimg.png": "/static/media/privacyimg.946bf029c3e4fb44207a.png",
+    "static/media/aboutimg.jpg": "/static/media/aboutimg.a6d9665e016bc1399609.jpg",
+    "static/media/glimpse3.png": "/static/media/glimpse3.45fbfd3fb662231d522d.png",
+    "static/media/projectimg.png": "/static/media/projectimg.38817316d8913d8b8f0c.png",
+    "static/media/jobimg.jpg": "/static/media/jobimg.dea10344e1935a27494d.jpg",
+    "static/media/closebracket.png": "/static/media/closebracket.c0d761816ada792be433.png",
+    "static/media/choose.png": "/static/media/choose.b7f1ca12becbd91938c0.png",
+    "static/media/case.png": "/static/media/case.4fd8b04a1677a8bb6f80.png",
+    "static/media/hire.jpg": "/static/media/hire.fa324ef112ba7c8df0be.jpg",
+    "static/media/thumbsup.png": "/static/media/thumbsup.0cfb46e6df9a834719ef.png",
+    "static/media/amazon.png": "/static/media/amazon.7a9ff8c7d5c8e4b227dc.png",
+    "static/media/hand.jpg": "/static/media/hand.dbf28b87ffec367d439a.jpg",
+    "static/media/javalogo.png": "/static/media/javalogo.b997496ee3c5d3bc12e8.png",
+    "static/media/coder.png": "/static/media/coder.fb67c58789db78d5e034.png",
+    "static/media/logo-coder.png": "/static/media/logo-coder.fb67c58789db78d5e034.png",
+    "static/media/pythontext.png": "/static/media/pythontext.57d47107ae449a8fcf2d.png",
+    "static/media/developer.png": "/static/media/developer.8da99efb581f47d3d8ef.png",
+    "static/media/swift.png": "/static/media/swift.280b581ed04a7133237f.png",
+    "static/media/transform.png": "/static/media/transform.3fa276fff13fcf77c730.png",
+    "static/media/human1.png": "/static/media/human1.4873de8063e804e20519.png",
+    "static/media/kotin.jpg": "/static/media/kotin.bb42f6da896b845ae3ea.jpg",
+    "static/media/service2.png": "/static/media/service2.c84e534e7b0acb44eaa6.png",
+    "static/media/blockchain.png": "/static/media/blockchain.b4e7b9557a9b49976369.png",
+    "static/media/service3.png": "/static/media/service3.4a2124b6595c9dae18b4.png",
+    "index.html": "/index.html",
+    "main.4be480a3.css.map": "/static/css/main.4be480a3.css.map",
+    "main.a90ea5f8.js.map": "/static/js/main.a90ea5f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4be480a3.css",
+    "static/js/main.a90ea5f8.js"
+  ]
+}
