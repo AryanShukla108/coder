@@ -7,6 +7,8 @@ import Project from "../components/project/Project";
 import AboutUsMain from "../components/aboutus/AboutUsMain";
 import ContactUsMain from "../components/contactus/ContactUsMain";
 import PrivacyMain from "../components/privacy/PrivacyMain";
+import ServiceMain from "../components/service/ServiceMain";
+import ServiceOneMain from "../components/serviceOne/ServiceOneMain";
 
 
 export const router = [
@@ -50,6 +52,16 @@ export const router = [
   {
     path: '/privacy',
     element: <PrivacyMain />
+  },
+
+  {
+    path: '/service',
+    element: <ServiceMain />
+  },
+
+  {
+    path: '/service-other',
+    element: <ServiceOneMain />
   },
 
 ]  

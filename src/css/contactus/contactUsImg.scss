@@ -19,6 +19,15 @@
     color: #1d2434b8;
   }
 
+  .serviceonetxt{
+    font-family: "Poppins";
+      font-size: 44px;
+      font-weight: 400;
+      letter-spacing: -0.25px;
+      text-align: left;
+      color: #133B58;
+  }
+
   .txt {
     color: #ea4232;
     font-family: "Poppins";
@@ -27,6 +36,32 @@
     line-height: 28px;
     text-align: left;
     margin-bottom: 56px;
+  }
+
+  .service-contact{
+    margin-top: 45px;
+    width: 179.03px;
+      height: 54px;
+      padding: 0px 29.67px 0px 30px;
+      border-radius: 27.5px;
+      background: #EA4232;
+      font-family: "Poppins";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        border: none;
+        color: white;
+  }
+
+  .service-txt{
+    font-family: "Poppins";
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 53px;
+      letter-spacing: 0.02em;
+      color: #133B58;
   }
 
   .input-field {

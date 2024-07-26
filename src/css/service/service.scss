@@ -1,0 +1,228 @@
+.service-data {
+  padding: 35px 71px 100px 71px;
+
+  .txt {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #ea4232;
+  }
+
+  .txt-1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 58.2px;
+    text-align: left;
+    color: #133b58;
+    width: 925px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #3e3e3e;
+  }
+
+  .all-card-main {
+    margin-top: 76px;
+    border: 1px solid #febf24;
+    border-radius: 36px;
+    padding: 67px 50px 56px 51px;
+    background: #fff9f3;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+  }
+
+  .card {
+    width: 352px;
+    // height: 475px;
+    padding: 41px 32px 41px 39px;
+    border-radius: 30px;
+    border: 2px solid #febf24;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    width: 153px;
+    height: 153px;
+    padding: 34px;
+    border: 1px solid #febf24;
+    border-radius: 50%;
+    margin-bottom: 26px;
+  }
+
+  .title {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27.63px;
+    text-align: left;
+    margin-bottom: 14px;
+  }
+
+  .des {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.17px;
+    text-align: left;
+    color: #133b58;
+    margin-bottom: 26px;
+  }
+
+  .noramlSelected {
+    border: none;
+    border: 1px solid #febf24;
+    border-radius: 7px;
+    width: 266px;
+    height: 62px;
+    padding: 17px 70px;
+    background: transparent;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+    color: #525255;
+  }
+
+  .selected {
+    border: none;
+    border-radius: 7px;
+    width: 266px;
+    height: 62px;
+    padding: 17px 70px;
+    background: #ea4232;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .choose {
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .choosetxt {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #ea4232;
+    margin-bottom: 29px;
+  }
+
+  .choose-main-txt{
+    font-family: "Poppins";
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 58.2px;
+        text-align: left;
+        color: #133B58;
+        width: 639px;
+        margin-bottom: 46px;
+  }
+
+  .inner-data{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 22px;
+  }
+
+  .chose-icon{
+    border: 1px solid #FEBF24;
+    width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 10px;
+  }
+
+  .chose-head{
+    font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: left;
+        color: #133B58;
+  }
+
+  .chose-nrml-head{
+    font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: #133B58;
+  }
+
+  .chooseimg{
+    width: 484px;
+        height: 379px;
+        object-fit: cover;
+  }
+
+  .in-touch{
+margin-top: 129px;
+  }
+
+  .get-in-touch{
+    padding: 90.45px 60.5px;
+    width: 1200px;
+        height: 400px;
+        border-radius: 30px;
+            background: linear-gradient(303.97deg, rgba(254, 191, 36, 0.4) 11.67%, rgba(234, 66, 50, 0.4) 49.87%);
+  }
+
+  .touch-txt{
+    width: 588px;
+    font-family: "Poppins";
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 49.73px;
+        text-align: left;
+        color: #133B58;
+        margin-bottom: 56px;
+  }
+
+  .touch-btn{
+    width:173px;
+        height:63px;
+        // padding: 17px 35px 17px 35px;
+        border-radius: 7px;
+        background: #EA4232;
+        font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28.8px;
+            text-align: center;
+            color: #FFFFFF;
+            border: none;
+  }
+
+  .started-btn{
+    width: 173px;
+        height: 63px;
+        // padding: 17px 35px 17px 35px;
+        border-radius: 7px;
+        background: white;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28.8px;
+        text-align: center;
+        color: #292930;
+        border: none;
+        border: 1px solid #FEBF24;
+  }
+}
