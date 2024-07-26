@@ -1,0 +1,74 @@
+.ContactUsImg {
+  padding: 100px 125px 94px 100px;
+  background: linear-gradient(119.07deg, #fff7e0 7.82%, #f2d3c9 84.24%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .heading-color {
+    margin-bottom: 35px;
+  }
+
+  .para {
+    width: 622.25px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #1d2434b8;
+  }
+
+  .txt {
+    color: #ea4232;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 56px;
+  }
+
+  .input-field {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 313.23px;
+    height: 50px;
+    padding: 13px 167.23px 13px 16px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    color: #000000;
+
+    ::placeholder {
+      color: #6c757d;
+    }
+  }
+
+  .send-btn{
+    border: none;
+    width: 152.42px;
+        height: 50px;
+        padding: 14.5px 17.99px 15.5px 25px;
+        border-radius: 0px 4px 4px 0px;
+        background: #EA4232;
+        font-family: "Poppins";
+            font-size: 15.63px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+  }
+
+  .contactusimg{
+    width: 447px;
+        height: 450px;
+        border-radius: 20px;
+        object-fit: cover;
+  }
+}

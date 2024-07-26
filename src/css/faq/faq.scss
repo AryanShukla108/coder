@@ -133,3 +133,74 @@
     font-size: 16px;
   }
 }
+
+.faq-form{
+  background: #FFF9F3;
+padding: 71.5px 72px ;
+  margin-top: 33px;
+  margin-bottom: 105px;
+
+  .txt{
+    font-family: "Poppins";
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 35px;
+      text-align: center;
+      color: #133B58;
+      margin-bottom: 53.3px;
+  }
+
+  .row{
+    margin-bottom: 30px;
+  }
+
+     .form-control {
+       border: 1px solid #febf24;
+       height: 50px;
+       border-radius: 20px;
+       font-family: "Poppins";
+       font-size: 16px;
+       font-weight: 300;
+       line-height: 22.4px;
+       letter-spacing: -0.02em;
+       padding: 12px 32px;
+       color: #000000;
+       background: transparent;
+     }
+  
+     .form-control:focus {
+       box-shadow: none;
+     }
+  
+     ::placeholder {
+       color: #9CA3AF;
+     }
+
+            .textarea {
+              height: 246px;
+              padding: 30px 40px;
+            }
+      
+            .textarea:focus {
+              background: transparent;
+              border-color: #febf24;
+            }
+
+            .message-now{
+              display: flex;
+              justify-content: center;
+              width: 247px;
+                height: 50px;
+                padding: 14.5px 51.44px 15.5px 51.73px;
+                border-radius: 25px;
+                border: none;
+                background: linear-gradient(92.04deg, #FDBD24 0%, #EF6331 100%);
+                font-family: "Poppins";
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 20px;
+                  letter-spacing: 0.800000011920929px;
+                  text-align: center;
+                  color: #FFFFFF;
+            }
+}
