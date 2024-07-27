@@ -32,18 +32,19 @@ const Footer = () => {
                 <div className="col-3">
                     <div>
                         <div className="head">Company</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'about-us')}>About Us</div>
                         <div className="haed-text sp">Careers</div>
                         <div className="haed-text sp">Customers Review</div>
                         <div className="haed-text sp">The Right Hire</div>
                         <div className="haed-text sp">Blogs</div>
                         <div className="haed-text sp">Events</div>
                         <div className="haed-text sp">Sitemap</div>
-                        <div className="haed-text sp">Privacy Policy</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'privacy')}>Privacy Policy</div>
                     </div>
                     <div className="d-space">
                         <div className="head">For Customers</div>
                         <div className="haed-text sp">Submit Enquiry</div>
-                        <div className="haed-text sp">Hire Developer</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'hire')}>Hire Developer</div>
                     </div>
                     <div className="d-space">
                         <div className="head">For Developers</div>
@@ -55,24 +56,24 @@ const Footer = () => {
                 <div className="col-3">
                     <div>
                         <div className="head">Tech talent for</div>
-                        <div className="haed-text sp">Bigger Software Companies</div>
-                        <div className="haed-text sp">Healthcare Companies</div>
-                        <div className="haed-text sp">Fintech Companies</div>
-                        <div className="haed-text sp">Startups</div>
-                        <div className="haed-text sp">USA Startups & Businesses</div>
-                        <div className="haed-text sp">Salesforce Need</div>
-                        <div className="haed-text sp">VC Portfolio Companies</div>
-                        <div className="haed-text sp">Pharma Industry</div>
-                        <div className="haed-text sp">ServiceNow</div>
-                        <div className="haed-text sp">Workday</div>
-                        <div className="haed-text sp">SAP</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Bigger Software Companies</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Healthcare Companies</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Fintech Companies</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Startups</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>USA Startups & Businesses</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Salesforce Need</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>VC Portfolio Companies</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Pharma Industry</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>ServiceNow</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>Workday</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'healthcare')}>SAP</div>
                     </div>
                     <div className="d-space">
                         <div className="head">Compare</div>
-                        <div className="haed-text sp">Coder Vs. Turing</div>
-                        <div className="haed-text sp">Coder Vs. Andela</div>
-                        <div className="haed-text sp">Coder Vs. Upwork</div>
-                        <div className="haed-text sp">
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'service-other')}>Coder Vs. Turing</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'service-other')}>Coder Vs. Andela</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'service-other')}>Coder Vs. Upwork</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'service-other')}>
                             Coder Vs. Top IT Services Companies
                         </div>
                     </div>
