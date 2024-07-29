@@ -4,12 +4,12 @@ import project from "../../assests/projectimg.png"
 const ProjectLanding = () => {
     return (
         <div className="ProjectLanding">
-            <div className="head">
+            {/* <div className="head">
                 <div className="heading-color">Portfolio</div>
                 <div className="sm-head">
                     Check our recent works we delivered to our clients
                 </div>
-            </div>
+            </div> */}
             <div className="img-sec">
                 <div className="text-section">
                     <div className="very-small">EdTech</div>

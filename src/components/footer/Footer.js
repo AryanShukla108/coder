@@ -73,7 +73,8 @@ const Footer = () => {
                         <div className="head">India Office</div>
                         <div className="haed-text">
                             Shop No 2, Vishwakarma Opposite Om Surya apartment Sawarkar Nagar
-                            Thane West, Maharashtra ,400606 Open hours: 8.00-18.00 Mon-Fri
+                            Thane West, Maharashtra ,400606,
+                            <div>Open hours: 8.00-18.00 Mon-Fri,</div>
                             <div> info@sovtechnologies.com</div>
                         </div>
                     </div>
