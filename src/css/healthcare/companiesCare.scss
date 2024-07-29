@@ -13,5 +13,42 @@
             margin-bottom: 16px;
     }
 
+    .slider-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .slider {
+        display: flex;
+        gap: 27px;
+        animation: scroll 30s linear infinite;
+        width: calc(400px * 40);
+        cursor: pointer;
+    }
+    
+    @keyframes scroll {
+        100% { transform: translateX(0); }
+        0% { transform: translateX(calc(-400px * 7)); }
+    }
+    
+    .slide {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        width: 140px;
+        height: 50px;
+        object-fit: contain;
+        margin: 1rem;
+    }
+    
+
     
 }

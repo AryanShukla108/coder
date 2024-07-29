@@ -9,6 +9,7 @@ import ContactUsMain from "../components/contactus/ContactUsMain";
 import PrivacyMain from "../components/privacy/PrivacyMain";
 import ServiceMain from "../components/service/ServiceMain";
 import ServiceOneMain from "../components/serviceOne/ServiceOneMain";
+import { Terms } from "../components/privacy/Terms";
 
 
 export const router = [
@@ -52,6 +53,9 @@ export const router = [
   {
     path: '/privacy',
     element: <PrivacyMain />
+  }, {
+    path: '/terms',
+    element: <Terms />
   },
 
   {

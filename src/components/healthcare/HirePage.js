@@ -1,73 +1,77 @@
 import React from 'react'
-import human1 from "../../assests/human1.png"
+import boy from "../../assests/boy.png"
+import boy1 from "../../assests/boy2.png"
+import girl from "../../assests/girl.png"
+import girl1 from "../../assests/girl2.png"
+
 
 const HirePage = () => {
 
     const cardData = [
         {
-            name: 'Shreya Sharma',
+            name: 'Shreya',
             title: 'Sr. Java Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'Java - 6 Years (Advance) |React.js | Healthcare',
+            image: girl,
         },
         {
-            name: 'Shreya Sharma',
-            title: 'Sr. Java Developer',
+            name: 'Nitish',
+            title: 'Sr. Python Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'Python - 8 Years (Expert) | Android | Healthcare ',
+            image: boy,
 
         }, {
-            name: 'Shreya Sharma',
-            title: 'Sr. Java Developer',
+            name: 'Nikita',
+            title: 'Sr. PHP Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'PHP - 12 Years (Expert) |Healthcare',
+            image: girl1,
 
         }, {
-            name: 'Shreya Sharma',
+            name: 'Raj',
             title: 'Sr. Java Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'Java - 8 Years (Expert) | React.js| Healthcare',
+            image: boy1,
 
         },
         {
-            name: 'Shreya Sharma',
-            title: 'Sr. Java Developer',
+            name: 'Ashish',
+            title: 'Sr. PHP Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'PHP - 5 Years (Advance) |Healthcare',
+            image: boy,
         },
         {
-            name: 'Shreya Sharma',
+            name: 'Vinita',
             title: 'Sr. Java Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'Java - 2 Years (Junior)|Healthcare',
+            image: girl,
 
         }, {
-            name: 'Shreya Sharma',
+            name: 'Manik',
             title: 'Sr. Java Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'Java - 6 Years (Advance) |React.js | Healthcare',
+            image: boy1,
 
         }, {
-            name: 'Shreya Sharma',
-            title: 'Sr. Java Developer',
+            name: 'Megha',
+            title: 'Sr. Python Developer',
             rate: '$34',
             rating: 4.8,
-            skills: 'Java - 6 Years (Advance) | ReactJs | Healthcare',
-            image: human1,
+            skills: 'Python - 12 Years (Expert) |Flutter | React.js | Healthcare',
+            image: girl1,
 
         },
     ]

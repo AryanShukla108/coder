@@ -100,6 +100,12 @@ const Footer = () => {
                         >
                             Privacy Policy
                         </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "terms")}
+                        >
+                           Terms & Conditions
+                        </div>
                     </div>
                     <div className="d-space">
                         <div className="head">For Customers</div>
