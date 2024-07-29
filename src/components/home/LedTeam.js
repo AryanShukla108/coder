@@ -4,49 +4,35 @@ import { Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import developer from "../../assests/developer.png"
+// import developer from "../../assests/developer.png"
+import smartboy from "../../assests/smartborderboy.png"
+import smartboybest from "../../assests/smartboy2.png"
+import smartgirl from "../../assests/smartgirl.png"
 
 
 const LedTeam = () => {
     const services = [
         {
-            title: "Mobile App Development",
+            title: "Haniket Yadav",
             description: "Sr. SDE I ₹***** ",
-            icon: developer
+            icon: smartboy
         },
         {
-            title: "Web Design & Development",
-            description: "Sr. SDE I ₹***** ",
-            icon: developer
+            title: "Pushpender Kumar",
+            description: "Sr. Android Developer I ₹*****",
+            icon: smartboybest
 
         },
         {
-            title: "Software Testing Service",
-            description: "Sr. SDE I ₹***** ",
-            icon: developer
+            title: "Anjul Kumar",
+            description: "SDE I ₹*****",
+            icon: smartgirl
 
         },
         {
-            title: "Software Testing Service",
-            description: "Sr. SDE I ₹***** ",
-            icon: developer
-
-        },
-        {
-            title: "Software Testing Service",
-            description: "Sr. SDE I ₹***** ",
-            icon: developer
-
-        },
-        {
-            title: "Software Testing Service",
-            description: "Sr. SDE I ₹***** ",
-            icon: developer
-
-        }, {
-            title: "Software Testing Service",
-            description: "Sr. SDE I ₹***** ",
-            icon: developer
+            title: "Rohan Sharma",
+            description: "SDE 2 ₹*****",
+            icon: smartboybest
 
         },
     ];
@@ -62,6 +48,7 @@ const LedTeam = () => {
                 </div>
                 {/* swipper */}
                 <Swiper
+                    onClick={() => (window.location.href = "hire")}
                     slidesPerView={'auto'}
                     spaceBetween={9}
                     loop={false}
@@ -73,7 +60,7 @@ const LedTeam = () => {
                     className="mySwiper">
                     {services.map((service, index) => (
                         <SwiperSlide key={index}>
-                            <div className="service-card">
+                            <div className="service-card cursor-pointer">
                                 <div className='img-div'> <img src={service.icon} alt={`${service.title} icon`} className="service-icon" /></div>
                                 <div className='title'>{service.title}</div>
                                 <div className='des'>{service.description}</div>
@@ -82,8 +69,8 @@ const LedTeam = () => {
                     ))}
                 </Swiper>
                 <div className="button-down">
-                    <button className="swiper-btn border-btn">Schedule a call</button>
-                    <button className="swiper-btn background-btn">Hire Developers</button>
+                    <button className="swiper-btn border-btn" onClick={() => (window.location.href = "job")}>Schedule a call</button>
+                    <button className="swiper-btn background-btn" onClick={() => (window.location.href = "hire")}>Hire Developers</button>
                 </div>
             </div>
         </div>

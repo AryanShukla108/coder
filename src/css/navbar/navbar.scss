@@ -14,10 +14,12 @@
         width: 100px;
         height: 60px;
         cursor: pointer;
+            // object-fit: cover;
     }
 
     .list {
         margin: 0;
+            margin-left: 300px;
         width: 40%;
         display: flex;
         justify-content: space-between;

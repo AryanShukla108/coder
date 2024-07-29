@@ -16,11 +16,13 @@
 
   .mySwiper {
     height: 367px;
+    padding: 0px 15px 0px 15px;
 
     .swiper-wrapper {
       display: flex;
-      gap: 40px;
-      padding: 0px 0px 0px 30px;
+      // gap: 40px;
+      // padding: 0px 0px 0px 30px;
+      // transform: translate3d(-1907px, 0px, 0px) !important;
       .swiper-slide {
         width: 333px;
         height: 287px;
@@ -38,9 +40,16 @@
         margin-bottom: 15px;
       }
 
-      .service-icon {
-        width: 34px;
-        height: 34px;
+
+
+      // .service-icon {
+      //   width: 34px;
+      //   height: 34px;
+      // }
+
+      .ServiceIcon1{
+        width: 30px;
+        height: 30px;
       }
 
       .title {
