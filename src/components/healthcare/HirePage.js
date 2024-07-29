@@ -95,11 +95,11 @@ const HirePage = () => {
                             <span className='rate'> {data.rating}</span>
                         </div>
                         <div className='skills'>{data.skills}</div>
-                        <button className='hire-btn'>Hire Now</button>
+                        <button className='hire-btn' onClick={() => (window.location.href = '/hire')}>Hire Now</button>
                     </div>
                 ))}
             </div>
-            <button className='health-submit'>Schedule a call</button>
+            <button className='health-submit' onClick={() => (window.location.href = '/job')}>Schedule a call</button>
         </div>
     )
 }

@@ -19,7 +19,7 @@ const Trust = () => {
                     </div>
                     <div className='head'>Faster</div>
                     <div className='sm-head'>Get top vetted profiles
-                        within 24-48 hours</div>
+                    within 24-48 hours</div>
                 </div>
                 <div className='box-1'>
                     <div className='current-icon'>
@@ -34,9 +34,9 @@ const Trust = () => {
                         </svg>
 
                     </div>
-                    <div className='head'>Faster</div>
-                    <div className='sm-head'>Get top vetted profiles
-                        within 24-48 hours</div>
+                    <div className='head'>Reliable</div>
+                    <div className='sm-head'>Dedicated Account Manager Just one
+                    email/whatsapp away</div>
                 </div>  <div className='box-1'>
                     <div className='current-icon'>
                         <svg width="32" height="32" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,9 +50,10 @@ const Trust = () => {
                         </svg>
 
                     </div>
-                    <div className='head'>Faster</div>
-                    <div className='sm-head'>Get top vetted profiles
-                        within 24-48 hours</div>
+                    <div className='head'>Trusted</div>
+                    <div className='sm-head'> <p>4.6 Google </p>
+                        <p> 4.4 Clutch</p>
+                        <p> 4.8 G2</p></div>
                 </div>
             </div>
         </div>
