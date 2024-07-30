@@ -313,7 +313,7 @@ const Faq = () => {
                             <input
                                 type="text"
                                 className="form-control"
-                                placeholder="sales@coder.com"
+                                placeholder=" info@sovtechnologies.com"
                             />
                         </div>
                     </div>

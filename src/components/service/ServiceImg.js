@@ -12,18 +12,21 @@ const ServiceImg = () => {
     };
 
     const cardData = [
-        { title: "App Development", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon1 /> },
-        { title: "App & Web Designing", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon2 /> },
-        { title: "Web Development", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon3 /> },
-        { title: "Software Testing", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon4 /> },
-        { title: "Funnel Optimization", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon5 /> },
-        { title: "Email Marketing", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon6 /> },
-        { title: "Consultation", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon7 /> },
-        { title: "Branding", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon8 /> },
-        { title: "C2C & C2H", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon9 /> },
-        { title: "Bug Fixing", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon10 /> },
-        { title: "Social Media", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon11 /> },
-        { title: "Digital Marketing", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon12 /> }
+        // { title: "App Development", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon1 /> },
+        {
+            title: "UI Design",
+            description: "We provide development-ready UI designs, prioritizing functionality and aesthetics for efficient implementation.", icon: <ServiceIcon2 />
+        },
+        { title: "Web Development", description: "We offer tailored web development services, ensuring your unique needs are met with precision and expertise.", icon: <ServiceIcon3 /> },
+        // { title: "Software Testing", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon4 /> },
+        // { title: "Funnel Optimization", description: "Lorem ipsum dolor sit amet, ea numquam facilisi eam, ocurreret reprehendunt ex mei.", icon: <ServiceIcon5 /> },
+        { title: "Email Marketing", description: "Tailored email marketing services optimize engagement and conversion, delivering impactful campaigns for results.", icon: <ServiceIcon6 /> },
+        { title: "Consultation", description: "Technical consultation aids companies and startups in scaling with tailored strategies, optimizing operations for growth.", icon: <ServiceIcon7 /> },
+        { title: "Branding", description: "We craft compelling brand identities that resonate, blending creativity and strategy for lasting connections.", icon: <ServiceIcon8 /> },
+        { title: "C2C & C2H", description: "Our staffing augmentation seamlessly integrates skilled professionals for success and continuity with efficiency.", icon: <ServiceIcon9 /> },
+        { title: "Bug Fixing", description: "Our bug fixing ensures swift, efficient solutions, ensuring optimal performance and user satisfaction.", icon: <ServiceIcon10 /> },
+        { title: "Social Media", description: "Our digital marketing services drive targeted campaigns, maximizing online presence for exceptional results.", icon: <ServiceIcon11 /> },
+        { title: "Digital Marketing", description: "Our digital marketing services drive targeted campaigns, maximizing online presence for exceptional results.", icon: <ServiceIcon12 /> }
     ];
     return (
         <>

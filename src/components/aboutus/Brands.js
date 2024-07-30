@@ -1,5 +1,14 @@
 import React from "react";
-import amazon from "../../assests/amazon.png";
+// import amazon from "../../assests/amazon.png";
+import brand1 from "../../assests/brand1.png";
+import brand2 from "../../assests/brand2.png";
+import brand3 from "../../assests/brand3.png";
+import brand4 from "../../assests/brand4.png";
+import brand5 from "../../assests/brand5.png";
+import brand6 from "../../assests/brand6.png";
+import brand7 from "../../assests/brand7.png";
+
+
 import { VisionIcon } from "../../assests/Appicons";
 
 const Brands = () => {
@@ -11,25 +20,25 @@ const Brands = () => {
             </div>
             <div className="brand-name">
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand1} alt="amazon" className="brands-img" />
                 </div>
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand2} alt="amazon" className="brands-img" />
                 </div>{" "}
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand3} alt="amazon" className="brands-img-3" />
                 </div>{" "}
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand4} alt="amazon" className="brands-img-3" />
                 </div>{" "}
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand5} alt="amazon" className="brands-img-4" />
                 </div>{" "}
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand6} alt="amazon" className="brands-img" />
                 </div>{" "}
                 <div>
-                    <img src={amazon} alt="amazon" className="brands-img" />
+                    <img src={brand7} alt="amazon" className="brands-img" />
                 </div>
             </div>
             <div className="box-main">

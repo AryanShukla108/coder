@@ -25,12 +25,27 @@
         border-radius: 30px;
         display: flex;
         gap: 35px;
+        align-items: center;
+            background: #CACACA;
     }
 
     .brands-img{
         width: 120px;
             height: 50.45px;
+            object-fit: contain;
     }
+
+    .brands-img-3{
+        width: 129px;
+            height: 72px;
+            object-fit: cover;
+    }
+
+         .brands-img-4 {
+             width: 150px;
+             height: 72px;
+             object-fit: cover;
+         }
 
     .box-main{
         margin-top: 89px;
