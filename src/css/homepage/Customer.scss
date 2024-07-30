@@ -21,7 +21,7 @@
   }
 
   .head2 {
-    font-family: "Inter";
+    font-family: "Inter" , sans-serif;
     font-size: 35px;
     font-weight: 700;
     line-height: 55px;
@@ -31,24 +31,35 @@
 
   .mySwiper {
     margin-top: 60px;
+    width: 85%;
 
     .swiper-wrapper {
       .swiper-slide-active {
         // display: flex;
         //     justify-content: center;
-        padding-left: 328px;
+        padding-left: 260px;
             padding-right: 265px;
       }
 
       .testimonial-card {
-       
+       text-align: center;
+
+       h1{
+        font-family: "Inter" , sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        color: #133b58;
+
+       }
       }
 
       .review {
         font-family: "Inter";
             font-size: 18px;
             font-weight: 400;
-            line-height: 36px;
+            line-height: 25px;
             text-align: center;
             color: #718096;
       }
