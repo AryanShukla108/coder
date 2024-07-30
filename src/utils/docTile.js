@@ -9,7 +9,7 @@ const titleMap = {
 
 export const getTitleFromRoute = (path) => {
   if (titleMap[path]) {
-    return `${titleMap[path]} | Coder`;
+    return `SOV Technologies`;
   }
 
   const userProfileRegex = /^\/user\/(\w+)$/;
@@ -17,12 +17,12 @@ export const getTitleFromRoute = (path) => {
   const communityRegex = /^\/community\/(\w+)(\/report|\/reported-post|\/moderator)?$/;
 
   if (userProfileRegex.test(path)) {
-    return 'User Profile | Coder';
+    return 'User Profile | SOV Technologies';
   } else if (postRegex.test(path)) {
-    return 'Post | Coder';
+    return 'Post | SOV Technologies';
   } else if (communityRegex.test(path)) {
-    return 'Community | Coder';
+    return 'Community | SOV Technologies';
   }
 
-  return 'Coder';
+  return 'SOV Technologies';
 };

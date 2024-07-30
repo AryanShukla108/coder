@@ -1,8 +1,42 @@
-import React from 'react'
+import { Dropdown } from 'primereact/dropdown'
+import React, { useEffect, useState } from 'react'
+import { useNavigate, useLocation } from 'react-router-dom';
 // import logoCoder from "../assests/logo-coder.png"
 // import sovlogo from "../assests/sovlogo.png"
 
 export const NavBar = () => {
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [selectedOption, setSelectedOption] = useState("");
+
+
+  const options = [
+    { label: "Enterprise software companies", value: 'enterprise-software-companies' },
+    { label: "Healthcare Companies", value: 'healthcare-companies' },
+    { label: "Fintech Companies", value: 'fintech-companies' },
+    { label: "Startups", value: 'startups' },
+    { label: "USA Startups & Businesses", value: 'usa-startups-businesses' },
+    { label: "Salesforce Need", value: 'salesforce-need' },
+    { label: "VC Portfolio Companies", value: 'vc-portfolio-companies' },
+    { label: "Pharma Industry", value: 'pharma-industry' },
+    { label: "ServiceNow", value: 'servicenow' },
+    { label: "Workday", value: 'workday' },
+    { label: "SAP", value: 'sap' }
+];
+
+
+  const handleChange = (e) => {
+    setSelectedOption(e.value);
+    navigate(`/${e.value}`);
+}
+
+useEffect(() => {
+  setSelectedOption("");
+}, [location.pathname]);
+
+
+
   return (
     <div className='navbar'>
       <div className='logo-box' onClick={() => (window.location.href = '/')}>
@@ -33,7 +67,17 @@ export const NavBar = () => {
         {/* <li onClick={() => (window.location.href = 'about-us')}>About Us</li> */}
         <li onClick={() => (window.location.href = 'service')}>Service</li>
         {/* <li onClick={() => (window.location.href = 'project')}>Case Studies</li> */}
-        <li onClick={() => (window.location.href = 'healthcare')}>For Companies </li>
+        <li>
+          
+           <Dropdown
+            value={selectedOption}
+            options={options}
+            onChange={handleChange}
+            placeholder="For companies"
+            className="w-full "
+        />
+        
+        </li> 
         <li onClick={() => (window.location.href = 'project')}>For Developers </li>
         {/* <li>Reviews</li> */}
         {/* <li onClick={() => (window.location.href = 'privacy')}>Privacy & Policy</li> */}
