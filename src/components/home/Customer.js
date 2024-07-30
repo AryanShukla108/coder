@@ -8,29 +8,19 @@ import "swiper/css/navigation";
 const Customer = () => {
     const testimonials = [
         {
-            review:
-                "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I’ve came across so far. Wouldn't be hesitated to introduce their work to someone else.",
+            review:"We ensure secure software and business solutions, safeguarding against vulnerabilities for reliable deployment.",
+            title:"We’re Safe"
         },
         {
             review:
-                "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I’ve came across so far. Wouldn't be hesitated to introduce their work to someone else.",
-        },
+                "Our commitment to excellence ensures clients receive tailored, dependable solutions, fostering long-term trust.",
+            title:"We’re Trustworthy"
+                },
         {
             review:
-                "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I’ve came across so far. Wouldn't be hesitated to introduce their work to someone else.",
-        },
-        {
-            review:
-                "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I’ve came across so far. Wouldn't be hesitated to introduce their work to someone else.",
-        },
-        {
-            review:
-                "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I’ve came across so far. Wouldn't be hesitated to introduce their work to someone else.",
-        },
-        {
-            review:
-                "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I’ve came across so far. Wouldn't be hesitated to introduce their work to someone else.",
-        },
+                "We dedicate ourselves to addressing your unique requirements, ensuring our solutions align perfectly with your goals.",
+            title:"We Value You"
+            }   
     ];
 
     return (
@@ -38,20 +28,21 @@ const Customer = () => {
             <div className="dash"></div>
             <div className="head1">Why cutomers love</div>
             <div className="head2">working with us</div>
-            <Swiper
-                slidesPerView={"auto"}
-                spaceBetween={9}
-                loop={false}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
-                modules={[Pagination, Navigation]}
-                className="mySwiper"
-            >
+           <Swiper
+            slidesPerView={"auto"}
+            spaceBetween={9}
+            loop={true}
+            pagination={{
+                clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+        >
                 {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index}>
                         <div className="testimonial-card">
+                            <div><h1>{testimonial.title}</h1></div>
                             <div className="review">{testimonial.review}</div>
                         </div>
                     </SwiperSlide>
