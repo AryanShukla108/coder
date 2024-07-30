@@ -2,16 +2,116 @@ import React from "react";
 import { Dropdown } from "primereact/dropdown";
 
 const HealthCareLanding = () => {
+
+    const currentURL = window.location.href;
+
+    const checkURL = (substring) => currentURL.includes(substring);
+
+    const handleNavigation = (path) => {
+        window.location.href = path;
+    };
+
+    const getDynamicText = () => {
+        if (checkURL("healthcare-companies")) return "Healthcare";
+        if (checkURL("healthcare-enterprise")) return "Enterprise";
+        if (checkURL("healthcare-fintech")) return "Fintech";
+        if (checkURL("healthcare-startup")) return "Companies";
+        if (checkURL("healthcare-startup-businesses")) return "Startup";
+        if (checkURL("healthcare-salesforce")) return "Salesforce";
+        if (checkURL("healthcare-portfolio")) return "Portfolio";
+        if (checkURL("healthcare-pharma")) return "Pharma";
+        if (checkURL("healthcare-service")) return "Service";
+        if (checkURL("healthcare-workday")) return "Workday";
+        if (checkURL("healthcare-sap")) return "SAP";
+        return "Healthcare"; // Default text
+    };
+
+    const showHealthcare = checkURL("healthcare-companies");
+    const enterprise = checkURL("healthcare-enterprise");
+    const fintech = checkURL("healthcare-fintech");
+    const startup = checkURL("healthcare-startup");
+    const startupBusiness = checkURL("healthcare-startup-businesses");
+    const salesforce = checkURL("healthcare-salesforce");
+    const portfolio = checkURL("healthcare-portfolio");
+    const pharma = checkURL("healthcare-pharma");
+    const service = checkURL("healthcare-service");
+    const workday = checkURL("healthcare-workday");
+    const sap = checkURL("healthcare-sap");
+
+
     return (
         <div className="HealthCareLanding">
             <div className="row d-flex justify-content-between">
                 <div className="col-6 hire-health">
-                    <div className="heading-main">
-                        Hire <span className="heading-color">Healthcare</span> Software
-                        Developers
-                    </div>
+                    {showHealthcare && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-companies")}>
+                            Hire <span className="heading-color">Healthcare</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {enterprise && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-enterprise")}>
+                            Hire <span className="heading-color">Enterprise</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {fintech && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-fintech")}>
+                            Hire <span className="heading-color">Fintech</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {startup && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-startup")}>
+                            Hire <span className="heading-color">Companies</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {startupBusiness && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-startup-businesses")}>
+                            Hire <span className="heading-color">Startup</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {salesforce && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-salesforce")}>
+                            Hire <span className="heading-color">Salesforce</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {portfolio && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-portfolio")}>
+                            Hire <span className="heading-color">Portfolio</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {pharma && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-pharma")}>
+                            Hire <span className="heading-color">Pharma</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {service && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-service")}>
+                            Hire <span className="heading-color">Service</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {workday && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-workday")}>
+                            Hire <span className="heading-color">Workday</span> Software
+                            Developers
+                        </div>
+                    )}
+                    {sap && (
+                        <div className="heading-main" onClick={() => handleNavigation("healthcare-sap")}>
+                            Hire <span className="heading-color">SAP</span> Software
+                            Developers
+                        </div>
+                    )}
+
                     <div className="small-text">
-                        Build disruptive digital healthcare solutions by hiring pre-vetted{" "}
+                        Build disruptive digital {getDynamicText()} solutions by hiring pre-vetted{" "}
                         <span className="small-higlight">
                             top medical developers with strong technical and communication{" "}
                         </span>{" "}

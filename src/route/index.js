@@ -68,4 +68,59 @@ export const router = [
     element: <ServiceOneMain />
   },
 
+  {
+    path: '/healthcare-enterprise',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-companies',
+    element: <Landing />
+  },
+
+
+  {
+    path: '/healthcare-fintech',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-startup',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-startup-bussinesses',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-salesforce',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-portfolio',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-pharma',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-service',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-workday',
+    element: <Landing />
+  },
+
+  {
+    path: '/healthcare-sap',
+    element: <Landing />
+  },
 ]  

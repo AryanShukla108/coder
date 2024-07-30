@@ -104,7 +104,7 @@ const Footer = () => {
                             className="haed-text sp"
                             onClick={() => (window.location.href = "terms")}
                         >
-                           Terms & Conditions
+                            Terms & Conditions
                         </div>
                     </div>
                     <div className="d-space">
@@ -129,67 +129,67 @@ const Footer = () => {
                         <div className="head">Tech talent for</div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-enterprise")}
                         >
                             Enterprise software companies{" "}
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-companies")}
                         >
                             Healthcare Companies
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-fintech")}
                         >
                             Fintech Companies
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-startup")}
                         >
                             Startups
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-startup-bussinesses")}
                         >
                             USA Startups & Businesses
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-salesforce")}
                         >
                             Salesforce Need
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-portfolio")}
                         >
                             VC Portfolio Companies
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-pharma")}
                         >
                             Pharma Industry
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-service")}
                         >
                             ServiceNow
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-workday")}
                         >
                             Workday
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare")}
+                            onClick={() => (window.location.href = "healthcare-sap")}
                         >
                             SAP
                         </div>
