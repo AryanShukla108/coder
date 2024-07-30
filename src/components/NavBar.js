@@ -12,17 +12,17 @@ export const NavBar = () => {
 
 
   const options = [
-    { label: "Enterprise software companies", value: 'enterprise-software-companies' },
+    { label: "Enterprise software companies", value: 'healthcare-enterprise' },
     { label: "Healthcare Companies", value: 'healthcare-companies' },
-    { label: "Fintech Companies", value: 'fintech-companies' },
-    { label: "Startups", value: 'startups' },
-    { label: "USA Startups & Businesses", value: 'usa-startups-businesses' },
-    { label: "Salesforce Need", value: 'salesforce-need' },
-    { label: "VC Portfolio Companies", value: 'vc-portfolio-companies' },
-    { label: "Pharma Industry", value: 'pharma-industry' },
-    { label: "ServiceNow", value: 'servicenow' },
-    { label: "Workday", value: 'workday' },
-    { label: "SAP", value: 'sap' }
+    { label: "Fintech Companies", value: 'healthcare-fintech' },
+    { label: "Startups", value: 'healthcare-startup' },
+    { label: "USA Startups & Businesses", value: 'healthcare-startup-bussinesses' },
+    { label: "Salesforce Need", value: 'healthcare-salesforce' },
+    { label: "VC Portfolio Companies", value: 'healthcare-portfolio' },
+    { label: "Pharma Industry", value: 'healthcare-pharma' },
+    { label: "ServiceNow", value: 'healthcare-service' },
+    { label: "Workday", value: 'healthcare-workday' },
+    { label: "SAP", value: 'healthcare-sap' }
 ];
 
 

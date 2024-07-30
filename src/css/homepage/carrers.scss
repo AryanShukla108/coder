@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
 
+
     .carrers-card{
         display: flex;
         align-items: center;
@@ -12,6 +13,7 @@
             height: fit-content;
             border-radius: 20px;
             border: 1px solid #EA4232;
+            background: #FFF9F3;
     }
 
     .head1{
@@ -57,7 +59,6 @@
             height: auto;
             border-radius: 8px;
             padding: 20px;
-            padding-bottom: 0;
             border: 1px solid #EA4232;
     }
 
@@ -79,20 +80,14 @@
             color: #7E7275;
             display: flex;
 
-            p{
-                width: 25%;
-                margin-right: 1rem;
-                margin-top: 5px;
-            }
+  
 
             span{
-                width: 75%;
                 font-family: "Poppins";
                     font-size: 14px;
                     font-weight: 700;
                     line-height: 21px;
                     text-align: left;
-                    margin-top: 5px;
             }
     }
 

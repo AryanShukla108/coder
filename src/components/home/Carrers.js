@@ -56,65 +56,48 @@ const Carrers = () => {
         {
             title: "Java Developer",
             working: "Monday to Friday", 
-            department: "",
+            department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Vikhroli",
-            description: "Java, Postgres are mandatory",
+            description: "Java, Postgres ",
             Work_From:"Office"
         },
         {
             title: "Java Developer",
             working: "Monday to Friday", 
-            department: "",
+            department: "Information Technologies",
             level: "0-2 Year Exp",
             location: "Goregaon",
-            description: "Java, Postgres are mandatory",
-            Work_From:"Office"
-        },
-        {
-            title: "React Native Developer",
-            working: "Monday to Friday", 
-            department: "",
-            level: "0-2 Year Exp",
-            location: "Ghansoli",
-            description: "Android and iOS integration Mandatory",
+            description: "Java, Postgres ",
             Work_From:"Office"
         },
         {
             title: "Flutter Developer",
-            working: "Monday to Friday", 
-            department: "",
+            department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Ghatkopar / Ghansoli",
-            description: "Android and iOS integration Mandatory",
-            Work_From:"Office"
+            description: "Android and iOS integration ",
         },
         {
             title: ".net Developer",
-            working: "Monday to Friday", 
-            department: "",
+            department: "Information Technologies",
             level: "1-2 Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest Api Knowledge is mandatory",
-            Work_From:"Office"
+            description: "MVC, Rest Api ",
         },
         {
             title: "Angular and .Net Developer",
-            working: "Monday to Friday", 
-            department: "",
+            department: "Information Technologies",
             level: "5+ Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest Api, Angular Knowledge is mandatory",
-            Work_From:"Office"
+            description: "MVC, Rest Api, Angular ",
         },
         {
             title: "Tech Lead",
-            working: "Monday to Friday", 
-            department: "",
+            department: "Information Technologies",
             level: "5+ Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest Api, Angular Knowledge is mandatory",
-            Work_From:"Office"
+            description: "MVC, Rest Api, Angular ",
         }
     ];
 
@@ -133,24 +116,20 @@ const Carrers = () => {
                         <div key={index} className="job-card">
                             <div>
                                 <div className="tittle">{job.title}</div>
-                                {/* <div className="sm-title">
-                                    Employer: <span>{job.employer}</span>
-                                </div> */}
+                              
                                 <div className="sm-title">
-                              <p> Description:</p>   <span>{job.description}</span>
+                               Description:  <span>{job.description}</span>
                                 </div>
                                 <div className="sm-title">
-                                   <p>Level:</p>  <span>{job.level}</span>
+                                    Department: <span>{job.department}</span>
                                 </div>
                                 <div className="sm-title">
-                                <p>Location:</p>  <span>{job.location}</span>
+                                   Level: <span>{job.level}</span>
                                 </div>
+                               
                                 <div className="sm-title">
-                                <p>Working:</p>  <span>{job.working}</span>
+                                Location:  <span>{job.location}</span>
                                 </div>
-                                <div className="sm-title">
-                                <p>Work_From :</p>  <span>{job.Work_From}</span>
-                                    </div>
                             </div>
                             <div>
                            
