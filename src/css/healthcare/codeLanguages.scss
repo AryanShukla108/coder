@@ -63,6 +63,7 @@ height: 18px;
         .skill-icon{
             width: 56px;
                 height: 64px;
+                object-fit: contain;
         }
 
         .name{
@@ -90,7 +91,7 @@ height: 18px;
         }
 
         .expert{
-        width: 230px;
+        // width: 230px;
             height: 50px;
             top: 545px;
             padding: 12px 41.73px 12px 40px;
