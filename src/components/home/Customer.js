@@ -8,18 +8,15 @@ import "swiper/css/navigation";
 const Customer = () => {
     const testimonials = [
         {
-            review:"We ensure secure software and business solutions, safeguarding against vulnerabilities for reliable deployment.",
-            title:"We’re Safe"
+            review:"Happy with their work. Very professional approach and good quality product delivered. Looking forward to have more projects with you."
         },
         {
             review:
-                "Our commitment to excellence ensures clients receive tailored, dependable solutions, fostering long-term trust.",
-            title:"We’re Trustworthy"
+                "Got an opportunity to learn way more expected things. Team is really supportive and works really hard."
                 },
         {
             review:
-                "We dedicate ourselves to addressing your unique requirements, ensuring our solutions align perfectly with your goals.",
-            title:"We Value You"
+                "Very happy with the reliable and cost effective solutions provided by SOV. Would definitely recommend this team to anyone looking for application development, UI/UX and staff augmentation services."
             }   
     ];
 
@@ -42,7 +39,6 @@ const Customer = () => {
                 {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index}>
                         <div className="testimonial-card">
-                            <div><h1>{testimonial.title}</h1></div>
                             <div className="review">{testimonial.review}</div>
                         </div>
                     </SwiperSlide>
