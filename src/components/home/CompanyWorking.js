@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 // import banner1 from "../../assests/banner1.png";
 // import banner2 from "../../assests/banner2.png";
 // import banner3 from "../../assests/banner3.png";
@@ -24,7 +24,20 @@ import company12 from "../../assests/company12.png";
 import company13 from "../../assests/company13.png";
 
 
+
 const CompanyWorking = () => {
+
+    const containerRef = useRef(null);
+
+    const scrollLeft = () => {
+      containerRef.current.scrollBy({ left: -150, behavior: 'smooth' });
+    };
+  
+    const scrollRight = () => {
+      containerRef.current.scrollBy({ left: 150, behavior: 'smooth' });
+    };
+
+
     const imgData = [
         { banner: company1 },
         { banner: company2 },
@@ -45,13 +58,22 @@ const CompanyWorking = () => {
     ];
     return (
         <div className="CompanyWorking">
-            <div className="sub-head">
+
+            <div className="sub-head d-flex">
+                <div>
                 <div className="head-1">Meet the Company</div>
                 <div className="head-2">We are Working With</div>
+                </div>
+                <div>
+                <button onClick={scrollLeft}>Left</button>
+                <button onClick={scrollRight}>Right</button>
+                </div>
+               
             </div>
-            <div className="cards-container">{
+         
+            <div className="cards-container" ref={containerRef}>{
                 imgData.map((item, index) => (
-                    <div key={index} className="container">
+                    <div key={index} className="imgcontainer">
                         <img src={item.banner} alt="banner" className="img-banner" />
                     </div>
                 ))

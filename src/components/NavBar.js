@@ -1,14 +1,17 @@
-import { Dropdown } from 'primereact/dropdown'
-import React, { useEffect, useState } from 'react'
-import { useNavigate, useLocation } from 'react-router-dom';
+
+import React, {  useState } from 'react'
+import { Fintechv2, Healthcarev2 } from '../assests/Appicons';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 // import logoCoder from "../assests/logo-coder.png"
 // import sovlogo from "../assests/sovlogo.png"
 
 export const NavBar = () => {
 
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [selectedOption, setSelectedOption] = useState("");
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
 
   const options = [
@@ -25,16 +28,16 @@ export const NavBar = () => {
     { label: "SAP", value: 'healthcare-sap' }
 ];
 
-
-  const handleChange = (e) => {
-    setSelectedOption(e.value);
-    navigate(`/${e.value}`);
-}
-
-useEffect(() => {
-  setSelectedOption("");
-}, [location.pathname]);
-
+const dropdownCategories = [
+  {
+    title: 'By Industries',
+    items: [
+      { label: 'Enterprise software ', url: 'healthcare-enterprise', imgSrc: <Healthcarev2 /> },
+      { label: 'Healthcare ', url: 'healthcare-fintech', imgSrc: <Fintechv2 /> },
+      { label: 'Fintech ', url: 'healthcare-startup', imgSrc: <Healthcarev2 /> },
+      { label: 'USA Startups & Businesses', url: 'healthcare-startup-bussinesses', imgSrc:  <Fintechv2 /> },
+      { label: 'Startups', url: 'healthcare-startup', imgSrc: <Healthcarev2 />  },
+    ] }]
 
 
   return (
@@ -67,21 +70,45 @@ useEffect(() => {
         {/* <li onClick={() => (window.location.href = 'about-us')}>About Us</li> */}
         <li onClick={() => (window.location.href = 'service')}>Service</li>
         {/* <li onClick={() => (window.location.href = 'project')}>Case Studies</li> */}
-        <li>
+        <li onClick={toggleDropdown} >
           
-           <Dropdown
+           {/* <Dropdown
             value={selectedOption}
             options={options}
             onChange={handleChange}
             placeholder="For companies"
             className="w-full "
-        />
+        /> */} For Companies <KeyboardArrowDownIcon />
+
+{isOpen && (
+        <div className="dropdown-menu">
+          {dropdownCategories.map((category, index) => (
+            <div key={index} className="dropdown-category">
+              <div className="category-title">{category.title}</div>
+              <div className="category-items">
+                {category.items.map((item, idx) => (
+                  <div key={idx} onClick={() => (window.location.href = item.url)} className="dropdown-item">
+                    {/* <img src={item.imgSrc} alt={item.label} /> */}
+                   {item.imgSrc} <span >{item.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+
+          <div className='text-box'>
+            <span>Not sure which skills to look for?</span>
+            <span>Talk to our experts</span>
+            <button className='btn'>Find me a right Talent</button>
+          </div>
+        </div>
+      )}
         
         </li> 
-        <li onClick={() => (window.location.href = 'project')}>For Developers </li>
+        <li onClick={() => (window.location.href = 'project')}>For Developers   <KeyboardArrowDownIcon /></li>
         {/* <li>Reviews</li> */}
         {/* <li onClick={() => (window.location.href = 'privacy')}>Privacy & Policy</li> */}
-        <li onClick={() => (window.location.href = 'job')}>Schedule a call</li>
+        <li onClick={() => (window.location.href = 'hire')}>Schedule a call</li>
         {/* <li onClick={() => (window.location.href = 'service-other')}>Other service</li> */}
       </ul>
       <div className='nav-btn-box'>
