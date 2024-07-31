@@ -63,13 +63,13 @@ const HealthCareLanding = () => {
                     )}
                     {startup && (
                         <div className="heading-main" onClick={() => handleNavigation("healthcare-startup")}>
-                            Hire <span className="heading-color">Companies</span> Software
+                            Hire <span className="heading-color">Startups</span> Software
                             Developers
                         </div>
                     )}
                     {startupBusiness && (
                         <div className="heading-main" onClick={() => handleNavigation("healthcare-startup-businesses")}>
-                            Hire <span className="heading-color">Startup</span> Software
+                            Hire <span className="heading-color">USA Startups & Businesses</span> Software
                             Developers
                         </div>
                     )}
@@ -81,7 +81,7 @@ const HealthCareLanding = () => {
                     )}
                     {portfolio && (
                         <div className="heading-main" onClick={() => handleNavigation("healthcare-portfolio")}>
-                            Hire <span className="heading-color">Portfolio</span> Software
+                            Hire <span className="heading-color">Vc Portfolio</span> Software
                             Developers
                         </div>
                     )}
@@ -93,7 +93,7 @@ const HealthCareLanding = () => {
                     )}
                     {service && (
                         <div className="heading-main" onClick={() => handleNavigation("healthcare-service")}>
-                            Hire <span className="heading-color">Service</span> Software
+                            Hire <span className="heading-color">ServiceNow</span> Software
                             Developers
                         </div>
                     )}
@@ -105,8 +105,9 @@ const HealthCareLanding = () => {
                     )}
                     {sap && (
                         <div className="heading-main" onClick={() => handleNavigation("healthcare-sap")}>
-                            Hire <span className="heading-color">SAP</span> Software
-                            Developers
+                            Hire <span className="heading-color">SAP</span>
+                            <div> Software
+                                Developers</div>
                         </div>
                     )}
 
