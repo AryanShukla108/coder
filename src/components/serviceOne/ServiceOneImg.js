@@ -9,6 +9,7 @@ import service3 from "../../assests/service4.png";
 import caseimg from "../../assests/case.png"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Customer from "../home/Customer";
+import serviceAll from "../../assests/service-over-all.png"
 
 
 const ServiceOneImg = () => {
@@ -41,7 +42,9 @@ const ServiceOneImg = () => {
                     </div>
                     <button className="service-contact" onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                 </div>
-                <div></div>
+                <div>
+                    <img src={serviceAll} alt="serviceAll" className="contactusimg" />
+                </div>
             </div>
             <div className="serviceone">
                 <div className="list">

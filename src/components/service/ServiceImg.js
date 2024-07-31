@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import human from "../../assests/human2.png";
+import human from "../../assests/all-girl.png";
 import {
-    ServiceIcon1,
+    // ServiceIcon1,
     ServiceIcon2,
     ServiceIcon3,
-    ServiceIcon4,
-    ServiceIcon5,
+    // ServiceIcon4,
+    // ServiceIcon5,
     ServiceIcon6,
     ServiceIcon7,
     ServiceIcon8,
@@ -54,7 +54,7 @@ const ServiceImg = () => {
             description:
                 "Technical consultation aids companies and startups in scaling with tailored strategies, optimizing operations for growth.",
             icon: <ServiceIcon7 />,
-            path: "/service-consulation",
+            path: "service-consultation",
         },
         {
             title: "Branding",
@@ -229,11 +229,9 @@ const ServiceImg = () => {
                                 </svg>
                             </div>
                             <div>
-                                <div className="chose-head">Strong Network</div>
+                                <div className="chose-head">Ethical Practices</div>
                                 <div className="chose-nrml-head">
-                                    Our extensive network of industry contacts and partners allows
-                                    us to provide additional resources and opportunities for our
-                                    clients.{" "}
+                                    Integrity and transparency are at the core of our business practices.
                                 </div>
                             </div>
                         </div>
@@ -260,10 +258,9 @@ const ServiceImg = () => {
                                 </svg>
                             </div>
                             <div>
-                                <div className="chose-head">Continuous Support</div>
+                                <div className="chose-head">Commitment to Results</div>
                                 <div className="chose-nrml-head">
-                                    Our relationship with clients doesn't end with the delivery of
-                                    a solution.
+                                    We are dedicated to delivering measurable results.
                                 </div>
                             </div>
                         </div>

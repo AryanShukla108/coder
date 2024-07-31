@@ -9,57 +9,80 @@ import { ServiceIconOffer9, ServiceIconOffer7, ServiceIconOffer1, ServiceIconOff
 
 const Service = () => {
 
+
+    const handleButtonClick = (path) => {
+        window.location.href = path;
+    };
+
     const services = [
         {
             title: "C2C & C2H",
             description: "Our staffing augmentation seamlessly integrates skilled professionals for success and continuity with efficiency.",
-            icon: <ServiceIconOffer9 />
+            icon: <ServiceIconOffer9 />,
+            path: "/service-C2C-C2H"
+
         },
         {
             title: "Consultation",
             description: "Technical consultation aids companies and startups in scaling with tailored strategies, optimizing operations for growth.",
-            icon: <ServiceIconOffer7 />
+            icon: <ServiceIconOffer7 />,
+            path: "service-consultation",
+
 
         },
         {
             title: "Web Development",
             description: "We offer tailored web development services, ensuring your unique needs are met with precision and expertise.",
-            icon: <ServiceIconOffer1 />
+            icon: <ServiceIconOffer1 />,
+            path: "/service-web",
+
 
         },
         {
             title: "UI Design",
             description: "We provide development-ready UI designs, prioritizing functionality and aesthetics for efficient implementation.",
-            icon: <ServiceIconOffer8 />
+            icon: <ServiceIconOffer8 />,
+            path: "/service-ui",
+
 
         },
         {
             title: "Branding",
             description: "We craft compelling brand identities that resonate, blending creativity and strategy for lasting connections.",
-            icon: <ServiceIconOffer8 />
+            icon: <ServiceIconOffer8 />,
+            path: "/service-branding"
+
 
         },
         {
             title: "Email Marketing",
             description: "Tailored email marketing services optimize engagement and conversion, delivering impactful campaigns for results.",
-            icon: <ServiceIconOffer6 />
+            icon: <ServiceIconOffer6 />,
+            path: "/service-email",
+
 
         }, {
             title: "Digital Marketing",
             description: "Our digital marketing services drive targeted campaigns, maximizing online presence for exceptional results.",
-            icon: <ServiceIconOffer12 />
+            icon: <ServiceIconOffer12 />,
+            path: "/service-degital-marketing"
+
 
         },
 
         {
             title: "Social Media",
             description: "Our digital marketing services drive targeted campaigns, maximizing online presence for exceptional results.",
-            icon: <ServiceIconOffer11 />
+            icon: <ServiceIconOffer11 />,
+            path: "/service-social-media"
+
 
         }, {
             title: "Bug Fixing",
             description: "Our bug fixing ensures swift, efficient solutions, ensuring optimal performance and user satisfaction.",
-            icon: <ServiceIconOffer10 />
+            icon: <ServiceIconOffer10 />,
+            path: "/service-bugs-fixing"
+
 
         },
     ];
@@ -78,7 +101,7 @@ const Service = () => {
                 modules={[Pagination, Navigation]}
                 className="mySwiper">
                 {services.map((service, index) => (
-                    <SwiperSlide key={index} onClick={() => (window.location.href = "service")}>
+                    <SwiperSlide key={index} onClick={() => handleButtonClick(service.path)}>
                         <div className="service-card" >
                             <div className='img-div'>
                                 {/* <img src={service.icon} alt={`${service.title} icon`} className="service-icon" /> */}
