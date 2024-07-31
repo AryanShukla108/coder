@@ -88,11 +88,17 @@ const Footer = () => {
                         >
                             About Us
                         </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "contact-us")}
+                        >
+                            Contact Us
+                        </div>
                         <div className="haed-text sp">Careers</div>
-                        <div className="haed-text sp">Customers Review</div>
-                        <div className="haed-text sp">The Right Hire</div>
+                        {/* <div className="haed-text sp">Customers Review</div> */}
+                        {/* <div className="haed-text sp">The Right Hire</div> */}
                         <div className="haed-text sp">Blogs</div>
-                        <div className="haed-text sp">Events</div>
+                        {/* <div className="haed-text sp">Events</div> */}
                         <div className="haed-text sp">Sitemap</div>
                         <div
                             className="haed-text sp"
@@ -109,7 +115,7 @@ const Footer = () => {
                     </div>
                     <div className="d-space">
                         <div className="head">For Customers</div>
-                        <div className="haed-text sp">Submit Enquiry</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = "hire")}>Submit Enquiry</div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
@@ -126,24 +132,24 @@ const Footer = () => {
                 </div>
                 <div className="col-3">
                     <div>
-                        <div className="head">Tech talent for</div>
+                        <div className="head">Tech talent for companies</div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "healthcare-enterprise")}
                         >
-                            Enterprise software companies{" "}
+                            Enterprise software{" "}
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "healthcare-companies")}
                         >
-                            Healthcare Companies
+                            Healthcare
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "healthcare-fintech")}
                         >
-                            Fintech Companies
+                            Fintech
                         </div>
                         <div
                             className="haed-text sp"
@@ -167,7 +173,7 @@ const Footer = () => {
                             className="haed-text sp"
                             onClick={() => (window.location.href = "healthcare-portfolio")}
                         >
-                            VC Portfolio Companies
+                            VC Portfolio
                         </div>
                         <div
                             className="haed-text sp"
@@ -200,25 +206,25 @@ const Footer = () => {
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            Sov vs. Turing
+                            SOV vs. Turing
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            Sov vs. Andela
+                            SOV vs. Andela
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            Sov vs. Upwork
+                            SOV vs. Upwork
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            Sov vs. Top IT Services Companies
+                            SOV vs. Top IT Services Companies
                         </div>
                     </div>
                 </div>
@@ -242,7 +248,7 @@ const Footer = () => {
                     </div>
                     <div className="d-space">
                         <div className="head">Locations</div>
-                        <div className="haed-text sp">Mumbai, India (coming soon...)</div>
+                        <div className="haed-text sp">Mumbai, India</div>
                         <div className="haed-text sp">Gurgaon, India (coming soon...)</div>
                         <div className="haed-text sp">Noida, India (coming soon...)</div>
 

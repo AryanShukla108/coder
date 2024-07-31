@@ -12,11 +12,28 @@ import Customer from "../home/Customer";
 
 
 const ServiceOneImg = () => {
+
+    const currentURL = window.location.href;
+
+    const checkURL = (substring) => currentURL.includes(substring);
+
+    const getDynamicText = () => {
+        if (checkURL("service-ui")) return "UI Design";
+        if (checkURL("service-web")) return "Web Development";
+        if (checkURL("service-email")) return "Email Marketing";
+        if (checkURL("service-consultation")) return "Consultation";
+        if (checkURL("service-branding")) return "Branding";
+        if (checkURL("service-C2C-C2H")) return "C2C & C2H";
+        if (checkURL("service-bugs-fixing")) return "Bug Fixing";
+        if (checkURL("service-social-media")) return "Social Media";
+        if (checkURL("service-degital-marketing")) return "Digital Marketing";
+        return ""; // Default text
+    };
     return (
         <>
             <div className="ContactUsImg">
                 <div>
-                    <div className="serviceonetxt">Web Development</div>
+                    <div className="serviceonetxt">{getDynamicText()}</div>
                     <div className="heading-color">Company</div>
                     <div className="para">
                         We design and develop tailored websites amalgamating creativity,
@@ -29,7 +46,7 @@ const ServiceOneImg = () => {
             <div className="serviceone">
                 <div className="list">
                     <div className="box-data">
-                        <div className="txt">Web Development</div>
+                        <div className="txt">{getDynamicText()}</div>
                         <div className="txt1">
                             technology with creativity. Let's design it with thoughtful
                         </div>

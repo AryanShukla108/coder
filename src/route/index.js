@@ -123,4 +123,50 @@ export const router = [
     path: '/healthcare-sap',
     element: <Landing />
   },
+
+
+  {
+    path: '/service-ui',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-web',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-email',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-consultation',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-branding',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-C2C-C2H',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-bugs-fixing',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-social-media',
+    element: <ServiceOneMain />
+  },
+
+  {
+    path: '/service-degital-marketing',
+    element: <ServiceOneMain />
+  },
 ]  

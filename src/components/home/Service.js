@@ -78,8 +78,8 @@ const Service = () => {
                 modules={[Pagination, Navigation]}
                 className="mySwiper">
                 {services.map((service, index) => (
-                    <SwiperSlide key={index}>
-                        <div className="service-card">
+                    <SwiperSlide key={index} onClick={() => (window.location.href = "service")}>
+                        <div className="service-card" >
                             <div className='img-div'>
                                 {/* <img src={service.icon} alt={`${service.title} icon`} className="service-icon" /> */}
                                 {service.icon}
