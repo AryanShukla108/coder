@@ -39,7 +39,7 @@ const ServiceOneImg = () => {
                         We design and develop tailored websites amalgamating creativity,
                         novelty and aesthetics that can turn the wind in favour of you.
                     </div>
-                    <button className="service-contact">Contact Us</button>
+                    <button className="service-contact" onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                 </div>
                 <div></div>
             </div>
@@ -50,7 +50,7 @@ const ServiceOneImg = () => {
                         <div className="txt1">
                             technology with creativity. Let's design it with thoughtful
                         </div>
-                        <button className="service-contact">Contact Us</button>
+                        <button className="service-contact" onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                     </div>
                     <div>
                         <div className="list-para">
@@ -350,7 +350,7 @@ const ServiceOneImg = () => {
                                     Dive-in to learn about our marketing portfolio and creative
                                     skills.
                                 </div>
-                                <button className="service-contact">Contact Us</button>
+                                <button className="service-contact" onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                             </div>
                         </div>
                     </div>

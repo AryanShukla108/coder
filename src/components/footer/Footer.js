@@ -132,12 +132,12 @@ const Footer = () => {
                 </div>
                 <div className="col-3">
                     <div>
-                        <div className="head">Tech talent for companies</div>
+                        <div className="head">Tech talent for Companies</div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "healthcare-enterprise")}
                         >
-                            Enterprise software{" "}
+                            Enterprise Software{" "}
                         </div>
                         <div
                             className="haed-text sp"

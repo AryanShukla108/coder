@@ -29,7 +29,7 @@ const Connect = () => {
                     <div className="row">
                         <div className="from-data col-6">
                             <label htmlFor="name">
-                                Business Email<span className="mandatory">*</span>
+                                Email<span className="mandatory">*</span>
                             </label>
                             <input
                                 type="text"
