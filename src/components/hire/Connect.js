@@ -1,5 +1,5 @@
 import React from "react";
-import hire from "../../assests/hire.jpg";
+import hire from "../../assests/bg.png";
 import flag from "../../assests/flag.png";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 

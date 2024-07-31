@@ -33,11 +33,13 @@ const dropdownCategories = [
   {
     title: 'By Industries',
     items: [
-      { label: 'Enterprise software ', url: 'healthcare-enterprise', imgSrc: <Healthcarev2 /> },
-      { label: 'Healthcare ', url: 'healthcare-fintech', imgSrc: <Fintechv2 /> },
-      { label: 'Fintech ', url: 'healthcare-startup', imgSrc: <Healthcarev2 /> },
-      { label: 'USA Startups & Businesses', url: 'healthcare-startup-bussinesses', imgSrc:  <Fintechv2 /> },
-      { label: 'Startups', url: 'healthcare-startup', imgSrc: <Healthcarev2 />  },
+      { label: 'Enterprise software ', url: 'healthcare-enterprise', imgSrc: <Fintechv2 /> },
+      { label: 'Healthcare ', url: 'healthcare-companies', imgSrc: <Healthcarev2 /> },
+      { label: 'Fintech ', url: 'healthcare-fintech', imgSrc: <Fintechv2 /> },
+      { label: 'USA Startups & Businesses', url: 'healthcare-startup-bussinesses', imgSrc:  <Healthcarev2 /> },
+      { label: 'Startups', url: 'healthcare-startup', imgSrc: <Fintechv2 />  },
+      { label: 'Salesforce', url: 'healthcare-salesforce', imgSrc: <Healthcarev2 />  },
+      { label: 'SAP', url: 'healthcare-sap', imgSrc: <Healthcarev2 />  },
     ] }]
 
 

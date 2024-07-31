@@ -99,7 +99,7 @@ const HirePage = () => {
                     </div>
                 ))}
             </div>
-            <button className='health-submit' onClick={() => (window.location.href = '/job')}>Schedule a call</button>
+            <button className='health-submit' onClick={() => (window.location.href = '/hire')}>Schedule a call</button>
         </div>
     )
 }

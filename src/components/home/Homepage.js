@@ -30,8 +30,8 @@ export default function HomePage() {
             </div>
 
             <div className="btn-box">
-              <button className="start-btn">Lets's get started!</button>
-              <button className="start-btn2">
+              <button className="start-btn"  onClick={() => (window.location.href = 'hire')}>Let's get started!</button>
+              <button className="start-btn2" onClick={() => (window.location.href = 'hire')}>
                 <svg
                   width="42"
                   height="42"

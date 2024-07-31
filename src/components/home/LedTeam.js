@@ -69,8 +69,8 @@ const LedTeam = () => {
                     ))}
                 </Swiper>
                 <div className="button-down">
-                    <button className="swiper-btn border-btn" onClick={() => (window.location.href = "job")}>Schedule a call</button>
-                    <button className="swiper-btn background-btn" onClick={() => (window.location.href = "job")}>Hire Developers</button>
+                    <button className="swiper-btn border-btn" onClick={() => (window.location.href = "hire")}>Schedule a call</button>
+                    <button className="swiper-btn background-btn" onClick={() => (window.location.href = "hire")}>Hire Developers</button>
                 </div>
             </div>
         </div>

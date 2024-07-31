@@ -28,7 +28,7 @@ const JobHired = () => {
                 </div>
             </div>
             <div className="form-job">
-                <div className="job-txt">Lets Get Hired</div>
+                <div className="job-txt"  onClick={() => (window.location.href = 'hire')}>Lets Get Hired</div>
                 <form>
                     <div className="row form-data">
                         <div className="col-6">
