@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.af7346fd.css",
-    "main.js": "/static/js/main.e630ccb2.js",
+    "main.js": "/static/js/main.9bc1c13a.js",
     "static/media/contactusimg.jpg": "/static/media/contactusimg.8fed3e864366e1181ad5.jpg",
-    "static/media/human2.png": "/static/media/human2.3df000c76c56f487348e.png",
     "static/media/glimpse2.png": "/static/media/glimpse2.d81da2209c75564024eb.png",
     "static/media/glimpse1.png": "/static/media/glimpse1.4ca9f6cf8e5a7b6060fc.png",
     "static/media/privacyimg.png": "/static/media/privacyimg.946bf029c3e4fb44207a.png",
@@ -15,12 +14,14 @@
     "static/media/jobimg.jpg": "/static/media/jobimg.dea10344e1935a27494d.jpg",
     "static/media/boy2.png": "/static/media/boy2.dd02e41b5b48a225581c.png",
     "static/media/closebracket.png": "/static/media/closebracket.c0d761816ada792be433.png",
+    "static/media/all-girl.png": "/static/media/all-girl.2dfb0a0061cb6ad4dff4.png",
     "static/media/bannerhome.png": "/static/media/bannerhome.b97699d41c2486ee085f.png",
     "static/media/choose.png": "/static/media/choose.b7f1ca12becbd91938c0.png",
     "static/media/bg.png": "/static/media/bg.0c14c29db71339519577.png",
     "static/media/case.png": "/static/media/case.4fd8b04a1677a8bb6f80.png",
     "static/media/thumbsup.png": "/static/media/thumbsup.0cfb46e6df9a834719ef.png",
     "static/media/brand1.png": "/static/media/brand1.3bb6c7e2ec0d811dcec0.png",
+    "static/media/service-over-all.png": "/static/media/service-over-all.b5b0414c6125cc45ff71.png",
     "static/media/brand7.png": "/static/media/brand7.5ec174cabc8425ac14bf.png",
     "static/media/company2.png": "/static/media/company2.d673edd335ed347a4680.png",
     "static/media/hand.jpg": "/static/media/hand.dbf28b87ffec367d439a.jpg",
@@ -48,10 +49,10 @@
     "static/media/service3.png": "/static/media/service3.4a2124b6595c9dae18b4.png",
     "index.html": "/index.html",
     "main.af7346fd.css.map": "/static/css/main.af7346fd.css.map",
-    "main.e630ccb2.js.map": "/static/js/main.e630ccb2.js.map"
+    "main.9bc1c13a.js.map": "/static/js/main.9bc1c13a.js.map"
   },
   "entrypoints": [
     "static/css/main.af7346fd.css",
-    "static/js/main.e630ccb2.js"
+    "static/js/main.9bc1c13a.js"
   ]
 }
