@@ -67,18 +67,36 @@
     justify-content: space-between;
 }
 
+.p-dropdown-panel{
+    width: 70% !important;
+    left: 10rem !important;
+}
+
+.p-dropdown-trigger{
+    margin-left: 5px !important;
+    margin-top: 4px !important;
+}
+
 .p-dropdown-items-wrapper {
     background-color: white !important;
     margin-top: 10px;
     scrollbar-width: none; 
     -ms-overflow-style: none;  
+    border-radius: 10px;
+    width: 100%;
 }
 
 .p-dropdown-items-wrapper::-webkit-scrollbar {
     display: none; 
 }
 
+.p-dropdown-items{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
 .p-dropdown-item-label{
     margin: 10px;
-    font-size: medium;
+    font-size: smaller;
+    display: flex;
 }
