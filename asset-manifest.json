@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2053448e.css",
-    "main.js": "/static/js/main.690a5165.js",
+    "main.css": "/static/css/main.af7346fd.css",
+    "main.js": "/static/js/main.e630ccb2.js",
     "static/media/contactusimg.jpg": "/static/media/contactusimg.8fed3e864366e1181ad5.jpg",
     "static/media/human2.png": "/static/media/human2.3df000c76c56f487348e.png",
     "static/media/glimpse2.png": "/static/media/glimpse2.d81da2209c75564024eb.png",
@@ -17,8 +17,8 @@
     "static/media/closebracket.png": "/static/media/closebracket.c0d761816ada792be433.png",
     "static/media/bannerhome.png": "/static/media/bannerhome.b97699d41c2486ee085f.png",
     "static/media/choose.png": "/static/media/choose.b7f1ca12becbd91938c0.png",
+    "static/media/bg.png": "/static/media/bg.0c14c29db71339519577.png",
     "static/media/case.png": "/static/media/case.4fd8b04a1677a8bb6f80.png",
-    "static/media/hire.jpg": "/static/media/hire.fa324ef112ba7c8df0be.jpg",
     "static/media/thumbsup.png": "/static/media/thumbsup.0cfb46e6df9a834719ef.png",
     "static/media/brand1.png": "/static/media/brand1.3bb6c7e2ec0d811dcec0.png",
     "static/media/brand7.png": "/static/media/brand7.5ec174cabc8425ac14bf.png",
@@ -47,11 +47,11 @@
     "static/media/blockchain.png": "/static/media/blockchain.b4e7b9557a9b49976369.png",
     "static/media/service3.png": "/static/media/service3.4a2124b6595c9dae18b4.png",
     "index.html": "/index.html",
-    "main.2053448e.css.map": "/static/css/main.2053448e.css.map",
-    "main.690a5165.js.map": "/static/js/main.690a5165.js.map"
+    "main.af7346fd.css.map": "/static/css/main.af7346fd.css.map",
+    "main.e630ccb2.js.map": "/static/js/main.e630ccb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2053448e.css",
-    "static/js/main.690a5165.js"
+    "static/css/main.af7346fd.css",
+    "static/js/main.e630ccb2.js"
   ]
 }
