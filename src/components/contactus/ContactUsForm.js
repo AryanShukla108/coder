@@ -240,7 +240,7 @@ const ContactUsForm = () => {
                     <div className="inner-card">
                         <div className="heading-color">Interested in Working Together?</div>
                         <div className="para">Orci at id enim eu pellentesque habitant. Ut at diam suscipit amet id cursus id blandit. Consectetur maecenas id vivamus integer integer aliquam.</div>
-                        <button className="call-btn">Schedule a Call</button>
+                        <button className="call-btn" onClick={() => (window.location.href = "hire")}>Schedule a Call</button>
                     </div>
                 </div>
             </div>
