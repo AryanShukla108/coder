@@ -130,6 +130,9 @@ const Carrers = () => {
                                 <div className="sm-title">
                                 Location:  <span>{job.location}</span>
                                 </div>
+                                <div className="sm-title">
+                                    <button className="btn"  onClick={() => (window.location.href = '/job')}>Apply</button>
+                                    </div>
                             </div>
                             <div>
                            

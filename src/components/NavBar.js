@@ -4,6 +4,7 @@ import { Fintechv2, Healthcarev2 } from '../assests/Appicons';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 // import logoCoder from "../assests/logo-coder.png"
 // import sovlogo from "../assests/sovlogo.png"
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 export const NavBar = () => {
 
@@ -83,8 +84,8 @@ const dropdownCategories = [
 {isOpen && (
         <div className="dropdown-menu">
           {dropdownCategories.map((category, index) => (
-            <div key={index} className="dropdown-category">
-              <div className="category-title">{category.title}</div>
+            <div key={index} className="dropdown-category d-flex">
+              <div className="category-title">{category.title} <ChevronRightIcon /></div>
               <div className="category-items">
                 {category.items.map((item, idx) => (
                   <div key={idx} onClick={() => (window.location.href = item.url)} className="dropdown-item">
