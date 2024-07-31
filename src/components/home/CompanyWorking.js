@@ -22,6 +22,7 @@ import company10 from "../../assests/company10.png";
 import company11 from "../../assests/company11.png";
 import company12 from "../../assests/company12.png";
 import company13 from "../../assests/company13.png";
+import { LeftArrow, RightArrow } from "../../assests/Appicons";
 
 
 
@@ -59,14 +60,14 @@ const CompanyWorking = () => {
     return (
         <div className="CompanyWorking">
 
-            <div className="sub-head d-flex">
-                <div>
+            <div className="sub-head">
+                <div className="head-box">
                 <div className="head-1">Meet the Company</div>
                 <div className="head-2">We are Working With</div>
                 </div>
-                <div>
-                <button onClick={scrollLeft}>Left</button>
-                <button onClick={scrollRight}>Right</button>
+                <div className="btn-box">
+                <button onClick={scrollLeft} className="btn"><LeftArrow /></button>
+                <button onClick={scrollRight} className="btn2"><RightArrow /></button>
                 </div>
                
             </div>

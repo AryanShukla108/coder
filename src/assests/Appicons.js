@@ -491,3 +491,57 @@ export function Fintechv2() {
 </clipPath>
 </defs>
 </svg> )}
+
+export function RightArrow() {
+    return (
+<svg width="133" height="133" viewBox="0 0 133 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_83_4622)">
+<circle cx="66.5" cy="52.5" r="22.5" fill="#FAFAFA"/>
+<circle cx="66.5" cy="52.5" r="21.5" stroke="url(#paint0_linear_83_4622)" stroke-width="2"/>
+</g>
+<path d="M59.9375 51.5625H71.0562L67.6531 47.475C67.494 47.2835 67.4174 47.0367 67.4403 46.7888C67.4631 46.5409 67.5835 46.3122 67.775 46.1531C67.9665 45.9939 68.2133 45.9174 68.4612 45.9402C68.7091 45.9631 68.9377 46.0835 69.0969 46.275L73.7844 51.9C73.8159 51.9447 73.8441 51.9917 73.8688 52.0406C73.8688 52.0875 73.8687 52.1156 73.9344 52.1625C73.9769 52.2699 73.9991 52.3844 74 52.5C73.9991 52.6155 73.9769 52.73 73.9344 52.8375C73.9344 52.8843 73.9344 52.9125 73.8688 52.9593C73.8441 53.0082 73.8159 53.0552 73.7844 53.1L69.0969 58.725C69.0087 58.8308 68.8983 58.9159 68.7736 58.9742C68.6488 59.0326 68.5127 59.0627 68.375 59.0625C68.156 59.0629 67.9437 58.9866 67.775 58.8468C67.6801 58.7681 67.6016 58.6715 67.5441 58.5624C67.4866 58.4533 67.4511 58.334 67.4398 58.2112C67.4285 58.0884 67.4415 57.9646 67.4781 57.8468C67.5147 57.7291 67.5742 57.6197 67.6531 57.525L71.0562 53.4375H59.9375C59.6889 53.4375 59.4504 53.3387 59.2746 53.1629C59.0988 52.9871 59 52.7486 59 52.5C59 52.2513 59.0988 52.0129 59.2746 51.837C59.4504 51.6612 59.6889 51.5625 59.9375 51.5625Z" fill="url(#paint1_linear_83_4622)"/>
+<defs>
+<filter id="filter0_d_83_4622" x="0" y="0" width="133" height="133" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="14"/>
+<feGaussianBlur stdDeviation="22"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0561111 0 0 0 0 0.0777333 0 0 0 0 0.133333 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_83_4622"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_83_4622" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_83_4622" x1="44" y1="52.5" x2="89" y2="52.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEBF24"/>
+<stop offset="1" stop-color="#EA4232"/>
+</linearGradient>
+<linearGradient id="paint1_linear_83_4622" x1="74" y1="52.4994" x2="59" y2="52.4994" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEBF24"/>
+<stop offset="1" stop-color="#EA4232"/>
+</linearGradient>
+</defs>
+</svg>
+
+
+)}
+
+
+export function LeftArrow() {
+    return ( 
+        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="22.5" cy="22.5" r="21.5" stroke="url(#paint0_linear_83_4623)" stroke-width="2"/>
+<path d="M29.0625 21.5625H17.9438L21.3469 17.475C21.506 17.2835 21.5826 17.0367 21.5597 16.7888C21.5369 16.5409 21.4165 16.3122 21.225 16.1531C21.0335 15.9939 20.7867 15.9174 20.5388 15.9402C20.2909 15.9631 20.0623 16.0835 19.9031 16.275L15.2156 21.9C15.1841 21.9447 15.1559 21.9917 15.1312 22.0406C15.1312 22.0875 15.1313 22.1156 15.0656 22.1625C15.0231 22.2699 15.0009 22.3844 15 22.5C15.0009 22.6155 15.0231 22.73 15.0656 22.8375C15.0656 22.8843 15.0656 22.9125 15.1312 22.9593C15.1559 23.0082 15.1841 23.0552 15.2156 23.1L19.9031 28.725C19.9913 28.8308 20.1017 28.9159 20.2264 28.9742C20.3512 29.0326 20.4873 29.0627 20.625 29.0625C20.844 29.0629 21.0563 28.9866 21.225 28.8468C21.3199 28.7681 21.3984 28.6715 21.4559 28.5624C21.5134 28.4533 21.5489 28.334 21.5602 28.2112C21.5715 28.0884 21.5585 27.9646 21.5219 27.8468C21.4853 27.7291 21.4258 27.6197 21.3469 27.525L17.9438 23.4375H29.0625C29.3111 23.4375 29.5496 23.3387 29.7254 23.1629C29.9012 22.9871 30 22.7486 30 22.5C30 22.2513 29.9012 22.0129 29.7254 21.837C29.5496 21.6612 29.3111 21.5625 29.0625 21.5625Z" fill="url(#paint1_linear_83_4623)"/>
+<defs>
+<linearGradient id="paint0_linear_83_4623" x1="0" y1="22.5" x2="45" y2="22.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEBF24"/>
+<stop offset="1" stop-color="#EA4232"/>
+</linearGradient>
+<linearGradient id="paint1_linear_83_4623" x1="15" y1="22.4994" x2="30" y2="22.4994" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEBF24"/>
+<stop offset="1" stop-color="#EA4232"/>
+</linearGradient>
+</defs>
+</svg>
+
+
+    )}
+
