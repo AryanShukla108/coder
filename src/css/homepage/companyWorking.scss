@@ -58,23 +58,23 @@
               background: #FFF9F3;
               margin: auto;
               justify-content: center;
-              padding: 40px;
-              
+              padding: 10px;
 
           }
 
           .imgcontainer{
             display: flex;
+            
           }
 
           .img-banner{
             width: 150px;
-            height: 50px;
+            height: 100px;
             object-fit: contain;
           }
 
           .cards-container::-webkit-scrollbar {
-            display: none;
+
         }
 
         /* Hide scrollbar for IE, Edge, and Firefox */

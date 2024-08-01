@@ -209,4 +209,9 @@ padding: 71.5px 72px ;
                   text-align: center;
                   color: #FFFFFF;
             }
+
+            a:-webkit-any-link {
+              color: white;
+              text-decoration: none;
+              }
 }

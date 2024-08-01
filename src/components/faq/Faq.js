@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -6,7 +6,29 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { InputTextarea } from "primereact/inputtextarea";
 
+
+const generateMailtoLink = (name, company, email, phone, message) => {
+    const subject = encodeURIComponent("Contact Form Submission");
+    const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
+    return `mailto:${email}?subject=${subject}&body=${body}`;
+  };
+
 const Faq = () => {
+
+    const [name, setName] = useState('');
+    const [company, setCompany] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+  
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      const mailtoLink = generateMailtoLink(name, company, email, phone, message);
+      window.location.href = mailtoLink; // Open the mail client with pre-filled information
+    };
+
+
+
     return (
         <>
             <div className="Faq">
@@ -321,28 +343,38 @@ const Faq = () => {
             </div>
             <div className="faq-form">
                 <div className="txt">Discover how we can help your business grow</div>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="row">
                         <div className="col-6">
-                            <input type="text" placeholder="Name" className="form-control" />
+                            <input type="text" placeholder="Name" className="form-control" 
+                              value={name}
+                              onChange={(e) => setName(e.target.value)}
+                            />
                         </div>
                         <div className="col-6">
                             <input
                                 type="text"
                                 placeholder="Company"
                                 className="form-control"
+                                value={company}
+                                onChange={(e) => setCompany(e.target.value)}
                             />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-6">
-                            <input type="text" placeholder="Email" className="form-control" />
+                            <input type="text" placeholder="Email" className="form-control" 
+                              value={email}
+                              onChange={(e) => setEmail(e.target.value)}
+                            />
                         </div>
                         <div className="col-6">
                             <input
                                 type="text"
                                 placeholder="Phone Number"
                                 className="form-control"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
                             />
                         </div>
                     </div>
@@ -351,12 +383,14 @@ const Faq = () => {
                             <InputTextarea
                                 className="form-control textarea"
                                 placeholder="Your Message"
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
                             />
                         </div>
                     </div>
 
                     <div className="d-flex justify-content-center">
-                        <button className="message-now">GET QUOTE NOW</button>
+                        <button className="message-now" type="submit">GET QUOTE NOW</button>  
                     </div>
                 </form>
             </div>

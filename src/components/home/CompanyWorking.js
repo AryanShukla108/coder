@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 // import banner1 from "../../assests/banner1.png";
 // import banner2 from "../../assests/banner2.png";
 // import banner3 from "../../assests/banner3.png";
@@ -22,6 +22,18 @@ import company10 from "../../assests/company10.png";
 import company11 from "../../assests/company11.png";
 import company12 from "../../assests/company12.png";
 import company13 from "../../assests/company13.png";
+import company14 from "../../assests/company14.png";
+import company15 from "../../assests/company15.png";
+import company16 from "../../assests/company16.png";
+import company17 from "../../assests/company17.png";
+import company18 from "../../assests/company18.png";
+import company19 from "../../assests/company19.png";
+import company20 from "../../assests/company20.png";
+import company21 from "../../assests/company21.png";
+import company22 from "../../assests/company22.png";
+import company23 from "../../assests/company23.png";
+import company24 from "../../assests/company24.png";
+import company25 from "../../assests/company25.png";
 import { LeftArrow, RightArrow } from "../../assests/Appicons";
 
 
@@ -29,16 +41,55 @@ import { LeftArrow, RightArrow } from "../../assests/Appicons";
 const CompanyWorking = () => {
 
     const containerRef = useRef(null);
+  const contentWidth = 150; // Width of a single item in pixels
 
-    const scrollLeft = () => {
-      containerRef.current.scrollBy({ left: -150, behavior: 'smooth' });
+  const scrollLeft = () => {
+    if (containerRef.current) {
+      const { scrollLeft } = containerRef.current;
+      if (scrollLeft === 0) {
+        // Scroll to the end if at the start
+        containerRef.current.scrollTo({ left: contentWidth * imgData.length, behavior: 'smooth' });
+      } else {
+        containerRef.current.scrollBy({ left: -contentWidth, behavior: 'smooth' });
+      }
+    }
+  };
+
+  const scrollRight = () => {
+    if (containerRef.current) {
+      const { scrollLeft, clientWidth, scrollWidth } = containerRef.current;
+      if (scrollLeft + clientWidth >= scrollWidth) {
+        // Scroll to the start if at the end
+        containerRef.current.scrollTo({ left: contentWidth, behavior: 'smooth' });
+      } else {
+        containerRef.current.scrollBy({ left: contentWidth, behavior: 'smooth' });
+      }
+    }
+  };
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    // Scroll container to the initial position
+    container.scrollTo({ left: contentWidth, behavior: 'auto' });
+
+    const handleScroll = () => {
+      const { scrollLeft, clientWidth, scrollWidth } = container;
+
+      if (scrollLeft === 0) {
+        // Adjust to the end of duplicated content
+        container.scrollLeft = clientWidth * imgData.length;
+      } else if (scrollLeft + clientWidth >= scrollWidth) {
+        // Adjust to the start of duplicated content
+        container.scrollLeft = contentWidth;
+      }
     };
+
+    container.addEventListener('scroll', handleScroll);
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, []);
   
-    const scrollRight = () => {
-      containerRef.current.scrollBy({ left: 150, behavior: 'smooth' });
-    };
-
-
     const imgData = [
         { banner: company1 },
         { banner: company2 },
@@ -53,9 +104,20 @@ const CompanyWorking = () => {
         { banner: company11 },
         { banner: company12 },
         { banner: company13 },
+        { banner: company14 },
+        { banner: company15 },
+        { banner: company16 },
+        { banner: company17 },
+        { banner: company18 },
+        { banner: company19 },
+        { banner: company20 },
+        { banner: company21 },
+        { banner: company22 },
+        { banner: company23 },
+        { banner: company24 },
+        { banner: company25 },
 
 
-        // Add more data as needed
     ];
     return (
         <div className="CompanyWorking">
@@ -72,13 +134,22 @@ const CompanyWorking = () => {
                
             </div>
          
-            <div className="cards-container" ref={containerRef}>{
+            <div className="cards-container" ref={containerRef}>
+                {
                 imgData.map((item, index) => (
                     <div key={index} className="imgcontainer">
                         <img src={item.banner} alt="banner" className="img-banner" />
                     </div>
                 ))
-            }</div>
+            }
+              {
+                imgData.map((item, index) => (
+                    <div key={index} className="imgcontainer">
+                        <img src={item.banner} alt="banner" className="img-banner" />
+                    </div>
+                ))
+            }
+            </div>
         </div>
     );
 };

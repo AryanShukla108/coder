@@ -1,7 +1,8 @@
 
 import React, {  useState } from 'react'
-import { Fintechv2, Healthcarev2 } from '../assests/Appicons';
+import { Ent, FinTech, Fintechv2, Healthcarev2, SalesForce, SapSvg, Startup, Usa, WorkdayV2 } from '../assests/Appicons';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 // import logoCoder from "../assests/logo-coder.png"
 // import sovlogo from "../assests/sovlogo.png"
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -9,9 +10,18 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 export const NavBar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isExpand, setIsExpand] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
+  const handleMouseEnter = () => {
+    setIsOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsOpen(false);
+  };
+
+  const handleMouseEnterv2 = () => {
+    setIsExpand(true);
   };
 
 
@@ -33,14 +43,27 @@ const dropdownCategories = [
   {
     title: 'By Industries',
     items: [
-      { label: 'Enterprise software ', url: 'healthcare-enterprise', imgSrc: <Fintechv2 /> },
+      { label: 'Enterprise software ', url: 'healthcare-enterprise', imgSrc: <Ent /> },
       { label: 'Healthcare ', url: 'healthcare-companies', imgSrc: <Healthcarev2 /> },
-      { label: 'Fintech ', url: 'healthcare-fintech', imgSrc: <Fintechv2 /> },
-      { label: 'USA Startups & Businesses', url: 'healthcare-startup-bussinesses', imgSrc:  <Healthcarev2 /> },
-      { label: 'Startups', url: 'healthcare-startup', imgSrc: <Fintechv2 />  },
-      { label: 'Salesforce', url: 'healthcare-salesforce', imgSrc: <Healthcarev2 />  },
-      { label: 'SAP', url: 'healthcare-sap', imgSrc: <Healthcarev2 />  },
-    ] }]
+      { label: 'Fintech ', url: 'healthcare-fintech', imgSrc: <FinTech /> },
+      { label: 'USA Startups & Businesses', url: 'healthcare-startup-bussinesses', imgSrc:  <Usa /> },
+      { label: 'Startups', url: 'healthcare-startup', imgSrc: <Startup />  },
+      { label: 'Salesforce', url: 'healthcare-salesforce', imgSrc: <SalesForce />  },
+      { label: 'SAP', url: 'healthcare-sap', imgSrc: <SapSvg />  }, 
+      { label: 'VC Portfolio', url: 'healthcare-portfolio', imgSrc: < SapSvg/>  }, 
+      { label: 'Pharma Industry', url: 'healthcare-pharma', imgSrc: <Healthcarev2 />  }, 
+      { label: 'ServiceNow', url: 'healthcare-service', imgSrc: <Healthcarev2 />  }, 
+      { label: 'Workday', url: 'healthcare-workday', imgSrc: <WorkdayV2 />  }, 
+    ] },
+    
+    // {
+    //   title: 'By Skills',
+    //   items: [
+    //     { label: 'React', url: 'hire', imgSrc: <Fintechv2 /> },
+    //     { label: 'Flutter', url: 'hire', imgSrc: <Healthcarev2 /> }, ]
+    // }
+  
+  ]
 
 
   return (
@@ -73,7 +96,7 @@ const dropdownCategories = [
         {/* <li onClick={() => (window.location.href = 'about-us')}>About Us</li> */}
         <li onClick={() => (window.location.href = 'service')}>Service</li>
         {/* <li onClick={() => (window.location.href = 'project')}>Case Studies</li> */}
-        <li onClick={toggleDropdown} >
+        <li onMouseEnter={handleMouseEnter} >
           
            {/* <Dropdown
             value={selectedOption}
@@ -81,20 +104,23 @@ const dropdownCategories = [
             onChange={handleChange}
             placeholder="For companies"
             className="w-full "
-        /> */} For Companies <KeyboardArrowDownIcon />
+        /> */} For Companies  { isOpen ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />} 
 
 {isOpen && (
-        <div className="dropdown-menu">
+        <div className="dropdown-menu" onMouseLeave={handleMouseLeave}>
           {dropdownCategories.map((category, index) => (
             <div key={index} className="dropdown-category d-flex">
-              <div className="category-title">{category.title} <ChevronRightIcon /></div>
+              <div className="category-title" >{category.title} <ChevronRightIcon /></div>
               <div className="category-items">
-                {category.items.map((item, idx) => (
+                {category.items.map((item, idx) => 
+
                   <div key={idx} onClick={() => (window.location.href = item.url)} className="dropdown-item">
                     {/* <img src={item.imgSrc} alt={item.label} /> */}
                    {item.imgSrc} <span >{item.label}</span>
                   </div>
-                ))}
+                  
+                  
+                )}
               </div>
             </div>
           ))}
@@ -102,13 +128,13 @@ const dropdownCategories = [
           <div className='text-box'>
             <span>Not sure which skills to look for?</span>
             <span>Talk to our experts</span>
-            <button className='btn'>Find me a right Talent</button>
+            <button className='btn' onClick={() => (window.location.href = '/hire')}>Find me a right Talent</button>
           </div>
         </div>
       )}
         
         </li> 
-        <li onClick={() => (window.location.href = 'project')}>For Developers   <KeyboardArrowDownIcon /></li>
+        <li onClick={() => (window.location.href = 'project')}>For Developers  </li>
         {/* <li>Reviews</li> */}
         {/* <li onClick={() => (window.location.href = 'privacy')}>Privacy & Policy</li> */}
         <li onClick={() => (window.location.href = 'hire')}>Schedule a call</li>
