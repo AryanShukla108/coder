@@ -200,13 +200,43 @@ const Footer = () => {
                             SAP
                         </div>
                     </div>
-                    <div className="d-space">
+                    {/* <div className="d-space">
                         <div className="head">Compare</div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Turing
+                            SOV vs. Fiverr
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Credo
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Freelancer
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Freeup
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. PeoplePerHour
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Guru
                         </div>
                         <div
                             className="haed-text sp"
@@ -226,7 +256,7 @@ const Footer = () => {
                         >
                             SOV vs. Top IT Services Companies
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-3">
                     <div className="icon-div">
@@ -260,7 +290,67 @@ const Footer = () => {
                         <div className="haed-text sp">Japan</div>
                         <div className="haed-text sp">Melbourne, Australia</div> */}
                     </div>
+
+                    <div className="d-space">
+                        <div className="head">Compare</div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Fiverr
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Credo
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Freelancer
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Freeup
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. PeoplePerHour
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Guru
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Andela
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Upwork
+                        </div>
+                        <div
+                            className="haed-text sp"
+                            onClick={() => (window.location.href = "hire")}
+                        >
+                            SOV vs. Top IT Services Companies
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     );

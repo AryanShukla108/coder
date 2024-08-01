@@ -156,7 +156,7 @@ const ContactUsForm = () => {
                                 </svg>
                             </div>
                             <div className="txt1">Our Email</div>
-                            <div className="txt2">info@coder.com</div>
+                            <div className="txt2">info@sovtechnologies.com</div>
                         </div>
                     </div>
                     <div className="send-mess">Send Us Message</div>
@@ -212,21 +212,21 @@ const ContactUsForm = () => {
                     <div className="heading-color">Buzz Stats.</div>
                     <div className="stats-card">
                         <div className="stats-box">
-                            <div className="num">1,200<span className="plus">+</span></div>
+                            <div className="num">30<span className="plus">+</span></div>
                             <div className="stats-txt">Happy Clients</div>
                             <div className="stats-para">
                                 Number of satisfied clients who have benefited from our services.
                             </div>
                         </div>
                         <div className="stats-box">
-                            <div className="num">850<span className="plus">+</span></div>
+                            <div className="num">100<span className="plus">+</span></div>
                             <div className="stats-txt">Projects Completed</div>
                             <div className="stats-para">
                                 Total projects successfully delivered across various industries.
                             </div>
                         </div>
                         <div className="stats-box">
-                            <div className="num">100<span className="plus">+</span></div>
+                            <div className="num">36<span className="plus">+</span></div>
                             <div className="stats-txt">Team Members</div>
                             <div className="stats-para">
                                 Talent wins games, but teamwork and intelligence wins championships.

@@ -31,7 +31,7 @@ const Glimpse = () => {
                                     <div className='name'>{item.name}</div>
                                     <div className='title'>{item.tittle}</div>
                                 </div>
-                                <div className='circle'>
+                                <div className='circle' onClick={() => (window.location.href = "project")}>
                                     <div className='inner-circle'><ArrowForwardIcon style={{ color: "white" }} /></div>
                                 </div>
                             </div>
