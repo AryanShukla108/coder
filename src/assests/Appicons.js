@@ -1923,27 +1923,15 @@ export function Pharma() {
 
 export function WorkdayV2() {
   return (
-    <svg
-      width="34"
-      height="34"
-      viewBox="0 0 34 34"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect width="34" height="34" rx="7" fill="url(#paint0_linear_729_920)" />
-      <defs>
-        <linearGradient
-          id="paint0_linear_729_920"
-          x1="17"
-          y1="0"
-          x2="17"
-          y2="34"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FEBF24" />
-          <stop offset="1" stop-color="#EA4335" />
-        </linearGradient>
-      </defs>
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="34" height="34" rx="7" fill="url(#paint0_linear_729_920)"/>
+    <defs>
+    <linearGradient id="paint0_linear_729_920" x1="17" y1="0" x2="17" y2="34" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FEBF24"/>
+    <stop offset="1" stop-color="#EA4335"/>
+    </linearGradient>
+    </defs>
     </svg>
+    
   );
 }

@@ -5,7 +5,7 @@ const Coder = () => {
     return (
         <div className="Coder-health">
             <div className="heading-main">
-                Why Do Businesses Love <span className="heading-color">Coder</span> to
+                Why Do Businesses Love <span className="heading-color">SOV Technologies</span> to
                 Hire Healthcare Developers?
             </div>
             <div className="small-text">

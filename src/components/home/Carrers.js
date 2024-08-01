@@ -109,7 +109,7 @@ const Carrers = () => {
                 <div className="head2">
                     Each of these Arizona companies is committed to creating an inclusive
                     workplace culture where employees can thrive and grow.{" "}
-                    <span>The best companies in Coder are looking for YOU!</span>
+                    <span>The best companies in SOV Technologies are looking for YOU!</span>
                 </div>
                 <div className="job-cards-container">
                     {jobData.map((job, index) => (

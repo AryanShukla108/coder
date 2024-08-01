@@ -43,13 +43,13 @@ const Faq = () => {
                                     id="panel1-header"
                                 >
                                     <Typography>
-                                        How is Coder different from other hiring platforms?
+                                        How is SOV Technologies different from other hiring platforms?
                                     </Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Typography>
                                         <div className="text">
-                                            With Coder, clients can hire software developers with
+                                            With SOV Technologies, clients can hire software developers with
                                             ease.
                                         </div>
                                         <ul>
@@ -298,7 +298,7 @@ const Faq = () => {
                                 <AccordionDetails>
                                     <Typography>
                                         <div className="text">
-                                            With Coder, clients can hire software developers with
+                                            With SOV Technologies, clients can hire software developers with
                                             ease.
                                         </div>
                                         <ul>

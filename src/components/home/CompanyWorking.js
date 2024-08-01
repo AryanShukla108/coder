@@ -104,10 +104,8 @@ const CompanyWorking = () => {
         { banner: company11 },
         { banner: company12 },
         { banner: company13 },
-        { banner: company14 },
         { banner: company15 },
         { banner: company16 },
-        { banner: company17 },
         { banner: company18 },
         { banner: company19 },
         { banner: company20 },
@@ -115,8 +113,10 @@ const CompanyWorking = () => {
         { banner: company22 },
         { banner: company23 },
         { banner: company24 },
+        { banner: company17 },
         { banner: company25 },
-
+        { banner: company14 },
+        
 
     ];
     return (

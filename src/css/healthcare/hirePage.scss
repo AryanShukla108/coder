@@ -29,7 +29,10 @@ clip-path: polygon(0 0, 101% 0, 100% calc(100% - 70px), 50% 100%, 0 calc(100% - 
     width: 282.75px;
     // height: 432px;
     padding: 16px;
-    border: 1px solid #ea4232;
+    border: 1px solid #febf24;
+    background: white;
+    border-radius: 16px;
+
   }
 
   .img-card{
@@ -99,8 +102,15 @@ clip-path: polygon(0 0, 101% 0, 100% calc(100% - 70px), 50% 100%, 0 calc(100% - 
     font-family: "Poppins";
     font-size: 12.36px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
     color: #1d2434 !important;
+  }
+
+  .stars{
+    font-weight: 900;
   }
 
   .space-bott {

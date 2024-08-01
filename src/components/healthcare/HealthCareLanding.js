@@ -15,10 +15,10 @@ const HealthCareLanding = () => {
         if (checkURL("healthcare-companies")) return "Healthcare";
         if (checkURL("healthcare-enterprise")) return "Enterprise";
         if (checkURL("healthcare-fintech")) return "Fintech";
-        if (checkURL("healthcare-startup")) return "Companies";
-        if (checkURL("healthcare-startup-businesses")) return "Startup";
+        if (checkURL("healthcare-startup")) return "Startup";
+        if (checkURL("usa-startup-bussinesses")) return "USA Startup";
         if (checkURL("healthcare-salesforce")) return "Salesforce";
-        if (checkURL("healthcare-portfolio")) return "Portfolio";
+        if (checkURL("healthcare-portfolio")) return "VC Portfolio";
         if (checkURL("healthcare-pharma")) return "Pharma";
         if (checkURL("healthcare-service")) return "Service";
         if (checkURL("healthcare-workday")) return "Workday";
@@ -30,7 +30,7 @@ const HealthCareLanding = () => {
     const enterprise = checkURL("healthcare-enterprise");
     const fintech = checkURL("healthcare-fintech");
     const startup = checkURL("healthcare-startup");
-    const startupBusiness = checkURL("healthcare-startup-businesses");
+    const startupBusiness = checkURL("usa-startup-bussinesses");
     const salesforce = checkURL("healthcare-salesforce");
     const portfolio = checkURL("healthcare-portfolio");
     const pharma = checkURL("healthcare-pharma");
@@ -80,7 +80,7 @@ const HealthCareLanding = () => {
                         </div>
                     )}
                     {startupBusiness && (
-                        <div className="heading-main" onClick={() => handleNavigation("healthcare-startup-businesses")}>
+                        <div className="heading-main" onClick={() => handleNavigation("usa-startup-bussinesses")}>
                             Hire <span className="heading-color">USA Startups & Businesses</span>
                             <div>
                                 Software

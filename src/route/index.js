@@ -90,7 +90,7 @@ export const router = [
   },
 
   {
-    path: '/healthcare-startup-bussinesses',
+    path: '/usa-startup-bussinesses',
     element: <Landing />
   },
 

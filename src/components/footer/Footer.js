@@ -1,5 +1,5 @@
 import React from "react";
-import coder from "../../assests/coder.png";
+// import coder from "../../assests/coder.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -67,7 +67,7 @@ const Footer = () => {
                         <LinkedInIcon /> Top 20 Indian Startups of 2024
                     </div> */}
                     <div className="normal-text space">
-                        © 2024 Coder Technologies Private Limited. All rights reserved.
+                        © 2024 SOV Technologies Private Limited. All rights reserved.
                     </div>
                     <div>
                         <div className="head">India Office</div>
@@ -159,7 +159,7 @@ const Footer = () => {
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-startup-bussinesses")}
+                            onClick={() => (window.location.href = "usa-startup-bussinesses")}
                         >
                             USA Startups & Businesses
                         </div>
