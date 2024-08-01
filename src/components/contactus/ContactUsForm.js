@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { InputTextarea } from "primereact/inputtextarea";
 
+
+const generateMailtoLink = (name, company, email, phone, message) => {
+    const subject = encodeURIComponent("Contact Form Submission");
+    const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
+    return `mailto:${email}?subject=${subject}&body=${body}`;
+  };
+
 const ContactUsForm = () => {
+
+    const [name, setName] = useState('');
+    const [lastName, setlastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const mailtoLink = generateMailtoLink(name, lastName, email, phone, message);
+        window.location.href = mailtoLink; // Open the mail client with pre-filled information
+      };
+
+
     return (
         <>
             <div className="ContactUsForm">
@@ -161,13 +183,15 @@ const ContactUsForm = () => {
                     </div>
                     <div className="send-mess">Send Us Message</div>
                     <div>
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <div className="row">
                                 <div className="col-6">
                                     <input
                                         type="text"
                                         className="form-control"
                                         placeholder="First Name"
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
                                     />
                                 </div>
                                 <div className="col-6">
@@ -175,6 +199,8 @@ const ContactUsForm = () => {
                                         type="text"
                                         className="form-control"
                                         placeholder="Last Name"
+                                        value={lastName}
+                                        onChange={(e) => setlastName(e.target.value)}
                                     />
                                 </div>
                             </div>
@@ -184,6 +210,8 @@ const ContactUsForm = () => {
                                         type="text"
                                         className="form-control"
                                         placeholder="Phone Number"
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
                                     />
                                 </div>
                                 <div className="col-6">
@@ -191,6 +219,8 @@ const ContactUsForm = () => {
                                         type="text"
                                         className="form-control"
                                         placeholder="Your Email"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
                                     />
                                 </div>
                             </div>
@@ -200,11 +230,13 @@ const ContactUsForm = () => {
                                     <InputTextarea
                                         className="form-control textarea"
                                         placeholder="Your Message"
+                                        value={message}
+                                        onChange={(e) => setMessage(e.target.value)}
                                     />
                                 </div>
                             </div>
 
-                            <button className="send">Send Message</button>
+                            <button className="send" type="submit"> Send Message</button>
                         </form>
                     </div>
                 </div>
