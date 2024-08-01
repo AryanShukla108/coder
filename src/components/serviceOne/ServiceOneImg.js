@@ -1,8 +1,8 @@
 import React from "react";
-import goggle from "../../assests/gogle.png";
+// import goggle from "../../assests/gogle.png";
 import transfrom from "../../assests/transform.png";
 import hand from "../../assests/hand.jpg";
-import service from "../../assests/service1.png";
+import service from "../../assests/multipleimg.png";
 import service1 from "../../assests/service2.png";
 import service2 from "../../assests/service3.png";
 import service3 from "../../assests/service4.png";
@@ -179,15 +179,15 @@ const ServiceOneImg = () => {
                         <div className="transform-para">
                             Transform your business through thoughtfully created, adequately
                             embellished, social media marketing campaigns with SpiderWorks,
-                            the trusted digital marketing company in Kerala. We offer
+                            the trusted digital marketing company in India. We offer
                             distinctively created campaigns, a beautiful amalgamation of
                             creativity and marketing skills, to mark your presence felt. Let’s
                             make your brand number one in the field.
                         </div>
-                        <div className="transform-img">
+                        {/* <div className="transform-img">
                             A <img src={goggle} alt="goggle" className="goggle" /> partner
                             Company
-                        </div>
+                        </div> */}
                     </div>
                     <div>
                         <img src={transfrom} alt="transfrom" className="transfrom-img" />
@@ -197,7 +197,7 @@ const ServiceOneImg = () => {
                 <div className="numbers">
                     <div className="num-div">
                         <div className="num">
-                            13<span className="spanTag">+</span>
+                            3<span className="spanTag">+</span>
                         </div>
                         <div>
                             <div className="year">Years Of Industry</div>
@@ -206,7 +206,7 @@ const ServiceOneImg = () => {
                     </div>
                     <div className="num-div">
                         <div className="num">
-                            1000<span className="spanTag">+</span>
+                            100<span className="spanTag">+</span>
                         </div>
                         <div>
                             <div className="year">Successful</div>
@@ -215,7 +215,7 @@ const ServiceOneImg = () => {
                     </div>{" "}
                     <div className="num-div">
                         <div className="num">
-                            13<span className="spanTag">+</span>
+                            3<span className="spanTag">+</span>
                         </div>
                         <div>
                             <div className="year">Years In</div>
@@ -230,7 +230,7 @@ const ServiceOneImg = () => {
                     <div className="process-para">
                         A brilliant website is the result of utmost dedication from the
                         professionals and strong understanding between creative and
-                        technical teams. SpiderWorks web development company in Kerala has a
+                        technical teams. SpiderWorks web development company in India has a
                         system in place for obtaining awe-inspiring results.
                     </div>
                     <div className="main-rank">
@@ -360,51 +360,6 @@ const ServiceOneImg = () => {
                     <div className="more-img">
                         <div className="service-one-more">
                             <img src={service} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service1} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service2} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service3} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service1} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service2} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service3} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service1} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service2} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service3} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service1} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service2} alt="service" className="service-one-more" />
-                        </div>
-                        <div className="service-one-more">
-                            <img src={service3} alt="service" className="service-one-more" />
                         </div>
                     </div>
                 </div>

@@ -22,21 +22,20 @@ const Advantages = () => {
                         funding.</div>
                 </div>
                 <div className='box-card'>
-                    <div className='rate'>#1</div>
-                    <div className='text'>MVP to Validation</div>
-                    <div className='para-2'>The two newly onboarded
-                        developers helped Bibli quickly
-                        create a functional MVP to validate
-                        their idea and secure initial
-                        funding.</div>
+                    <div className='rate'>#2</div>
+                    <div className='text'>Rapid Enhancements</div>
+                    <div className='para-2'>The team implemented
+                        gamification elements and teacher-
+                        specific features to make the app
+                        more engaging and effective.</div>
                 </div><div className='box-card'>
-                    <div className='rate'>#1</div>
-                    <div className='text'>MVP to Validation</div>
-                    <div className='para-2'>The two newly onboarded
-                        developers helped Bibli quickly
-                        create a functional MVP to validate
-                        their idea and secure initial
-                        funding.</div>
+                    <div className='rate'>#3</div>
+                    <div className='text'>Startup Friendly</div>
+                    <div className='para-2'>Contractual engagement with top
+                        developers meant Bibli could create
+                        value for kids, escaping the high
+                        costs and timelines associated
+                        with permanent hires.</div>
                 </div>
             </div>
         </div>
