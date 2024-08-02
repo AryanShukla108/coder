@@ -16,6 +16,7 @@ import devops from "../../assests/deveops.png"
 import wordpress from "../../assests/wordpress.png"
 import cloud from "../../assests/cloud.png"
 import php from "../../assests/php.png"
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const CodeLanguages = () => {
 
@@ -63,8 +64,8 @@ const CodeLanguages = () => {
                     ))}
                 </div>
                 <div className="d-flex" style={{ gap: "29px" }}>
-                    <button className="call" onClick={() => (window.location.href = '/hire')}>Schedule a call</button>
-                    <button className="expert" onClick={() => (window.location.href = '/hire')}>Talk to our experts?</button>
+                    <button className="call" onClick={() => (window.location.href = '/hire')}>Schedule a call <ArrowForwardIcon /></button>
+                    <button className="expert" onClick={() => (window.location.href = '/hire')}>Talk to our experts? <ArrowForwardIcon /></button>
                 </div>
             </div>
         </div>

@@ -8,6 +8,7 @@ import boy from "../../assests/boy.png"
 import girl from "../../assests/girl.png"
 import girl1 from "../../assests/girl2.png"
 import ReactStars from 'react-stars';
+import { Comma, CommaV2 } from "../../assests/Appicons";
 
 const Customer = () => {
     const testimonials = [
@@ -54,7 +55,16 @@ const Customer = () => {
 
                      
                         <div className="testimonial-card">
-                            <div className="review">"{testimonial.review}"</div>
+                            <div className="review">
+                                <div className="svg1" >
+                                <Comma />
+                                </div>
+                     
+                                <p>    {testimonial.review}  </p>
+                                <div className="svg2">
+                                <CommaV2 />
+                                </div>
+                                </div>
                             <div className="img-box">
                             <img src={testimonial.svg} alt="" style={{width : "100px" , height: "100px"}}></img>
                             <ReactStars

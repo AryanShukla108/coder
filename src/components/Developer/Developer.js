@@ -7,8 +7,6 @@ import company17 from "../../assests/company17.png";
 import company18 from "../../assests/company25.png";
 import company19 from "../../assests/company22.png";
 import company20 from "../../assests/company15.png";
-import company21 from "../../assests/company21.png";
-import company22 from "../../assests/company23.png";
 import mob from "../../assests/mob.png";
 import mob2 from "../../assests/mob2.png";
 import growth from "../../assests/growth1.png";
@@ -113,12 +111,6 @@ export const Developer = () => {
         </div>
         <div>
           <img src={company20} alt="node" className="img-homepage" />
-        </div>
-        <div>
-          <img src={company21} alt="Angular" className="img-homepage" />
-        </div>
-        <div>
-          <img src={company22} alt="Angular" className="img-homepage" />
         </div>
       </div>
 

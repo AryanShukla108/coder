@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import goggle from "../../assests/gogle.png";
 import transfrom from "../../assests/transform.png";
 import hand from "../../assests/hand.jpg";
@@ -12,9 +12,28 @@ import Customer from "../home/Customer";
 import serviceAll from "../../assests/service-over-all.png"
 import reach from "../../assests/reachout.png"
 
+const generateMailtoLink = (name, company, email, phone, message) => {
+    const subject = encodeURIComponent("Contact Form Submission");
+    const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
+    return `mailto:${email}?subject=${subject}&body=${body}`;
+  };
+
 
 
 const ServiceOneImg = () => {
+
+    const [name, setName] = useState('');
+    const [company, setCompany] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const mailtoLink = generateMailtoLink(name, company, email, phone, message);
+        window.location.href = mailtoLink; 
+    };
+
 
     const currentURL = window.location.href;
 
@@ -398,31 +417,45 @@ const ServiceOneImg = () => {
                     </div>
                     <div className="form-div">
                         <div className="reach-txt"> <span className="heading-color">Fill-in and</span> Reach Out</div>
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <div className="row">
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="Name" />
+                                    <input type="text" className="form-control" placeholder="Name" 
+                                     value={name}
+                                    onChange={(e) => setName(e.target.value)} /> 
                                 </div>
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="Company" />
+                                    <input type="text" className="form-control" placeholder="Company"
+                                           value={company}
+                                           onChange={(e) => setCompany(e.target.value)}
+                                    />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="E-mail Address" />
+                                    <input type="text" className="form-control" placeholder="E-mail Address" 
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    />
                                 </div>
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="Phone Number" />
+                                    <input type="text" className="form-control" placeholder="Phone Number"
+                                     value={phone}
+                                     onChange={(e) => setPhone(e.target.value)}
+                                    />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="Requirements" />
+                                    <input type="text" className="form-control" placeholder="Requirements" 
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
+                                    />
                                 </div>
                             </div>
                             <button className="service-contact"> Send Message</button>

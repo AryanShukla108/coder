@@ -93,6 +93,12 @@
     color: #525255;
   }
 
+  .noramlSelected:hover{
+    background: #ea4232;
+    color: white;
+  
+  }
+
   .selected {
     display: flex;
       align-items: center;
@@ -122,15 +128,17 @@
   }
 
   .noramlSelected-icon{
-    margin-left: 4px;
+    margin-left: 10px;
     width: 17px;
       height: 17px;
       border-radius: 50%;
-  background: linear-gradient(270deg, #FEBF24 0%, #EA4232 100%);
+     background: linear-gradient(270deg, #FEBF24 0%, #EA4232 100%);
       display: flex;
       align-items: center;
       justify-content: center;
   }
+
+
 
 .inn-sel{
       width: 17px;

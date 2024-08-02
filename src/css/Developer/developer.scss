@@ -95,8 +95,7 @@
     // filter: drop-shadow(1px 1px 1px);
     border: 1px solid #ee5c31;
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
   }
 
   .head-main {
@@ -172,7 +171,7 @@
   }
 
   .find-box-left {
-    position: relative; /* Needed for the pseudo-element positioning */
+    position: relative; 
     width: 50%;
     background: #fff9f3;
     border-radius: 20px;
@@ -180,7 +179,7 @@
     text-align: left;
     padding: 20px;
     padding-bottom: 0;
-    box-shadow: 0px 4px 40px 0px linear-gradient(180deg, #FEBF24 0%, #EA4232 100%);
+    border: 1px solid #febf24;
   }
   
 

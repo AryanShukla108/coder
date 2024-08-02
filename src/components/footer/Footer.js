@@ -124,8 +124,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="d-space">
-                        <div className="head">For Developers</div>
-                        <div className="haed-text sp">Developers</div>
+                        <div className="head" >For Developers</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = "developer")}>Developers</div>
                         <div className="haed-text sp">Developer Sign-up</div>
                         <div className="haed-text sp">Developer Login</div>
                     </div>

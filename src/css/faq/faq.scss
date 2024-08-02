@@ -104,7 +104,7 @@
     border: 1px solid #ea4232;
     padding: 13px 25px;
     border-radius: 25px;
-    width: 432px;
+    width: 480px;
     height: 46px;
     margin-bottom: 20px;
   }
@@ -117,12 +117,14 @@
         font-weight: 500;
         line-height: 24px;
         color: #EA4232;
-        width: 112px;
+        width: 150px;
+
+        svg{
+          margin-right: 1rem;
+        }
   }
 
-    .svg-sm {
-      margin-right: 3px;
-    }
+    
 
   .form-control {
     font-family: "Poppins";
