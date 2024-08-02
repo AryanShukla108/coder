@@ -76,6 +76,8 @@
   }
 
   .noramlSelected {
+    display: flex;
+    align-items: center;
     border: none;
     border: 1px solid #febf24;
     border-radius: 7px;
@@ -92,6 +94,8 @@
   }
 
   .selected {
+    display: flex;
+      align-items: center;
     border: none;
     border-radius: 7px;
     width: 266px;
@@ -106,10 +110,42 @@
     color: #ffffff;
   }
 
+  .selected-icon{
+    margin-left: 4px;
+    width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .noramlSelected-icon{
+    margin-left: 4px;
+    width: 17px;
+      height: 17px;
+      border-radius: 50%;
+  background: linear-gradient(270deg, #FEBF24 0%, #EA4232 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+.inn-sel{
+      width: 17px;
+  color: rgba(234, 66, 50, 1);
+}
+
+.inn-non{
+      width: 17px;
+  color: white;
+}
+
   .choose {
     margin-top: 128px;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
   }
 
@@ -135,6 +171,7 @@
   }
 
   .inner-data{
+    width: 639px;
     display: flex;
     gap: 22px;
     margin-bottom: 22px;
@@ -167,8 +204,8 @@
   }
 
   .chooseimg{
-    width: 484px;
-        height: 379px;
+    // width: 484px;
+        // height: 379px;
         object-fit: cover;
   }
 
@@ -177,11 +214,23 @@ margin-top: 129px;
   }
 
   .get-in-touch{
+    display: flex;
+    flex-direction: column;
     padding: 90.45px 60.5px;
     width: 1200px;
         height: 400px;
         border-radius: 30px;
-            background: linear-gradient(303.97deg, rgba(254, 191, 36, 0.4) 11.67%, rgba(234, 66, 50, 0.4) 49.87%);
+            // background: linear-gradient(303.97deg, rgba(254, 191, 36, 0.4) 11.67%, rgba(234, 66, 50, 0.4) 49.87%);
+            background-image: url("../../assests/rocketall.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+  }
+
+  .rocket{
+        object-fit: contain;
+          width: 465px;
+          height: 334.19px;
   }
 
   .touch-txt{

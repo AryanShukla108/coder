@@ -13,26 +13,39 @@ import smartgirl from "../../assests/smartgirl.png"
 const LedTeam = () => {
     const services = [
         {
-            title: "Haniket Yadav",
+            title: "Haniket Y",
             description: "Sr. SDE I ₹***** ",
             icon: smartboy
         },
         {
-            title: "Pushpender Kumar",
+            title: "Pushpender K",
             description: "Sr. Android Developer I ₹*****",
             icon: smartboybest
 
         },
         {
-            title: "Anjul Kumar",
+            title: "Anjul K",
             description: "SDE I ₹*****",
             icon: smartgirl
 
         },
         {
-            title: "Rohan Sharma",
+            title: "Rohan S",
             description: "SDE 2 ₹*****",
             icon: smartboybest
+
+        },
+        {
+            title: "Rahul S",
+            description: "SDE 2 ₹*****",
+            icon: smartboy
+
+        },
+
+        {
+            title: "Rani Y",
+            description: "SDE I ₹*****",
+            icon: smartgirl
 
         },
     ];

@@ -1,9 +1,13 @@
 .ContactUsImg {
-  padding: 100px 125px 94px 100px;
-  background: linear-gradient(119.07deg, #fff7e0 7.82%, #f2d3c9 84.24%);
+  padding: 100px 125px 60px 100px;
+  // background: linear-gradient(119.07deg, #fff7e0 7.82%, #f2d3c9 84.24%);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assests/Rectanglecurve.png");
 
   .heading-color {
     margin-bottom: 35px;

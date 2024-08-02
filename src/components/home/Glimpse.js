@@ -24,7 +24,7 @@ const Glimpse = () => {
             <div className="cards-container">{
                 imgData.map((item, index) => (
                     <div key={index} className="container">
-                        <img src={item.banner} alt="banner" className="img-banner" />
+                        <div className='img-container'> <img src={item.banner} alt="banner" className="img-banner" /></div>
                         <div className='sm-container'>
                             <div className='inner-container'>
                                 <div>

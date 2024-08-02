@@ -1,5 +1,6 @@
 import React from "react";
 import project from "../../assests/projectimg.png"
+import bg from "../../assests/projectbg.png"
 
 const ProjectLanding = () => {
     return (
@@ -24,6 +25,7 @@ const ProjectLanding = () => {
                     <img src={project} alt="project" className="img-project" />
                 </div>
             </div>
+            <div><img src={bg} alt="bg" className="w-100" /></div>
         </div>
     );
 };

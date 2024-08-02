@@ -14,7 +14,10 @@ import {
     ServiceIcon11,
     ServiceIcon12,
 } from "../../assests/Appicons";
-import choose from "../../assests/choose.png";
+import choose from "../../assests/chosse.png";
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+
+
 
 const ServiceImg = () => {
     const [selectedButton, setSelectedButton] = useState(null);
@@ -108,7 +111,7 @@ const ServiceImg = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={human} alt="human" className="contactusimg" />
+                    <img src={human} alt="human" className="" />
                 </div>
             </div>
             <div className="service-data">
@@ -128,7 +131,11 @@ const ServiceImg = () => {
                                     }
                                     onClick={() => handleButtonClick(index, card.path)}
                                 >
-                                    Read More
+                                    Read More <div className={
+                                        selectedButton === index ? "selected-icon" : "noramlSelected-icon"
+                                    }><KeyboardArrowRightIcon className={
+                                        selectedButton === index ? "inn-sel" : "inn-non"
+                                    } /></div>
                                 </button>
                             </div>
                         ))}
