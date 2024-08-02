@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 // import banner1 from "../../assests/banner1.png";
 // import banner2 from "../../assests/banner2.png";
 // import banner3 from "../../assests/banner3.png";
@@ -40,14 +40,14 @@ import { LeftArrow, RightArrow } from "../../assests/Appicons";
 
 const CompanyWorking = () => {
 
+
   const containerRef = useRef(null);
-  const contentWidth = 150; // Width of a single item in pixels
+  const contentWidth = 150; 
 
   const scrollLeft = () => {
     if (containerRef.current) {
       const { scrollLeft } = containerRef.current;
       if (scrollLeft === 0) {
-        // Scroll to the end if at the start
         containerRef.current.scrollTo({ left: contentWidth * imgData.length, behavior: 'smooth' });
       } else {
         containerRef.current.scrollBy({ left: -contentWidth, behavior: 'smooth' });
@@ -66,29 +66,6 @@ const CompanyWorking = () => {
       }
     }
   };
-
-  useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
-
-    // Scroll container to the initial position
-    container.scrollTo({ left: contentWidth, behavior: 'auto' });
-
-    const handleScroll = () => {
-      const { scrollLeft, clientWidth, scrollWidth } = container;
-
-      if (scrollLeft === 0) {
-        // Adjust to the end of duplicated content
-        container.scrollLeft = clientWidth * imgData.length;
-      } else if (scrollLeft + clientWidth >= scrollWidth) {
-        // Adjust to the start of duplicated content
-        container.scrollLeft = contentWidth;
-      }
-    };
-
-    container.addEventListener('scroll', handleScroll);
-    return () => container.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const imgData = [
     { banner: company1 },
@@ -116,11 +93,34 @@ const CompanyWorking = () => {
     { banner: company17 },
     { banner: company25 },
     { banner: company14 },
+    
 
+];
 
-  ];
-  return (
-    <div className="CompanyWorking">
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    container.scrollTo({ left: contentWidth, behavior: 'auto' });
+
+    const handleScroll = () => {
+      const { scrollLeft, clientWidth, scrollWidth } = container;
+
+      if (scrollLeft === 0) {
+        container.scrollLeft = clientWidth * imgData.length;
+      } else if (scrollLeft + clientWidth >= scrollWidth) {
+ 
+        container.scrollLeft = contentWidth;
+      }
+    };
+
+    container.addEventListener('scroll', handleScroll);
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, []);
+  
+
+    return (
+        <div className="CompanyWorking">
 
       <div className="sub-head">
         <div className="head-box">

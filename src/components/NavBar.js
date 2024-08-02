@@ -134,7 +134,7 @@ const dropdownCategories = [
       )}
         
         </li> 
-        <li onClick={() => (window.location.href = 'project')}>For Developers  </li>
+        <li onClick={() => (window.location.href = 'developer')}>For Developers  </li>
         {/* <li>Reviews</li> */}
         {/* <li onClick={() => (window.location.href = 'privacy')}>Privacy & Policy</li> */}
         <li onClick={() => (window.location.href = 'hire')}>Schedule a call</li>
