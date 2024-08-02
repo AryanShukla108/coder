@@ -530,5 +530,76 @@
             background: #EA4232;
   }
   
+ .reach-out{
+  margin-bottom: 50px;
+  background: rgba(255, 249, 243, 1);
+  display: flex;
+  align-items: center;
+  gap: 121px;
+  justify-content: center;
+  padding: 50px 0 50px 0;
 
+  .reach-img{
+    width: 486px;
+      height: 425.5px;
+      object-fit: cover;
+  }
+
+  .reach-txt{
+    font-family: "Poppins";
+    position: relative;
+    bottom: 51px;
+      font-size: 41.6px;
+      font-weight: 800;
+      line-height: 49.92px;
+      letter-spacing: -0.25px;
+      color: rgba(19, 59, 88, 1);
+  }
+
+  .heading-color{
+    font-family: "Poppins";
+      font-size: 41.6px;
+      font-weight: 800;
+      line-height: 49.92px;
+      letter-spacing: -0.25px;
+  }
+
+     .form-control {
+      // width: 223px;
+      border: none;
+          border-bottom: 3px solid rgba(45, 61, 86, 1) !important;
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 0px;
+      font-family: "Poppins";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 24.38px;
+        color: rgba(51, 51, 51, 1);
+       background: transparent;
+     }
+  
+     .form-control:focus {
+       box-shadow: none;
+     }
+
+  ::placeholder{
+    font-family: "Poppins";
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.38px;
+color: rgba(51, 51, 51, 1);
+  }
+
+  .star-reach{
+    position: relative;
+      top: 30px;
+      width: fit-content;
+    color: rgba(95, 71, 182, 1);
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.38px;
+  }
+
+ }
+ 
 }

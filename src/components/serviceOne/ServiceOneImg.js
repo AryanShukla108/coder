@@ -10,6 +10,8 @@ import caseimg from "../../assests/case.png"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Customer from "../home/Customer";
 import serviceAll from "../../assests/service-over-all.png"
+import reach from "../../assests/reachout.png"
+
 
 
 const ServiceOneImg = () => {
@@ -389,6 +391,43 @@ const ServiceOneImg = () => {
 
                 <div>
                     <Customer />
+                </div>
+                <div className="reach-out">
+                    <div className="img-div">
+                        <img src={reach} alt="reach" className="reach-img" />
+                    </div>
+                    <div className="form-div">
+                        <div className="reach-txt"> <span className="heading-color">Fill-in and</span> Reach Out</div>
+                        <form>
+                            <div className="row">
+                                <div className="col-6">
+                                    <div className="star-reach">*</div>
+                                    <input type="text" className="form-control" placeholder="Name" />
+                                </div>
+                                <div className="col-6">
+                                    <div className="star-reach">*</div>
+                                    <input type="text" className="form-control" placeholder="Company" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-6">
+                                    <div className="star-reach">*</div>
+                                    <input type="text" className="form-control" placeholder="E-mail Address" />
+                                </div>
+                                <div className="col-6">
+                                    <div className="star-reach">*</div>
+                                    <input type="text" className="form-control" placeholder="Phone Number" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12">
+                                    <div className="star-reach">*</div>
+                                    <input type="text" className="form-control" placeholder="Requirements" />
+                                </div>
+                            </div>
+                            <button className="service-contact"> Send Message</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </>

@@ -40,7 +40,7 @@ import { LeftArrow, RightArrow } from "../../assests/Appicons";
 
 const CompanyWorking = () => {
 
-    const containerRef = useRef(null);
+  const containerRef = useRef(null);
   const contentWidth = 150; // Width of a single item in pixels
 
   const scrollLeft = () => {
@@ -89,69 +89,70 @@ const CompanyWorking = () => {
     container.addEventListener('scroll', handleScroll);
     return () => container.removeEventListener('scroll', handleScroll);
   }, []);
-  
-    const imgData = [
-        { banner: company1 },
-        { banner: company2 },
-        { banner: hirekhan },
-        { banner: company4 },
-        { banner: datacomp },
-        { banner: company6 },
-        { banner: company7 },
-        { banner: company8 },
-        { banner: techved },
-        { banner: company10 },
-        { banner: company11 },
-        { banner: company12 },
-        { banner: company13 },
-        { banner: company15 },
-        { banner: company16 },
-        { banner: company18 },
-        { banner: company19 },
-        { banner: company20 },
-        { banner: company21 },
-        { banner: company22 },
-        { banner: company23 },
-        { banner: company24 },
-        { banner: company17 },
-        { banner: company25 },
-        { banner: company14 },
-        
 
-    ];
-    return (
-        <div className="CompanyWorking">
+  const imgData = [
+    { banner: company1 },
+    { banner: company2 },
+    { banner: hirekhan },
+    { banner: company4 },
+    { banner: datacomp },
+    { banner: company6 },
+    { banner: company7 },
+    { banner: company8 },
+    { banner: techved },
+    { banner: company10 },
+    { banner: company11 },
+    { banner: company12 },
+    { banner: company13 },
+    { banner: company15 },
+    { banner: company16 },
+    { banner: company18 },
+    { banner: company19 },
+    { banner: company20 },
+    { banner: company21 },
+    { banner: company22 },
+    { banner: company23 },
+    { banner: company24 },
+    { banner: company17 },
+    { banner: company25 },
+    { banner: company14 },
 
-            <div className="sub-head">
-                <div className="head-box">
-                <div className="head-1">Meet the Company</div>
-                <div className="head-2">We are Working With</div>
-                </div>
-                <div className="btn-box">
-                <button onClick={scrollLeft} className="btn"><LeftArrow /></button>
-                <button onClick={scrollRight} className="btn2"><RightArrow /></button>
-                </div>
-               
-            </div>
-         
-            <div className="cards-container" ref={containerRef}>
-                {
-                imgData.map((item, index) => (
-                    <div key={index} className="imgcontainer">
-                        <img src={item.banner} alt="banner" className="img-banner" />
-                    </div>
-                ))
-            }
-              {
-                imgData.map((item, index) => (
-                    <div key={index} className="imgcontainer">
-                        <img src={item.banner} alt="banner" className="img-banner" />
-                    </div>
-                ))
-            }
-            </div>
+
+  ];
+  return (
+    <div className="CompanyWorking">
+
+      <div className="sub-head">
+        <div className="head-box">
+          <div className="dash"></div>
+          <div className="head-1">Meet the Company</div>
+          <div className="head-2">We are Working With</div>
         </div>
-    );
+        <div className="btn-box">
+          <button onClick={scrollLeft} className="btn"><LeftArrow /></button>
+          <button onClick={scrollRight} className="btn2"><RightArrow /></button>
+        </div>
+
+      </div>
+
+      <div className="cards-container" ref={containerRef}>
+        {
+          imgData.map((item, index) => (
+            <div key={index} className="imgcontainer">
+              <img src={item.banner} alt="banner" className="img-banner" />
+            </div>
+          ))
+        }
+        {
+          imgData.map((item, index) => (
+            <div key={index} className="imgcontainer">
+              <img src={item.banner} alt="banner" className="img-banner" />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  );
 };
 
 export default CompanyWorking;

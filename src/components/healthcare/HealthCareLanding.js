@@ -1,5 +1,7 @@
 import React from "react";
 import { Dropdown } from "primereact/dropdown";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 
 const HealthCareLanding = () => {
 
@@ -154,7 +156,7 @@ const HealthCareLanding = () => {
                             placeholder="Your work email"
                             className="emailInput"
                         />
-                        <button className="hireButton">Hire Now</button>
+                        <button className="hireButton">Hire Now  <ArrowForwardIcon /></button>
                     </div>
                 </div>
                 <form>

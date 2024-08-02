@@ -4,6 +4,13 @@
         display: flex;
     }
 
+    .dash{
+        width: 69px;
+            height: 5px;
+        background: linear-gradient(225deg, #FEBF24 0%, #EA4232 100%);
+        margin-bottom: 20px;
+    }
+
     .head-box{
         width: 80%;
     }
@@ -59,7 +66,10 @@
               margin: auto;
               justify-content: center;
               padding: 10px;
-
+            border: 1px solid;
+            
+                border-image-source: linear-gradient(90deg, #FEBF24 0%, #EA4232 100%);
+border-image-slice: 1;
           }
 
           .imgcontainer{

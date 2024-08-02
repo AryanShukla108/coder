@@ -30,6 +30,12 @@
         border-radius: 7px;
         border: 1px solid #ea4232;
         padding: 38.5px 16px;
+        transition: transform 0.3s ease;
+      }
+
+      .swiper-slide:hover{
+        transform: translateY(39px);
+        box-shadow: 0px 4px 30px 0px #0000001A;
       }
 
       .img-div {

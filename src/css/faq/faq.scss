@@ -110,13 +110,19 @@
   }
 
   .sm-input-text{
+    display: flex;
+    align-items: center;
     font-family: "Poppins";
         font-size: 16.03px;
         font-weight: 500;
         line-height: 24px;
         color: #EA4232;
-        width: 92px;
+        width: 112px;
   }
+
+    .svg-sm {
+      margin-right: 3px;
+    }
 
   .form-control {
     font-family: "Poppins";
