@@ -10,6 +10,7 @@ import PrivacyMain from "../components/privacy/PrivacyMain";
 import ServiceMain from "../components/service/ServiceMain";
 import ServiceOneMain from "../components/serviceOne/ServiceOneMain";
 import { Terms } from "../components/privacy/Terms";
+import { Developer } from "../components/Developer/Developer";
 
 
 export const router = [
@@ -168,5 +169,9 @@ export const router = [
   {
     path: '/service-degital-marketing',
     element: <ServiceOneMain />
+  },
+  {
+    path: '/developer',
+    element: <Developer />
   },
 ]  

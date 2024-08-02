@@ -1595,6 +1595,53 @@ export function LeftArrow() {
   );
 }
 
+export function LeftArrowv2() {
+  return (
+    <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="60" height="60" rx="30" fill="#EA4232"/>
+    <g clip-path="url(#clip0_93_2328)">
+    <g clip-path="url(#clip1_93_2328)">
+    <path d="M37.0298 31.09H23.0298" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30.0298 38.09L23.0298 31.09L30.0298 24.09" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    </g>
+    <defs>
+    <clipPath id="clip0_93_2328">
+    <rect width="25" height="24" fill="white" transform="translate(18 19.09)"/>
+    </clipPath>
+    <clipPath id="clip1_93_2328">
+    <rect width="25" height="24" fill="white" transform="translate(18 19.09)"/>
+    </clipPath>
+    </defs>
+    </svg>
+    
+  );
+}
+
+export function RightArrowv2() {
+  return (
+    <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="60" height="60" rx="30" fill="#EA4232"/>
+    <g clip-path="url(#clip0_93_2334)">
+    <g clip-path="url(#clip1_93_2334)">
+    <path d="M23.0298 31.09H37.0298" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30.0298 24.09L37.0298 31.09L30.0298 38.09" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    </g>
+    <defs>
+    <clipPath id="clip0_93_2334">
+    <rect width="25" height="24" fill="white" transform="translate(18 19.09)"/>
+    </clipPath>
+    <clipPath id="clip1_93_2334">
+    <rect width="25" height="24" fill="white" transform="translate(18 19.09)"/>
+    </clipPath>
+    </defs>
+    </svg>
+    
+    
+  );
+}
+
 export function GenAi() {
   return (
     <svg
