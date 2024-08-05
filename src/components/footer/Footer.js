@@ -297,55 +297,55 @@ const Footer = () => {
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Fiverr
+                            SOV vs Fiverr
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Credo
+                            SOV vs Credo
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Freelancer
+                            SOV vs Freelancer
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Freeup
+                            SOV vs Freeup
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. PeoplePerHour
+                            SOV vs PeoplePerHour
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Guru
+                            SOV vs Guru
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Andela
+                            SOV vs Andela
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Upwork
+                            SOV vs Upwork
                         </div>
                         <div
                             className="haed-text sp"
                             onClick={() => (window.location.href = "hire")}
                         >
-                            SOV vs. Top IT Services Companies
+                            SOV vs Top IT Services Companies
                         </div>
                     </div>
                 </div>

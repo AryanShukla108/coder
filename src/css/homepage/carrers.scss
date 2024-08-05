@@ -76,6 +76,21 @@
             border: 1px solid #EA4232;
     }
 
+    .trend{
+padding: 1px 8px 2px 8px;
+border-radius: 30px;
+opacity: 0px;
+border: 1px solid #EA4232;
+color: #EA4232;
+
+margin-left: 4rem;
+margin-bottom: 1rem;
+
+svg{
+    margin-right: 5px;
+}
+    }
+
     .tittle{
         font-family: "Poppins";
             font-size: 20px;

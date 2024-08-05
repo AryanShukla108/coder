@@ -1,4 +1,5 @@
 import React from "react";
+import { UpTrend } from "../../assests/Appicons";
 
 const Carrers = () => {
     // const jobData = [
@@ -60,7 +61,8 @@ const Carrers = () => {
             level: "0-1 Year Exp",
             location: "Vikhroli",
             description: "Java, Postgres ",
-            Work_From:"Office"
+            Work_From:"Office",
+            trending: "Top Trending"
         },
         {
             title: "Java Developer",
@@ -69,7 +71,16 @@ const Carrers = () => {
             level: "0-2 Year Exp",
             location: "Goregaon",
             description: "Java, Postgres ",
-            Work_From:"Office"
+            Work_From:"Office",
+             trending: "Top Trending"
+        },
+        {
+            title: "Tech Lead",
+            department: "Information Technologies",
+            level: "5+ Year Exp",
+            location: "Goregaon",
+            description: "MVC, Rest Api, Angular ",
+             trending: "Top Trending"
         },
         {
             title: "Flutter Developer",
@@ -91,13 +102,6 @@ const Carrers = () => {
             level: "5+ Year Exp",
             location: "Goregaon",
             description: "MVC, Rest Api, Angular ",
-        },
-        {
-            title: "Tech Lead",
-            department: "Information Technologies",
-            level: "5+ Year Exp",
-            location: "Goregaon",
-            description: "MVC, Rest Api, Angular ",
         }
     ];
 
@@ -115,8 +119,13 @@ const Carrers = () => {
                     {jobData.map((job, index) => (
                         <div key={index} className="job-card">
                             <div>
-                                <div className="tittle">{job.title}</div>
-                              
+                                <div className="d-flex">
+
+                                <div className="tittle"> {job.title}</div>
+                                {
+                                    job.trending && <div className="trend"><UpTrend />{job.trending}</div>
+                                }
+                              </div>
                                 <div className="sm-title">
                                Description:  <span>{job.description}</span>
                                 </div>

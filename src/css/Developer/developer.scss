@@ -252,6 +252,11 @@
     background: none;
   }
 
+  .growth-box-main{
+    width: 100%;
+    overflow: hidden;
+  }
+
   .growth-box {
 
     h2 {
@@ -344,6 +349,27 @@
       margin: 0.5rem;
       padding: 10px;
     }
+  }
+
+  .client-box-sm{
+
+      width: 25%;
+      box-sizing: border-box;
+      border: 1px solid #febf24;
+      padding: 20px 30px;
+      border-radius: 30px;
+      background: white;
+      margin: 15px;
+      font-style: italic;
+
+      p{
+        margin-top: 0.5rem;
+      }
+
+      svg{
+        margin-bottom: 0.5rem;
+      }
+    
   }
   
 }

@@ -17,7 +17,9 @@ import client from "../../assests/client.png";
 import client1 from "../../assests/client1.png";
 import client2 from "../../assests/client2.png";
 import { Upload } from "@mui/icons-material";
-import { LeftArrow, LeftArrowv2, RightArrowv2 } from "../../assests/Appicons";
+import boy from "../../assests/boy.png"
+import { CommaV3, LeftArrow, LeftArrowv2, RightArrowv2 } from "../../assests/Appicons";
+import ReactStars from "react-stars";
 // import company23 from "../../assests/company23.png";
 // import company24 from "../../assests/company24.png";
 // import company25 from "../../assests/company25.png";
@@ -238,9 +240,53 @@ export const Developer = () => {
         </div>
 
         <div className="client-box">
-        <img src={client} alt="" />
-        <img src={client1} alt="" />
-        <img src={client2} alt="" />
+       <div className="client-box-sm">
+       <CommaV3 />
+<ReactStars
+                count={5}
+                value={5}
+                size={24}
+                color2="#FFD700"
+                edit={false} 
+                half={true}
+              />
+
+              <p>Happy with their work. Very professional approach and good quality product delivered. Looking forward to have more projects with you.</p>
+   
+        
+       </div>
+       <div className="client-box-sm">
+ <CommaV3 />
+<ReactStars
+                count={5}
+                value={5}
+                size={24}
+                color2="#FFD700"
+                edit={false} 
+                half={true}
+              />
+
+              <p>Got an opportunity to learn way more expected things. Team is really supportive and works really hard.</p>
+   
+        
+       </div>
+       <div className="client-box-sm">
+       <CommaV3 />
+<ReactStars
+                count={5}
+                value={5}
+                size={24}
+                color2="#FFD700"
+                edit={false} 
+                half={true}
+              />
+
+              <p>Very happy with the reliable and cost effective solutions provided by SOV. Would definitely recommend this team to anyone looking for application development, UI/UX and staff augmentation services.</p>
+   
+        
+       </div>
+
+
         </div>
         </div>
     </div>
