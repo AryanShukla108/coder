@@ -6,7 +6,7 @@ const generateMailtoLink = (name, company, email, phone, message) => {
     const subject = encodeURIComponent("Contact Form Submission");
     const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
     return `mailto:${email}?subject=${subject}&body=${body}`;
-  };
+};
 
 const ContactUsForm = () => {
 
@@ -21,7 +21,7 @@ const ContactUsForm = () => {
         event.preventDefault();
         const mailtoLink = generateMailtoLink(name, lastName, email, phone, message);
         window.location.href = mailtoLink; // Open the mail client with pre-filled information
-      };
+    };
 
 
     return (
@@ -119,8 +119,7 @@ const ContactUsForm = () => {
                             </div>
                             <div className="txt1">Our Location</div>
                             <div className="txt2">
-                                Shop No 2, Vishwakarma Opposite Om Surya apartment Sawarkar Nagar
-                                Thane West, Maharashtra ,400606
+                                plot no.921, Rani Avantibai Rd, Near Huda Market, Mohyal Colony, Sector 40, Gurugram, Haryana 122001
                             </div>
                         </div>
                         <div className="box">
