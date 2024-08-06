@@ -14,37 +14,37 @@ const LedTeam = () => {
     const services = [
         {
             title: "Haniket Y",
-            description: "Sr. SDE I ₹***** ",
+            description: "IOS Developer",
             icon: smartboy
         },
         {
             title: "Pushpender K",
-            description: "Sr. Android Developer I ₹*****",
+            description: "Android Developer",
             icon: smartboybest
 
         },
         {
             title: "Anjul K",
-            description: "SDE I ₹*****",
+            description: "Angular Developer",
             icon: smartgirl
 
         },
         {
             title: "Rohan S",
-            description: "SDE 2 ₹*****",
+            description: "Node JS Developer",
             icon: smartboybest
 
         },
         {
             title: "Rahul S",
-            description: "SDE 2 ₹*****",
+            description: "Backend Developer",
             icon: smartboy
 
         },
 
         {
             title: "Rani Y",
-            description: "SDE I ₹*****",
+            description: "Java Developer",
             icon: smartgirl
 
         },
@@ -61,10 +61,10 @@ const LedTeam = () => {
                 </div>
                 {/* swipper */}
                 <Swiper
-                    onClick={() => (window.location.href = "hire")}
+               
                     slidesPerView={'auto'}
                     spaceBetween={9}
-                    loop={false}
+                    loop={true}
                     pagination={{
                         clickable: true
                     }}
@@ -73,7 +73,7 @@ const LedTeam = () => {
                     className="mySwiper">
                     {services.map((service, index) => (
                         <SwiperSlide key={index}>
-                            <div className="service-card cursor-pointer">
+                            <div className="service-card cursor-pointer"  onClick={() => (window.location.href = "hire")}>
                                 <div className='img-div'> <img src={service.icon} alt={`${service.title} icon`} className="service-icon" /></div>
                                 <div className='title'>{service.title}</div>
                                 <div className='des'>{service.description}</div>
