@@ -60,7 +60,7 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Vikhroli",
-            description: "Java, Postgres ",
+            description: "Advanced proficiency in coding in Java 8, Spring Boot technologies as well as unit testing/Mockito experience.",
             Work_From:"Office",
             trending: "Top Trending"
         },
@@ -116,44 +116,50 @@ const Carrers = () => {
                     <span>The best companies in SOV Technologies are looking for YOU!</span>
                 </div>
                 <div className="job-cards-container">
-                    {jobData.map((job, index) => (
-                        <div key={index} className="job-card">
-                            <div>
-                                <div className="d-flex">
+  {jobData.map((job, index) => (
+    <div key={index} className="flip-card">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <div className="job-card">
+            <div>
+              <div className="d-flex">
+                <div className="tittle"> {job.title}</div>
+                {job.trending && <div className="trend"><UpTrend />{job.trending}</div>}
+              </div>
+              <div className="sm-title">
+                Department: <span>{job.department}</span>
+              </div>
+              <div className="sm-title">
+                Level: <span>{job.level}</span>
+              </div>
+              <div className="sm-title">
+                Location: <span>{job.location}</span>
+              </div>
+              <div className="sm-title">
+                <button className="btn" onClick={() => (window.location.href = '/job')}>Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flip-card-back">
+          <div className="job-card ">
+            <div>
+            <div className="sm-title">
+              Description: <span>{job.description}</span>
+             
+            </div>
+            <button className="btn" onClick={() => (window.location.href = '/job')}>Apply</button>
+            </div>
+            <div className="sm-title">
+              {/* You can add additional information here if needed */}
+            </div>
 
-                                <div className="tittle"> {job.title}</div>
-                                {
-                                    job.trending && <div className="trend"><UpTrend />{job.trending}</div>
-                                }
-                              </div>
-                                <div className="sm-title">
-                               Description:  <span>{job.description}</span>
-                                </div>
-                                <div className="sm-title">
-                                    Department: <span>{job.department}</span>
-                                </div>
-                                <div className="sm-title">
-                                   Level: <span>{job.level}</span>
-                                </div>
-                               
-                                <div className="sm-title">
-                                Location:  <span>{job.location}</span>
-                                </div>
-                                <div className="sm-title">
-                                    <button className="btn"  onClick={() => (window.location.href = '/job')}>Apply</button>
-                                    </div>
-                            </div>
-                            <div>
-                           
-                                {/* <img
-                  src={job.logo}
-                  alt={`${job.employer} logo`}
-                  className="job-logo"
-                /> */}
-                            </div>
-                        </div>
-                    ))}
-                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
                 {/* <button className="carrers-btn">Explore more careers →</button> */}
             </div>
         </div>
