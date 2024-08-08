@@ -93,7 +93,7 @@ const Footer = () => {
                         >
                             Contact Us
                         </div>
-                        <div className="haed-text sp">Careers</div>
+                        <div className="haed-text sp" onClick={() => (window.location.href = 'career')}>Careers</div>
                         {/* <div className="haed-text sp">Customers Review</div> */}
                         {/* <div className="haed-text sp">The Right Hire</div> */}
                         <div className="haed-text sp">Blogs</div>

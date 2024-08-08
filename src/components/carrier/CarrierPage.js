@@ -224,24 +224,27 @@ const CarrierPage = () => {
                             <img src={office1} alt="office1" className="office1" />
                             <div className="add">
                                 <div className="adres">Mumbai</div>
-                                <div className="loca">123 Main Street, Suite 200</div>
-                                <div className="num">(555) 123-4567</div>
+                                <div className="loca">Shop No 9, Veer Savarkar Marg, Panch Pakhdi</div>
+                                <div className="loca"> Thane West,Thane, Maharashtra 400606</div>
+                                <div className="num">info@sovtechnologies.com</div>
                             </div>
                         </div>
                         <div className="img-card">
                             <img src={office2} alt="office1" className="office1" />
                             <div className="add">
-                                <div className="adres">New Delhi (coming soon)</div>
-                                <div className="loca">789 Canyon Road</div>
-                                <div className="num">(555) 555-1234</div>
+                                <div className="adres">New Delhi</div>
+                                <div className="loca"> D32, Krishna garden,2nd Floor,near NDRF road,</div>
+                                <div className="loca">govindpuram,Ghaziabad , U.P-201013</div>
+                                <div className="num">info@sovtechnologies.com</div>
                             </div>
                         </div>
                         <div className="img-card">
                             <img src={office3} alt="office1" className="office1" />
                             <div className="add">
-                                <div className="adres">Gurugram (coming soon)</div>
-                                <div className="loca">789 Oak Street, 4th Floor, Suite 402</div>
-                                <div className="num">+44 20 1234 5678</div>
+                                <div className="adres">Gurugram</div>
+                                <div className="loca">Rani Avantibai Rd, Near Huda Market,  </div>
+                                <div className="loca">Mohyal Colony,Sector 40, Gurugram, Haryana 122001</div>
+                                <div className="num">info@sovtechnologies.com</div>
                             </div>
                         </div>
                     </div>
