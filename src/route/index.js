@@ -176,7 +176,7 @@ export const router = [
     element: <Developer />
   },
   {
-    path: '/carrier',
+    path: '/career',
     element: <CarrierPage />
   },
 ]  

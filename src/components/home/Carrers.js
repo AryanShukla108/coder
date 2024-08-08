@@ -60,7 +60,7 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Vikhroli",
-            description: "Advanced proficiency in coding in Java 8, Spring Boot technologies as well as unit testing/Mockito experience.",
+            description: "Advanced proficiency in coding in Java 8, Spring Boot technologies as well as unit testing/Mockito experience. Familiarity with agile methodologies and continuous integration tools.",
             Work_From:"Office",
             trending: "Top Trending"
         },
@@ -70,7 +70,7 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "0-2 Year Exp",
             location: "Goregaon",
-            description: "Java, Postgres ",
+            description: "Experience in Java and Postgres required. Strong problem-solving skills and ability to work in a fast-paced environment are essential.",
             Work_From:"Office",
              trending: "Top Trending"
         },
@@ -79,7 +79,7 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "5+ Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest Api, Angular ",
+            description: "MVC, Rest API, and Angular expertise needed. Proven track record of leading projects and mentoring junior developers.",
              trending: "Top Trending"
         },
         {
@@ -87,21 +87,21 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Ghatkopar / Ghansoli",
-            description: "Android and iOS integration ",
+            description: "Proficient in Flutter and Dart, with experience in Android and iOS integration. Ability to build responsive and high-performance mobile applications. ",
         },
         {
             title: ".net Developer",
             department: "Information Technologies",
             level: "1-2 Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest Api ",
+            description: "Strong understanding of MVC and REST API development . Experience with .NET frameworks and various databases is required .",
         },
         {
             title: "Angular and .Net Developer",
             department: "Information Technologies",
             level: "5+ Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest Api, Angular ",
+            description: "Advanced skills in Angular and .NET required. Ability to design and implement complex applications with a focus on performance and scalability.",
         }
     ];
 
@@ -160,7 +160,7 @@ const Carrers = () => {
     </div>
   ))}
 </div>
-                {/* <button className="carrers-btn">Explore more careers →</button> */}
+                <button className="carrers-btn" onClick={() => (window.location.href = '/career')}>Explore more careers →</button>
             </div>
         </div>
     );

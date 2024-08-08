@@ -246,8 +246,8 @@ const CarrierPage = () => {
                         </div>
                     </div>
                     <div className="office-btn">
-                        <button className="sign">Signup</button>
-                        <button className="cont">Contact Us</button>
+                        {/* <button className="sign">Signup</button> */}
+                        <button className="cont"  onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                     </div>
                 </div>
                 <div className="opennings">
@@ -278,9 +278,10 @@ const CarrierPage = () => {
                                         </div>
                                         <div className="des">{job.description}</div>
                                     </div>
-                                    <div className="arrow-icon">
+                                    <div className="arrow-icon"  onClick={() => (window.location.href = "job")}>
                                         <ArrowForwardIcon
                                             style={{ color: "rgba(254, 191, 36, 1)" }}
+
                                         />
                                     </div>
                                 </div>
