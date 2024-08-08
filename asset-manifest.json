@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.532574ca.css",
-    "main.js": "/static/js/main.2dd9950a.js",
+    "main.css": "/static/css/main.978caf09.css",
+    "main.js": "/static/js/main.d429efe1.js",
     "static/media/contactusimg.jpg": "/static/media/contactusimg.8fed3e864366e1181ad5.jpg",
     "static/media/glimpse2.png": "/static/media/glimpse2.d81da2209c75564024eb.png",
     "static/media/glimpse1.png": "/static/media/glimpse1.4ca9f6cf8e5a7b6060fc.png",
@@ -21,7 +21,9 @@
     "static/media/bannerhome.png": "/static/media/bannerhome.b97699d41c2486ee085f.png",
     "static/media/dev.png": "/static/media/dev.495a6ccceacddd1fa580.png",
     "static/media/reachout.png": "/static/media/reachout.9d5fb479462e7d094b25.png",
+    "static/media/carrier.png": "/static/media/carrier.8b9c5ff2ab25a551f182.png",
     "static/media/rocketall.png": "/static/media/rocketall.5a700644020fabb979da.png",
+    "static/media/global.png": "/static/media/global.2348203542721bfe5b9b.png",
     "static/media/case.png": "/static/media/case.4fd8b04a1677a8bb6f80.png",
     "static/media/bg.png": "/static/media/bg.fa009be3e3898a00ae55.png",
     "static/media/thumbsup.png": "/static/media/thumbsup.0cfb46e6df9a834719ef.png",
@@ -31,6 +33,9 @@
     "static/media/company2.png": "/static/media/company2.d673edd335ed347a4680.png",
     "static/media/multipleimg.png": "/static/media/multipleimg.5cd57ddc11e20332987e.png",
     "static/media/hand.jpg": "/static/media/hand.dbf28b87ffec367d439a.jpg",
+    "static/media/office1.jpg": "/static/media/office1.185cbb652a7bcd8fdc28.jpg",
+    "static/media/office3.jpg": "/static/media/office3.75d0c26ee1b36d46da47.jpg",
+    "static/media/office2.jpg": "/static/media/office2.558425db71e074533776.jpg",
     "static/media/javalogo.png": "/static/media/javalogo.b997496ee3c5d3bc12e8.png",
     "static/media/pythontext.png": "/static/media/pythontext.57d47107ae449a8fcf2d.png",
     "static/media/smartgirl.png": "/static/media/smartgirl.b4a0c490c5fd7721c5fd.png",
@@ -61,11 +66,11 @@
     "static/media/service3.png": "/static/media/service3.4a2124b6595c9dae18b4.png",
     "static/media/company25.png": "/static/media/company25.5aef8e6dbdb7f17e1a08.png",
     "index.html": "/index.html",
-    "main.532574ca.css.map": "/static/css/main.532574ca.css.map",
-    "main.2dd9950a.js.map": "/static/js/main.2dd9950a.js.map"
+    "main.978caf09.css.map": "/static/css/main.978caf09.css.map",
+    "main.d429efe1.js.map": "/static/js/main.d429efe1.js.map"
   },
   "entrypoints": [
-    "static/css/main.532574ca.css",
-    "static/js/main.2dd9950a.js"
+    "static/css/main.978caf09.css",
+    "static/js/main.d429efe1.js"
   ]
 }
