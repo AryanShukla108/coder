@@ -11,6 +11,7 @@ import ServiceMain from "../components/service/ServiceMain";
 import ServiceOneMain from "../components/serviceOne/ServiceOneMain";
 import { Terms } from "../components/privacy/Terms";
 import { Developer } from "../components/Developer/Developer";
+import CarrierPage from "../components/carrier/CarrierPage";
 
 
 export const router = [
@@ -173,5 +174,9 @@ export const router = [
   {
     path: '/developer',
     element: <Developer />
+  },
+  {
+    path: '/carrier',
+    element: <CarrierPage />
   },
 ]  
