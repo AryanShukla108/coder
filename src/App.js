@@ -12,6 +12,7 @@ import { router } from "./route";
 import { NavBar } from "./components/NavBar";
 import Faq from "./components/faq/Faq";
 import Footer from "./components/footer/Footer";
+import { Float } from "./components/floater/Float";
 
 export default function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ export default function App() {
         <title>{getTitleFromRoute(location.pathname)}</title>
       </Helmet>
       <Suspense fallback={<div>Loading...</div>}>
+      {pathname === "/hire" || pathname === "/job" ? "" : <Float />}
         {pathname === "/hire" || pathname === "/job" ? "" : <NavBar />}
         <Routes>
           {router.map((route) => (
@@ -31,6 +33,7 @@ export default function App() {
         </Routes>
         {pathname === "/hire" || pathname === "/job" ? "" : <Faq />}
         {pathname === "/hire" || pathname === "/job" ? "" : <Footer />}
+   
       </Suspense>
     </PrimeReactProvider>
   );
