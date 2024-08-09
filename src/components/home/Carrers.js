@@ -60,7 +60,7 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Vikhroli",
-            description: "Advanced proficiency in coding in Java 8, Spring Boot technologies as well as unit testing/Mockito experience. Familiarity with agile methodologies and continuous integration tools.",
+            description: "Java, Postgres ",
             Work_From:"Office",
             trending: "Top Trending"
         },
@@ -70,38 +70,37 @@ const Carrers = () => {
             department: "Information Technologies",
             level: "0-2 Year Exp",
             location: "Goregaon",
-            description: "Experience in Java and Postgres required. Strong problem-solving skills and ability to work in a fast-paced environment are essential.",
-            Work_From:"Office",
-             trending: "Top Trending"
+            description: "Java, Postgres ",
         },
         {
             title: "Tech Lead",
             department: "Information Technologies",
             level: "5+ Year Exp",
             location: "Goregaon",
-            description: "MVC, Rest API, and Angular expertise needed. Proven track record of leading projects and mentoring junior developers.",
-             trending: "Top Trending"
+            description: "MVC, Rest Api, Angular ",
         },
         {
             title: "Flutter Developer",
             department: "Information Technologies",
             level: "0-1 Year Exp",
             location: "Ghatkopar / Ghansoli",
-            description: "Proficient in Flutter and Dart, with experience in Android and iOS integration. Ability to build responsive and high-performance mobile applications. ",
+            description: "Android and iOS integration ",
         },
         {
             title: ".net Developer",
             department: "Information Technologies",
             level: "1-2 Year Exp",
             location: "Goregaon",
-            description: "Strong understanding of MVC and REST API development . Experience with .NET frameworks and various databases is required .",
+            description: "MVC, Rest Api ",
+             trending: "Top Trending"
         },
         {
             title: "Angular and .Net Developer",
             department: "Information Technologies",
             level: "5+ Year Exp",
             location: "Goregaon",
-            description: "Advanced skills in Angular and .NET required. Ability to design and implement complex applications with a focus on performance and scalability.",
+            description: "MVC, Rest Api, Angular ",
+             trending: "Top Trending"
         }
     ];
 
@@ -116,51 +115,47 @@ const Carrers = () => {
                     <span>The best companies in SOV Technologies are looking for YOU!</span>
                 </div>
                 <div className="job-cards-container">
-  {jobData.map((job, index) => (
-    <div key={index} className="flip-card">
-      <div className="flip-card-inner">
-        <div className="flip-card-front">
-          <div className="job-card">
-            <div>
-              <div className="d-flex">
-                <div className="tittle"> {job.title}</div>
-                {job.trending && <div className="trend"><UpTrend />{job.trending}</div>}
-              </div>
-              <div className="sm-title">
-                Department: <span>{job.department}</span>
-              </div>
-              <div className="sm-title">
-                Level: <span>{job.level}</span>
-              </div>
-              <div className="sm-title">
-                Location: <span>{job.location}</span>
-              </div>
-              <div className="sm-title">
-                <button className="btn" onClick={() => (window.location.href = '/job')}>Apply</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flip-card-back">
-          <div className="job-card ">
-            <div>
-            <div className="sm-title">
-              Description: <span>{job.description}</span>
-             
-            </div>
-            <button className="btn" onClick={() => (window.location.href = '/job')}>Apply</button>
-            </div>
-            <div className="sm-title">
-              {/* You can add additional information here if needed */}
-            </div>
+                    {jobData.map((job, index) => (
+                        <div key={index} className="job-card">
+                            <div>
+                                <div className="d-flex">
 
-          </div>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-                <button className="carrers-btn" onClick={() => (window.location.href = '/career')}>Explore more careers →</button>
+                                <div className="tittle"> {job.title}</div>
+                             
+                              </div>
+                                <div className="sm-title">
+                               Description:  <span>{job.description}</span>
+                                </div>
+                                <div className="sm-title">
+                                    Department: <span>{job.department}</span>
+                                </div>
+                                <div className="sm-title">
+                                   Level: <span>{job.level}</span>
+                                </div>
+                               
+                                <div className="sm-title">
+                                Location:  <span>{job.location}</span>
+                                </div>
+                                <div className="sm-title d-flex">
+                                    <button className="btn"  onClick={() => (window.location.href = '/job')}>Apply</button>
+
+                                    {
+                                    job.trending && <div className="trend"><UpTrend />{job.trending}</div>
+                                }
+                                    </div>
+                            </div>
+                            <div>
+                           
+                                {/* <img
+                  src={job.logo}
+                  alt={`${job.employer} logo`}
+                  className="job-logo"
+                /> */}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+                <button className="carrers-btn" onClick={() => (window.location.href = 'career')}>Explore more careers →</button>
             </div>
         </div>
     );
