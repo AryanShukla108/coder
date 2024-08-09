@@ -218,7 +218,7 @@ const ServiceOneImg = () => {
                 <div className="numbers">
                     <div className="num-div">
                         <div className="num">
-                            3<span className="spanTag">+</span>
+                            10<span className="spanTag">+</span>
                         </div>
                         <div>
                             <div className="year">Years Of Industry</div>
@@ -227,7 +227,7 @@ const ServiceOneImg = () => {
                     </div>
                     <div className="num-div">
                         <div className="num">
-                            100<span className="spanTag">+</span>
+                            1900<span className="spanTag">+</span>
                         </div>
                         <div>
                             <div className="year">Successful</div>
@@ -236,7 +236,7 @@ const ServiceOneImg = () => {
                     </div>{" "}
                     <div className="num-div">
                         <div className="num">
-                            3<span className="spanTag">+</span>
+                            10<span className="spanTag">+</span>
                         </div>
                         <div>
                             <div className="year">Years In</div>

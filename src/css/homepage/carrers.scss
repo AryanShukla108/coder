@@ -1,141 +1,136 @@
-.Carrers{
-    padding: 67px 35px;
+.Carrers {
+  padding: 67px 35px;
+  display: flex;
+  justify-content: center;
+
+  .carrers-card {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 49.9px 45px 79.81px 45px;
+    width: 1370px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid #ea4232;
+    background: #fff9f3;
+  }
 
+  .head1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: center;
+    color: #133b58;
+    margin-bottom: 20px;
+  }
 
-    .carrers-card{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 49.9px 45px 79.81px 45px;
-        width: 1370px;
-            height: fit-content;
-            border-radius: 20px;
-            border: 1px solid #EA4232;
-            background: #FFF9F3;
+  .head2 {
+    width: 942px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #4c4c4d;
+    margin-bottom: 70px;
+
+    span {
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #ea4232;
     }
+  }
 
-    .head1{
-        font-family: sans-serif;
-            font-size: 30px;
-            font-weight: 700;
-            line-height: 43.2px;
-            text-align: center;
-            color: #133B58;
-            margin-bottom: 20px;
+  .btn {
+    border-radius: 35px;
+    height: 34px;
+    background: linear-gradient(to right, #ffcc21 0%, #ea4335 100%);
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    padding: 4px 35px 4px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .job-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+  }
+
+  .job-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 406.66px;
+    height: auto;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #ea4232;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+
+  }
+
+  .trend {
+    padding: 6px 8px 2px 8px;
+    height: 35px;
+    border-radius: 30px;
+    opacity: 0px;
+    border: 1px solid #ea4232;
+    color: #ea4232;
+
+    margin-left: 6rem;
+    margin-top: 20px;
+
+    svg {
+      margin-right: 5px;
     }
+  }
 
-    .head2{
-        width: 942px;
-        font-family: "Poppins";
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            text-align: center;
-            color: #4C4C4D;
-            margin-bottom: 70px;
+  .tittle {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #35302f;
+    margin-bottom: 9.5px;
+  }
 
-            span{
-                font-family: "Poppins";
-                    font-size: 16px;
-                    font-weight: 700;
-                    line-height: 24px;
-                    color: #EA4232;
-            }
+  .sm-title {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #7e7275;
+    display: flex;
+
+    span {
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      text-align: left;
     }
+  }
 
-    .btn {
-        border-radius: 35px;
-        height: 34px;
-        background: linear-gradient(to right, #FFCC21 0%, #EA4335 100%);
-        font-weight: 400;
-        font-size: 14px;
-        border: none;
-        padding: 4px 35px 4px 35px;
-        margin-top: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
-    .job-cards-container{
-        display: flex;
-            flex-wrap: wrap;
-            gap: 29px;
-    }
-
-    .job-card{
-        display: flex;
-        justify-content: space-between;
-        background-color: white;
-        width: 406.66px;
-            height: auto;
-            border-radius: 8px;
-            padding: 20px;
-            border: 1px solid #EA4232;
-    }
-
-    .trend{
-padding: 16px 8px 2px 8px;
-border-radius: 30px;
-opacity: 0px;
-border: 1px solid #EA4232;
-color: #EA4232;
-
-margin-left: 6rem;
-
-svg{
-    margin-right: 5px;
-}
-    }
-
-    .tittle{
-        font-family: "Poppins";
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 24px;
-            text-align: left;
-            color: #35302F;
-            margin-bottom: 9.5px;
-    }
-
-    .sm-title{
-                font-family: "Poppins";
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
-            color: #7E7275;
-            display: flex;
-
-  
-
-            span{
-                font-family: "Poppins";
-                    font-size: 14px;
-                    font-weight: 700;
-                    line-height: 21px;
-                    text-align: left;
-            }
-    }
-
-    .carrers-btn{
-        border: none;
-        width: 237.42px;
-            height: 46px;
-            padding: 14px 0;
-            border-radius: 25px;
-            background: linear-gradient(90deg, #FEBF24 0%, #EA4232 100%);
-                            font-family: "Poppins";
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 18px;
-                text-align: center;
-                color: #FFFFFF;
-                margin-top: 40px;
-    }
-
-
- 
-
+  .carrers-btn {
+    border: none;
+    height: 46px;
+    padding: 14px 30px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #febf24 0%, #ea4232 100%);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+  }
 }

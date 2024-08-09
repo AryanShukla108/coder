@@ -39,7 +39,7 @@ const Glimpse = () => {
                     </div>
                 ))
             }</div>
-            <button onClick={() => (window.location.href = "project")} className='project'><ElectricBoltIcon style={{ color: "white" }} /> View All Projects</button>
+            <button onClick={() => (window.location.href = "more-project")} className='project'><ElectricBoltIcon style={{ color: "white" }} /> View All Projects</button>
         </div>
     )
 }

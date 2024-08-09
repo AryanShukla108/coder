@@ -1,4 +1,4 @@
-import { CloseRounded, WidthNormalRounded } from '@mui/icons-material';
+import { ArrowCircleUp, ArrowUpward, CloseRounded, WidthNormalRounded } from '@mui/icons-material';
 import React, {  useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -32,7 +32,6 @@ useEffect(() => {
   };
 }, []);
 
-
 const handleEvent = () => {
     setIsRotating((prev) => !prev);
     setOpen((prev) => !prev);
@@ -42,11 +41,17 @@ const handleEvent = () => {
 
   return(
     
-    <div className='float'>
-        <button onClick={handleEvent} className={`bounce ${isRotating ? 'rotate' : ''}`}>
+    <div className='float ' >
+      <div className='d-flex'>
+
+      {
+  isVisible &&  <button onClick={scrollToTop} className='scroll-btn' > <ArrowUpward /> </button>
+}
+      <button onClick={handleEvent} className={`bounce ${isRotating ? 'rotate' : ''}`}>
         {open ? <CloseRounded /> : <WidthNormalRounded/>}
         </button>
 
+      </div>
         {
             open &&
              <div className={`float-options ${open ? 'open' : ''}`} >
@@ -62,8 +67,6 @@ const handleEvent = () => {
 </svg> </Link> </button>
                 </div>
         }
-
-        {/* <button onClick={scrollToTop} > <ArrowCircleUp /> </button> */}
 
     </div>
    )

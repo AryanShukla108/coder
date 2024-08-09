@@ -25,14 +25,15 @@
     box-sizing: border-box;
 }
 
-#root{
-    overflow-y: auto;
-        height: 100vh;
-        width: 100%;
-        scrollbar-width: none;
-}
 
-#root::-webkit-scrollbar {
+// #root{
+// overflow-y: auto;
+// width: 100%;
+// height: fit-content;
+// scrollbar-width: none;
+// }
+
+*::-webkit-scrollbar {
     display: none;
 }
 
@@ -105,8 +106,8 @@
 }
 
 .float{
-    position: absolute;
-    top: 90vh;
+    position: fixed;
+    top: 85vh;
     right: 5vh;
     z-index: 10;
     display: flex;
@@ -114,10 +115,11 @@
     
 }
 
+
 .float-options {
-    position: absolute;
-    top: -13rem; 
-    right: 0;
+    position: fixed;
+    bottom: 15vh;
+    right: 4.5vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -135,7 +137,7 @@
   
   .float button {
 
-    background: none;
+    background: linear-gradient(180deg, #febf24 0%, #ea4232 100%) !important;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -150,10 +152,11 @@
   .bounce{
     border-radius: 50% !important;
     background: white !important;
-    padding: 8px;
     width: 50px;
+    height: 50px;
     font-size: x-large;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    color: white;
   }
 
   .rotate {
@@ -172,7 +175,7 @@
 
   .float-options button {
     margin: 5px;
-    background: none;
+    background: none !important;
     border: none;
     color: #333;
     cursor: pointer;
@@ -183,6 +186,24 @@
 
 .float-options.open button {
     transform: translateY(0); 
+}
+
+.scroll-btn{
+
+  width: 45px;
+  height: 45px;
+  border-radius: 50% !important;
+  color: #ffffff;
+  background: linear-gradient(180deg, #febf24 0%, #ea4232 100%) !important;
+  margin-right: 2vh;
+  margin-top: 0.5vh;
+
+
+svg{
+  width: 30px;
+  height: 30px;
+
+}
 }
 
 

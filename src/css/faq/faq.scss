@@ -16,6 +16,7 @@
     margin-bottom: 20px;
     box-shadow: none;
     border: 1px solid #1d243414;
+    border-radius: 12px;
 
     .MuiAccordionSummary-root {
       padding: 25px !important;
@@ -37,6 +38,8 @@
       height: 24px;
       color: #000000 !important;
     }
+
+  
 
     .MuiCollapse-root {
       .MuiAccordionDetails-root {

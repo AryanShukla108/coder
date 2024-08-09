@@ -1,5 +1,5 @@
 import React from "react";
-import jobimg from "../../assests/jobimg.jpg";
+import jobimg from "../../assests/resume.png";
 import CheckIcon from "@mui/icons-material/Check";
 import flag from "../../assests/flag.png";
 import { Dropdown } from "primereact/dropdown";
@@ -10,7 +10,7 @@ const JobHired = () => {
         <div className="JobHired">
             <div className="img-div">
                 <img src={jobimg} alt="jobimg" className="jobimg" />
-                <div className="text">
+                {/* <div className="text">
                     <div className="text-1">Success starts here</div>
                     <div className="text-2">
                         <CheckIcon /> Over 600 categories
@@ -25,7 +25,7 @@ const JobHired = () => {
                         </div>{" "}
                         <div>Access to talent and businesses across the globe</div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="form-job">
                 <div className="job-txt"  onClick={() => (window.location.href = 'hire')}>Lets Get Hired</div>
@@ -125,6 +125,14 @@ const JobHired = () => {
                                     name="cityState"
                                     placeholder="Search Your Skills "
                                     className="w-full"
+                                    options={[  "Jest",
+                                        "Mocha",
+                                        "Jasmine",
+                                        "Cypress",
+                                        "Selenium",
+                                        "Puppeteer",
+                                        "JMeter",
+                                        "LoadRunner"]}
                                 />
                             </div>
                             <div className="card col-6">
@@ -135,7 +143,7 @@ const JobHired = () => {
                                 />
                             </div>
                         </div>
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="card col-6">
                                 <Dropdown
                                     name="cityState"
@@ -165,7 +173,7 @@ const JobHired = () => {
                                     className="w-full"
                                 />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div>
                         <label htmlFor="name">
@@ -183,11 +191,16 @@ const JobHired = () => {
                         <div className="d-flex" style={{ gap: "22px" }}>
                             <div className="d-flex radio-div">
                                 <div> <input type="radio" className="radio" /></div>
-                                <div className="time">10:00 am - 2.00 pm</div>
+                                <div className="time">10:00 am - 12.00 pm</div>
                             </div>   <div className="d-flex radio-div">
                                 <div> <input type="radio" className="radio" /></div>
-                                <div className="time">10:00 am - 2.00 pm</div>
+                                <div className="time">12:00 pm - 2.00 pm</div>
                             </div>
+                            <div className="d-flex radio-div">
+                                <div> <input type="radio" className="radio" /></div>
+                                <div className="time">2:00 pm - 4.00 pm</div>
+                            </div>
+                            
                         </div>
                     </div>
                     <button className="drem-job">Find Dream Jobs</button>

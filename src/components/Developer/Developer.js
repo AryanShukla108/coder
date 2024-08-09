@@ -150,6 +150,7 @@ export const Developer = () => {
                   type="text"
                   className="input-field"
                   placeholder="resume.pdf"
+                  disabled
                 />
                 <button className="send-btn">
                   {" "}

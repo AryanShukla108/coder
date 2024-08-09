@@ -67,7 +67,9 @@
     height: 547px;
     border-radius: 28px;
     padding: 38.55px 31px 35px 31px;
-    background-color: #fff9f3;
+    background-color: #FFF9F3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
   }
 
   .register {
@@ -84,6 +86,8 @@
     margin-bottom: 20px;
   }
 
+
+
   .input-space:last-child {
     margin: 0px;
   }
@@ -98,6 +102,7 @@
     padding: 11px 12px 11px 24px;
     font-size: 14px;
     color: #252525 !important;
+    background: #FFF9F3;
   }
 
   ::placeholder {
@@ -121,12 +126,14 @@
     border-radius: 8px;
     height: 45px;
     padding: 11px 12px 11px 24px;
+    background: #FFF9F3;
   }
 
   .p-inputtext {
     font-family: "Inter";
     font-size: 14px;
     color: #252525 !important;
+    background: #FFF9F3;
   }
 
   .health-submit{
