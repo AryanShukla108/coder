@@ -1,0 +1,118 @@
+.project-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 88px;
+
+  .projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+
+  .project-item {
+    width: 566px;
+  }
+
+  .project-img {
+    width: 560px;
+    height: 346px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .pro-title {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(19, 59, 88, 1);
+    margin-bottom: 54px;
+  }
+
+  .url-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .pro-name {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: rgba(19, 59, 88, 1);
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  .pro-url {
+    background: rgba(255, 249, 243, 1);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: rgba(19, 59, 88, 1);
+  }
+
+  .pro-des {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(19, 59, 88, 1);
+  }
+
+  .head {
+    margin-top: 47px;
+    margin-bottom: 79px;
+  }
+
+  .heading-color {
+    font-weight: 700 !important;
+    text-align: center !important;
+    font-size: 42px !important;
+  }
+
+  .sm-head {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.51px;
+    text-align: center;
+    color: #656267;
+  }
+
+  .arrow-icon {
+      width: 55.11px;
+      height: 55.11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 1px solid rgba(234, 66, 50, 1);
+      background: transparent;
+      cursor: pointer;
+  }
+
+  .pagination {
+      display: flex;
+      gap: 22px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 47px;
+  }
+}

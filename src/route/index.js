@@ -12,6 +12,7 @@ import ServiceOneMain from "../components/serviceOne/ServiceOneMain";
 import { Terms } from "../components/privacy/Terms";
 import { Developer } from "../components/Developer/Developer";
 import CarrierPage from "../components/carrier/CarrierPage";
+import ProjectMore from "../components/project-more/ProjectMore";
 
 
 export const router = [
@@ -178,5 +179,9 @@ export const router = [
   {
     path: '/career',
     element: <CarrierPage />
+  },
+  {
+    path: '/more-project',
+    element: <ProjectMore />
   },
 ]  
