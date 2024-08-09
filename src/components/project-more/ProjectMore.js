@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
@@ -97,27 +97,34 @@ const ProjectMore = () => {
     ];
 
     const [currentSet, setCurrentSet] = useState(1);
+    const projectGridRef = useRef(null);
 
     const handleNext = () => {
-        setCurrentSet(currentSet === 1 ? 2 : 1);
+        if (currentSet === 1) {
+            setCurrentSet(2);
+            projectGridRef.current.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     const handlePrevious = () => {
-        setCurrentSet(currentSet === 2 ? 1 : 2);
+        if (currentSet === 2) {
+            setCurrentSet(1);
+            projectGridRef.current.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     const dataToShow =
         currentSet === 1 ? projectsData.slice(0, 8) : projectsData.slice(8);
 
     return (
-        <div className="project-more">
+        <div className="project-more" ref={projectGridRef}>
             <div className="head">
                 <div className="heading-color">Portfolio</div>
                 <div className="sm-head">
                     Check our recent works we delivered to our clients
                 </div>
             </div>
-            <div className="projects-grid">
+            <div className="projects-grid" >
                 {dataToShow.map((project, index) => (
                     <div key={index} className="project-item">
                         <div className="pro-title">{project.title}</div>

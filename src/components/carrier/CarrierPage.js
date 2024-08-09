@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import carrier from "../../assests/carrier.png";
 import global from "../../assests/global.png";
@@ -92,20 +92,26 @@ const CarrierPage = () => {
                 "Ensure the highest software quality through rigorous testing.",
         },
     ];
-
     const [currentPage, setCurrentPage] = useState(0);
     const itemsPerPage = 8;
+    const jobListRef = useRef(null);
 
     const pages = Math.ceil(jobData.length / itemsPerPage);
     const startIndex = currentPage * itemsPerPage;
     const visibleJobs = jobData.slice(startIndex, startIndex + itemsPerPage);
 
     const nextPage = () => {
-        if (currentPage < pages - 1) setCurrentPage(currentPage + 1);
+        if (currentPage < pages - 1) {
+            setCurrentPage(currentPage + 1);
+            jobListRef.current.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     const prevPage = () => {
-        if (currentPage > 0) setCurrentPage(currentPage - 1);
+        if (currentPage > 0) {
+            setCurrentPage(currentPage - 1);
+            jobListRef.current.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     return (
@@ -250,10 +256,10 @@ const CarrierPage = () => {
                     </div>
                     <div className="office-btn">
                         {/* <button className="sign">Signup</button> */}
-                        <button className="cont"  onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
+                        <button className="cont" onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                     </div>
                 </div>
-                <div className="opennings">
+                <div className="opennings" ref={jobListRef}>
                     <div className="text-openings">
                         <div className="txt">
                             Current{" "}
@@ -281,7 +287,7 @@ const CarrierPage = () => {
                                         </div>
                                         <div className="des">{job.description}</div>
                                     </div>
-                                    <div className="arrow-icon"  onClick={() => (window.location.href = "job")}>
+                                    <div className="arrow-icon" onClick={() => (window.location.href = "job")}>
                                         <ArrowForwardIcon
                                             style={{ color: "rgba(254, 191, 36, 1)" }}
 
