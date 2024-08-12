@@ -3,7 +3,7 @@ import React from 'react'
 const Advantages = () => {
     return (
         <div className='project-Advantages'>
-            <div className="head">the flexiple advantage</div>
+            <div className="head">THE FLEXIBLE ADVANTAGE</div>
             <div className='bg-head'>Building the Team Bibli Needed</div>
             <div className="para">
                 Fed up with the high prices that agencies quoted, Bibli started to look for alternatives, and found us. Given the

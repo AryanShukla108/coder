@@ -5,6 +5,7 @@ import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -265,19 +266,23 @@ const Footer = () => {
                 <div className="col-3">
                     <div className="icon-div">
                         <div>
-                            <LinkedInIcon className="icon-color" />
+                        <Link to="https://www.linkedin.com/company/sovtechnologies/" target='_blank' >
+                            <LinkedInIcon className="icon-color" /> </Link>
+                        </div>
+                        <div>  <Link to="https://www.instagram.com/sovtechnologies/" target='_blank' >
+                            <InstagramIcon className="icon-color" /> </Link>
                         </div>
                         <div>
-                            <InstagramIcon className="icon-color" />
+                        <Link to="https://www.x.com/company/sovtechnologies/" target='_blank' >
+                            <XIcon className="icon-color" /> </Link>
                         </div>
                         <div>
-                            <XIcon className="icon-color" />
+                        <Link to="https://www.facebook.com/sovtechnologies/" target='_blank' >
+                            <FacebookIcon className="icon-color" /> </Link>
                         </div>
                         <div>
-                            <FacebookIcon className="icon-color" />
-                        </div>
-                        <div>
-                            <YouTubeIcon className="icon-color" />
+                        <Link to="https://www.youtube.com/sovtechnologies/" target='_blank' >
+                            <YouTubeIcon className="icon-color" /> </Link>
                         </div>
                     </div>
                     <div className="d-space">
