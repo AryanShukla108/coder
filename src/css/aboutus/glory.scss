@@ -1,9 +1,9 @@
 .aboutus-glory {
-  margin-top: 253px;
+  margin-top: 53px;
   padding: 0px 49px;
 
   .heading-color {
-    font-size: 100px !important;
+    font-size: 72px !important;
     text-align: center !important;
     margin-bottom: 46px;
   }
@@ -19,10 +19,11 @@
   }
 
   .year-glory {
-    margin-bottom: 141px;
+    // margin-bottom: 141px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .year {
@@ -69,26 +70,26 @@
     color: #6b6b6b;
   }
 
-  .img-capture {
-    margin-left: 44px;
-    width: 530px;
-    height: 351px;
-    position: relative;
-    background: #d9d9d9;
-  }
+  // .img-capture {
+  //   margin-left: 44px;
+  //   width: 530px;
+  //   height: 351px;
+  //   position: relative;
+  //   background: #d9d9d9;
+  // }
 
-  .img-captures{
-        width: 530px;
-        height: 351px;
-        position: relative;
-        background: #d9d9d9;
-  }
+  // .img-captures{
+  //       width: 530px;
+  //       height: 351px;
+  //       position: relative;
+  //       background: #d9d9d9;
+  // }
 
-  .thumbsup {
-    position: absolute;
-    height: 339px;
-    bottom: -16px;
-    left: -40px;
-    object-fit: contain;
-  }
+  // .thumbsup {
+  //   position: absolute;
+  //   height: 339px;
+  //   bottom: -16px;
+  //   left: -40px;
+  //   object-fit: contain;
+  // }
 }
