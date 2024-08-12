@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import jobimg from "../../assests/resume.png";
 import CheckIcon from "@mui/icons-material/Check";
 import flag from "../../assests/flag.png";
@@ -6,6 +6,50 @@ import { Dropdown } from "primereact/dropdown";
 
 
 const JobHired = () => {
+
+
+    const [selectYear, setSelectYear] = useState(null);
+    const [selectMonth, setSelectMonth] = useState(null);
+    const [selectSkills, setSelectSkills] = useState(null);
+    const [selectExp, setSelectExp] = useState(null);
+
+    const years = [
+        { value: '1', label: '1' },
+        { value: '2', label: '2' },
+        { value: '3', label: '3' },
+        { value: '4', label: '4' },
+        { value: '5', label: '5' },
+        { value: '6', label: '6' },
+        { value: '7', label: '7' },
+        { value: '8', label: '8' },
+        { value: '9', label: '9' }
+    ]
+
+    const months = [
+        { value: 'january', label: 'January' },
+        { value: 'february', label: 'February' },
+        { value: 'march', label: 'March' },
+        { value: 'april', label: 'April' },
+        { value: 'may', label: 'May' },
+        { value: 'june', label: 'June' },
+        { value: 'july', label: 'July' },
+        { value: 'august', label: 'August' },
+        { value: 'september', label: 'September' },
+        { value: 'october', label: 'October' },
+        { value: 'november', label: 'November' },
+        { value: 'december', label: 'December' }
+    ]
+
+    const exp = [
+        { value: '0-1', label: '0-1 Year' },
+        { value: '2-3', label: '2-3 Years' },
+        { value: '4-5', label: '4-5 Years' },
+        { value: '6-7', label: '6-7 Years' },
+        { value: '8-10', label: '8-10 Years' },
+        { value: '10+', label: '10+ Years' }
+    ]
+
+
     return (
         <div className="JobHired">
             <div className="img-div">
@@ -104,6 +148,7 @@ const JobHired = () => {
                                     name="cityState"
                                     placeholder="Select Year"
                                     className="w-full"
+                                    value={selectYear} onChange={(e) => setSelectYear(e.value)} options={years} 
                                 />
                             </div>
                             <div className="card col-6">
@@ -111,6 +156,7 @@ const JobHired = () => {
                                     name="cityState"
                                     placeholder="Select Month"
                                     className="w-full"
+                                    value={selectMonth} onChange={(e) => setSelectMonth(e.value)} options={months} 
                                 />
                             </div>
                         </div>
@@ -133,6 +179,7 @@ const JobHired = () => {
                                         "Puppeteer",
                                         "JMeter",
                                         "LoadRunner"]}
+                                        value={selectSkills} onChange={(e) => setSelectSkills(e.value)}
                                 />
                             </div>
                             <div className="card col-6">
@@ -140,6 +187,7 @@ const JobHired = () => {
                                     name="cityState"
                                     placeholder="Select Exp Year"
                                     className="w-full"
+                                    value={selectExp} onChange={(e) => setSelectExp(e.value)} options={exp} 
                                 />
                             </div>
                         </div>

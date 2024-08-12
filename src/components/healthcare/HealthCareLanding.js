@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Dropdown } from "primereact/dropdown";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -8,6 +8,44 @@ const HealthCareLanding = () => {
     const currentURL = window.location.href;
 
     const checkURL = (substring) => currentURL.includes(substring);
+    const [selectedCity, setSelectedCity] = useState(null);
+    const [selectedPos, setSelectedPos] = useState(null);
+
+    const cities = [
+        { value: 'delhi', label: 'Delhi' },
+        { value: 'mumbai', label: 'Mumbai' },
+        { value: 'bangalore', label: 'Bangalore' },
+        { value: 'kolkata', label: 'Kolkata' },
+        { value: 'chennai', label: 'Chennai' },
+        { value: 'hyderabad', label: 'Hyderabad' },
+        { value: 'pune', label: 'Pune' },
+        { value: 'ahmedabad', label: 'Ahmedabad' },
+        { value: 'jaipur', label: 'Jaipur' },
+        { value: 'surat', label: 'Surat' },
+        { value: 'kanpur', label: 'Kanpur' },
+        { value: 'nagpur', label: 'Nagpur' },
+        { value: 'lucknow', label: 'Lucknow' },
+        { value: 'indore', label: 'Indore' },
+        { value: 'bhopal', label: 'Bhopal' }
+    ]
+
+    const postion = [
+        { value: 'doctor', label: 'Doctor' },
+        { value: 'nurse', label: 'Nurse' },
+        { value: 'pharmacist', label: 'Pharmacist' },
+        { value: 'radiologist', label: 'Radiologist' },
+        { value: 'surgeon', label: 'Surgeon' },
+        { value: 'therapist', label: 'Therapist' },
+        { value: 'dentist', label: 'Dentist' },
+        { value: 'optometrist', label: 'Optometrist' },
+        { value: 'medical_assistant', label: 'Medical Assistant' },
+        { value: 'anesthesiologist', label: 'Anesthesiologist' },
+        { value: 'pathologist', label: 'Pathologist' },
+        { value: 'emergency_medical_technician', label: 'Emergency Medical Technician (EMT)' },
+        { value: 'clinical_lab_scientist', label: 'Clinical Lab Scientist' },
+        { value: 'nutritionist', label: 'Nutritionist' },
+        { value: 'psychiatrist', label: 'Psychiatrist' }
+    ]
 
     const handleNavigation = (path) => {
         window.location.href = path;
@@ -156,7 +194,7 @@ const HealthCareLanding = () => {
                             placeholder="Your work email"
                             className="emailInput"
                         />
-                        <button className="hireButton">Hire Now  <ArrowForwardIcon /></button>
+                        <button className="hireButton" onClick={() => (window.location.href = '/hire')}>Hire Now  <ArrowForwardIcon /></button>
                     </div>
                 </div>
                 <form>
@@ -180,17 +218,19 @@ const HealthCareLanding = () => {
                             />
                         </div>
                         <div className="input-space card flex">
-                            <Dropdown
-                                name="cityState"
-                                placeholder="City/State"
-                                className="w-full"
-                            />
+                        <Dropdown
+    name="cityState"
+    placeholder="City/State"
+    className="w-full"
+    value={selectedCity} onChange={(e) => setSelectedCity(e.value)} options={cities}
+/>
                         </div>
                         <div className="input-space card flex">
                             <Dropdown
                                 name="position"
                                 placeholder="Position"
                                 className="w-full"
+                                value={selectedPos} onChange={(e) => setSelectedPos(e.value)} options={postion}
                             />
                         </div>
                         <button className="health-submit">Submit</button>
