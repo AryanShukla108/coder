@@ -238,7 +238,7 @@ const CarrierPage = () => {
                         <div className="img-card">
                             <img src={office2} alt="office1" className="office1" />
                             <div className="add">
-                                <div className="adres">New Delhi</div>
+                                <div className="adres">Uttar Pradesh</div>
                                 <div className="loca"> D32, Krishna garden,2nd Floor,near NDRF road,</div>
                                 <div className="loca">govindpuram,Ghaziabad , U.P-201013</div>
                                 <div className="num">info@sovtechnologies.com</div>

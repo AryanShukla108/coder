@@ -277,9 +277,9 @@ const Footer = () => {
                     </div>
                     <div className="d-space">
                         <div className="head">Locations</div>
-                        <div className="haed-text sp">Mumbai, India</div>
-                        <div className="haed-text sp">Gurgaon, India (coming soon...)</div>
-                        <div className="haed-text sp">Noida, India (coming soon...)</div>
+                        <div className="haed-text sp">Shop No 9, Veer Savarkar Marg, Panch Pakhdi,Thane,Mumbai, India</div>
+                        <div className="haed-text sp">Rani Avantibai Rd, Near Huda Market,Mohyal Colony,Sector 40,Gurugram, India </div>
+                        <div className="haed-text sp">D32, Krishna garden,2nd Floor,near NDRF road,Uttar Pradesh, India </div>
 
                         {/* <div className="haed-text sp">Pune, India</div>
                         <div className="haed-text sp">New Delhi, India</div>

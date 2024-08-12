@@ -45,27 +45,24 @@ const Brands = () => {
                 <div className="box">
                     <div>
                         <div className="para">
-                            For over 12 years, we've been the silent force behind numerous
-                            brands, catalyzing their growth through insights, ideas and
-                            impact. With a legacy of working on 2000+ projects for 300+ brands
-                            and managing over 400+ crores of media budget, we have solidified
-                            our position as industry leaders.
+                        For over 10 years, we've been the silent force behind numerous brands,
+                         catalyzing their growth through insights, ideas and impact. With a legacy 
+                         of working on 1000+ projects for 50+ brands and managing over 1+ crores of
+                          media budget, we have solidified our position as industry leaders.
                         </div>
                         <div className="para">
-                            From our 5 offices spread across India, we offer a vast suite of
-                            services. Whether it's digital marketing, brand strategy, PR, or
-                            web development, our expertise doesn't just stop at delivering
-                            these services. It lies in our nuanced understanding of the
-                            industries we serve. By synergising data with creativity, we craft
-                            strategies that aren't just effective, but are also tailored to
-                            each brand's unique needs.
+                        From our 5 offices spread across India, we offer a vast suite of services.
+                         Whether it's digital marketing, brand strategy, PR, or web development,
+                          our expertise doesn't just stop at delivering these services.
+                           It lies in our nuanced understanding of the industries we serve. 
+                           By synergising data with creativity, we craft strategies that aren't just effective, 
+                           but are also tailored to each brand's unique needs.
                         </div>
                         <div className="para">
-                            But more than just a service provider, we are partners in your
-                            journey. We celebrate your successes, navigate challenges hand in
-                            hand with you, and consistently aim for impact. For us, your
-                            growth is the compass that guides our actions, and your trust is
-                            the reward we hold dearest.
+                        But more than just a service provider, we are partners in your journey. We celebrate 
+                        your successes, navigate challenges hand in hand with you, and consistently 
+                        aim for impact. For us, your growth is the compass that guides our actions, 
+                        and your trust is the reward we hold dearest.
                         </div>
                     </div>
                     <div>
@@ -83,7 +80,7 @@ const Brands = () => {
                     </div>
                     <div>
                         <div className="heading-color vision-head">Vision</div>
-                        <div className="vision-para">We envision ourselves as the most reliable digital marketing partner for companies all over the globe. We want to utilize our digital marketing proficiency to synergize with brands and stimulate positive outcomes for their business goals.</div>
+                        <div className="vision-para">We aim to be the trusted manpower partner for companies worldwide,leveraging our expertise to collaboratewith brands and drive positive results aligned with their business objectives.</div>
                     </div>
                 </div>
             </div>
@@ -91,7 +88,7 @@ const Brands = () => {
                 <div className="inner-vision">
                     <div>
                         <div className="heading-color vision-head">Mission</div>
-                        <div className="vision-para">Be the most trusted and value-driven partner of choice for our clients in growing brands to reach global heights by leveraging our integrated marketing expertise and superiority in digital marketing to deliver impactful solutions, ideated based on real insights. </div>
+                        <div className="vision-para">Our aim is to be the trusted partner for clients, helping elevate brands globally through marketing expertise and digital solutions based on genuine insights.</div>
                     </div>
                     <div>
                         <VisionIcon />
