@@ -70,11 +70,16 @@ const Footer = () => {
                         © 2024 SOV Technologies Private Limited. All rights reserved.
                     </div>
                     <div>
-                        <div className="head">India Office</div>
+                        <div className="head">INDIA OFFICE</div>
+
+
                         <div className="haed-text">
+
+                        <div>+91 9117569519</div>
+                        <div> info@sovtechnologies.com</div>
                             plot no.921, Rani Avantibai Rd, Near Huda Market, Mohyal Colony, Sector 40, Gurugram, Haryana 122001
                             <div>Open hours: 8.00-18.00 Mon-Fri,</div>
-                            <div> info@sovtechnologies.com</div>
+                       
                         </div>
                     </div>
                 </div>

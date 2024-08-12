@@ -69,9 +69,22 @@
       position: relative;
       width: 490px;
       height: 445px;
-      border-radius: 20px;
-      overflow: hidden;
+      border-radius: 20px !important;
+      background: white; 
+      margin-top: 20px;
     }
+
+    .img-container::before {
+      content: "";
+      position: absolute;
+      top: -1px; 
+      left: -2px;
+      right: -2px; 
+      bottom: -1px; 
+      border-radius: 20px; 
+      background: linear-gradient(180deg, #FEBF24 0%, #EA4232 100%);
+      z-index: -1; 
+  }
 
 .img-banner {
   width: 100%;
@@ -107,6 +120,7 @@
             height:106px;
             border-radius: 16px;
             box-shadow: 0px 0px 0px 4px #FFFFFF;
+             border: 1px solid #EA4232;
   }
 
   .name{

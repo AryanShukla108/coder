@@ -1,5 +1,5 @@
 .ContactUsImg {
-  padding: 100px 125px 60px 100px;
+  padding: 60px 125px 60px 100px;
   // background: linear-gradient(119.07deg, #fff7e0 7.82%, #f2d3c9 84.24%);
   display: flex;
   justify-content: space-between;
@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../assests/Rectanglecurve.png");
+
 
   .heading-color {
     margin-bottom: 35px;
@@ -125,4 +126,28 @@
   .paras{
     margin-bottom: 25px;
   }
+
+  .svg-star{
+    position: absolute;
+    z-index: 1;
+    top: 14vh;
+    right: 4vh;
+    width: 40%;
+    height: 60%;
+  }
+
+.star-box{
+  width: 50%;
+  height: 65vh;
+}
+
+.svg-starimg{
+  width: 30%;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  right: 13vh;
+  top: 20vh;
+}
+
 }

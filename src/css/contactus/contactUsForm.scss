@@ -12,6 +12,9 @@
     display: flex;
     gap: 24px;
     margin-bottom: 99px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .box {
@@ -198,7 +201,7 @@
     }
 
     .inner-card{
-        padding: 100px 314px 85px 314px;
+        padding: 100px 314px 55px 314px;
         display: flex;
         justify-content: center;
         align-items: center;
