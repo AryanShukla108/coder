@@ -26,7 +26,7 @@
         display: flex;
         gap: 35px;
         align-items: center;
-            background: #CACACA;
+            // background: #CACACA;
     }
 
     .brands-img{
@@ -65,7 +65,7 @@
     .para{
         margin-right: 84px;
         font-family: "Poppins";
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 500;
             line-height: 27.9px;
             text-align: left;
@@ -95,11 +95,12 @@
     .inner-vision{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 109px;
     }
 
     .vision-head{
-        font-size: 96px !important;
+        font-size: 72px !important;
     }
 
     .vision-para{

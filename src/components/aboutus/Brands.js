@@ -3,10 +3,12 @@ import React from "react";
 import brand1 from "../../assests/brand1.png";
 import brand2 from "../../assests/brand2.png";
 import brand3 from "../../assests/brand3.png";
-import brand4 from "../../assests/brand4.png";
+import brand4 from "../../assests/company19.png";
 import brand5 from "../../assests/brand5.png";
-import brand6 from "../../assests/brand6.png";
-import brand7 from "../../assests/brand7.png";
+import brand6 from "../../assests/company20.png";
+import brand7 from "../../assests/company14.png";
+import abmiss from "../../assests/aboutmission.png";
+
 
 
 import { VisionIcon } from "../../assests/Appicons";
@@ -45,24 +47,13 @@ const Brands = () => {
                 <div className="box">
                     <div>
                         <div className="para">
-                        For over 10 years, we've been the silent force behind numerous brands,
-                         catalyzing their growth through insights, ideas and impact. With a legacy 
-                         of working on 1000+ projects for 50+ brands and managing over 1+ crores of
-                          media budget, we have solidified our position as industry leaders.
+                            For over 10 years, we've been the silent force behind numerous brands, catalyzing their growth through insights, ideas and impact. With a legacy of working on 1000+ projects for 50+ brands and managing over 1+ crores of media budget, we have solidified our position as industry leaders.
                         </div>
                         <div className="para">
-                        From our 5 offices spread across India, we offer a vast suite of services.
-                         Whether it's digital marketing, brand strategy, PR, or web development,
-                          our expertise doesn't just stop at delivering these services.
-                           It lies in our nuanced understanding of the industries we serve. 
-                           By synergising data with creativity, we craft strategies that aren't just effective, 
-                           but are also tailored to each brand's unique needs.
+                            From our 5 offices spread across India, we offer a vast suite of services. Whether it's digital marketing, brand strategy, PR, or web development, our expertise doesn't just stop at delivering these services. It lies in our nuanced understanding of the industries we serve. By synergising data with creativity, we craft strategies that aren't just effective, but are also tailored to each brand's unique needs.
                         </div>
                         <div className="para">
-                        But more than just a service provider, we are partners in your journey. We celebrate 
-                        your successes, navigate challenges hand in hand with you, and consistently 
-                        aim for impact. For us, your growth is the compass that guides our actions, 
-                        and your trust is the reward we hold dearest.
+                            But more than just a service provider, we are partners in your journey. We celebrate your successes, navigate challenges hand in hand with you, and consistently aim for impact. For us, your growth is the compass that guides our actions, and your trust is the reward we hold dearest.
                         </div>
                     </div>
                     <div>
@@ -91,7 +82,8 @@ const Brands = () => {
                         <div className="vision-para">Our aim is to be the trusted partner for clients, helping elevate brands globally through marketing expertise and digital solutions based on genuine insights.</div>
                     </div>
                     <div>
-                        <VisionIcon />
+                        {/* <VisionIcon /> */}
+                        <img src={abmiss} alt="abmiss" />
                     </div>
                 </div>
             </div>

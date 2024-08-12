@@ -1,14 +1,17 @@
 import React from 'react'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import aboutimg from "../../assests/aboutimg.jpg"
+import aboutimg from "../../assests/aboutfull.png"
 
 
 const AboutUsImg = () => {
     return (
-        <div className='AboutUsImg'>
+        <div
+            // className='AboutUsImg'
+            className='ContactUsImg'
+        >
             <div>
-                <div className='heading-color'>ABOUT US </div>
-                <div className="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</div>
+                <div className='heading-color-about'>ABOUT US </div>
+                <div className="para-about">Mobile designs and builds software for mobile devices, working alongside our clients.</div>
                 <button className='enquire'>Enquire Now <ArrowForwardIcon /></button>
             </div>
             <div>
