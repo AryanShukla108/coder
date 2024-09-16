@@ -12,6 +12,7 @@ export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen2, setIsMenuOpen2] = useState(false);
 
   const handleMouseEnter = () => {
     setIsOpen(true);
@@ -65,6 +66,14 @@ const dropdownCategories = [
   const toggleMenu = () => {
     setIsMenuOpen(prevState => !prevState); 
   }
+
+  const toggleMenu2 = () => {
+    setIsMenuOpen2(prevState => !prevState); 
+  }
+
+  const handleItemClick = (url) => {
+    window.location.href = url
+  };
 
 
   return (
@@ -137,6 +146,33 @@ const dropdownCategories = [
       <div className={`list-box ${isMenuOpen ? 'active' : ''}`} >
       <ul className='list2' >
       <li onClick={() => (window.location.href = 'service')}>Service</li>
+      <div className="dropdown">
+      <button className="dropdown-button" onClick={toggleMenu2}>Categories</button>
+      {
+        isMenuOpen2 &&    <div className="dropdown-content">
+        {dropdownCategories.map((category, index) => (
+          <div key={index} className="dropdown-category">
+            {/* <h4>{category.title}</h4> */}
+            <ul>
+              {category.items.map((item, itemIndex) => (
+                <li 
+                  key={itemIndex} 
+                  onClick={() => handleItemClick(item.url)} 
+                  className="dropdown-item"
+                  style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                >
+                  {item.imgSrc}
+                  <span>{item.label}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      }
+   
+
+    </div>
       <li onClick={() => (window.location.href = 'developer')}>For Developers  </li>
       <li onClick={() => (window.location.href = 'hire')}>Schedule a call</li>
       <div className='nav-btn-box2'>

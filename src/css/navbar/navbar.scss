@@ -195,24 +195,29 @@ margin-left: 1rem;
 
 @media only screen and (max-width: 480px) and (min-width: 300px) { 
   .navbar{
-    width: 90vh;
+    width: 100%;
+
+
+    // .logo-box {
+    //   width: 100%; 
+    // }
 
     .list2 {
       flex-direction: column;
       margin: 0;
       padding: 0;
       align-items: center;
-      height: 50vh;
-      padding-top: 6vh;
+      height: fit-content;
+      text-align: center;
 
 
       li{
         margin: 0;
         padding: 10px;
-        font-size: 24px !important;
+        font-size: 16px !important;
         line-height: 30px;
         font-family: "Montserrat" !important;
-        font-weight: 700 !important;
+        font-weight: 500 !important;
       }
   }
 
@@ -234,6 +239,16 @@ margin-left: 1rem;
       right: 10px;
       display: block !important;
       cursor: pointer;
+    }
+
+    .dropdown-button{
+      background: none;
+      border: none;
+    }
+
+    .dropdown-content{
+      height: 30vh;
+      overflow-y: auto;
     }
 
     .active  {
