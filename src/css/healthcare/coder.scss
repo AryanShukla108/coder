@@ -19,6 +19,11 @@
     font-size: 45.4px !important;
   }
 
+  .Candidate-box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .small-text {
     font-family: "Poppins";
     margin-bottom: 70px;

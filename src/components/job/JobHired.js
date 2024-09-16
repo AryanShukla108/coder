@@ -236,7 +236,7 @@ const JobHired = () => {
                         <label htmlFor="name">
                             Your Availability For Call
                         </label>
-                        <div className="d-flex" style={{ gap: "22px" }}>
+                        <div className="availibility" style={{ gap: "22px" }}>
                             <div className="d-flex radio-div">
                                 <div> <input type="radio" className="radio" /></div>
                                 <div className="time">10:00 am - 12.00 pm</div>

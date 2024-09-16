@@ -156,3 +156,11 @@ clip-path: polygon(0 0, 101% 0, 100% calc(100% - 70px), 50% 100%, 0 calc(100% - 
       border-radius: 50px;
   }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 340px) {
+   
+  .HirePage  {
+    width: 650px !important;
+  }
+
+}

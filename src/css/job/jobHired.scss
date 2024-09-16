@@ -6,12 +6,17 @@
 position: relative;
 width: 40%;
     }
-
+ 
     .jobimg{
         object-fit: contain;
         width: 100%;
         // width: 720px;
             // height: 1168px;
+    }
+
+    .availibility{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .text{
@@ -205,4 +210,28 @@ width: 40%;
                         border-radius: 80px;
 
                    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {  
+    .JobHired{
+        flex-direction: column;
+
+        .img-div{
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+
+        .jobimg{
+            width: 100%;
+        }
+
+        .form-job{
+            background: white ;
+            width: 100%;
+            position: absolute;
+            z-index: 10;
+            top: 60vh;
+        }
+    }
 }

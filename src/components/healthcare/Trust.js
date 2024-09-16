@@ -2,7 +2,7 @@ import React from 'react'
 
 const Trust = () => {
     return (
-        <div className='Trust-care d-flex justify-content-center'>
+        <div className='Trust-care '>
             <div className='box d-flex'>
                 <div className='box-1'>
                     <div className='current-icon'>

@@ -1,5 +1,7 @@
 .Trust-care{
     padding: 0px 102px 72px 102px;
+    display: flex;
+    justify-content: center;
 
     .box{
         border: 1px solid #EA4232;
@@ -47,3 +49,14 @@
     }
 
 }
+
+@media only screen and (max-width: 480px) and (min-width: 340px) {
+   
+    .Trust-care  {
+
+        .box{
+      flex-wrap: wrap;
+      height: fit-content !important;
+    }}
+  
+  }

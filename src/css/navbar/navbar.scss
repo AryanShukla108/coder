@@ -183,4 +183,75 @@ margin-left: 1rem;
         background-color: #f0f0f0;
       }
 
+      .list-box{
+        display: none !important;
+    }
+
+    .ham{
+      display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) { 
+  .navbar{
+    width: 90vh;
+
+    .list2 {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      height: 50vh;
+      padding-top: 6vh;
+
+
+      li{
+        margin: 0;
+        padding: 10px;
+        font-size: 24px !important;
+        line-height: 30px;
+        font-family: "Montserrat" !important;
+        font-weight: 700 !important;
+      }
+  }
+
+  .list{
+    display: none;
+  }
+
+    .logo-box {
+      width: 40% !important; 
+    }
+
+    .nav-btn-box{
+      display: none !important;
+    }
+
+    .ham{
+      width: 20%;
+      position: absolute;
+      right: 10px;
+      display: block !important;
+      cursor: pointer;
+    }
+
+    .active  {
+      display: flex !important; 
+      flex-direction: column;
+      margin-top: 3.5vh;
+  }
+
+  .list-box {
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 50px; 
+    right: 0;
+    z-index: 1000;
+    background: white;
+   
+    
+}
+  }
 }

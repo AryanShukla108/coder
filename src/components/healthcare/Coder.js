@@ -15,7 +15,7 @@ const Coder = () => {
                 </span>
                 , ensuring each addition to your team aligns with your exact needs.
             </div>
-            <div className="d-flex" style={{ gap: "35px" }}>
+            <div className="Candidate-box " style={{ gap: "35px" }}>
                 <div className="box">
                     <div className="bolder-red">
                         <ArrowBackIosNewIcon className="ArrowBackIosNewIcon" />

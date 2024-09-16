@@ -81,7 +81,7 @@ const HealthCareLanding = () => {
 
     return (
         <div className="HealthCareLanding">
-            <div className="row d-flex justify-content-between">
+            <div className="row HealthCareLanding-main">
                 <div className="col-6 hire-health">
                     {showHealthcare && (
                         <div className="heading-main" onClick={() => handleNavigation("healthcare-companies")}>
