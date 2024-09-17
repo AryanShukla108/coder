@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Service from "./Service";
 import pythontxt from "../../assests/pythontext.png";
 import swift from "../../assests/swift.png";
@@ -14,6 +14,26 @@ import Customer from "./Customer";
 import bannerhome from "../../assests/bannerhome.png"
 
 export default function HomePage() {
+
+  const images = [
+    { src: pythontxt, alt: 'pythontxt' },
+    { src: swift, alt: 'swift' },
+    { src: java, alt: 'java' },
+    { src: kotlin, alt: 'kotlin' },
+    { src: node, alt: 'node' },
+    { src: Angular, alt: 'Angular' }
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 1000);
+
+    return () => clearInterval(interval); // Clean up interval on unmount
+  }, [images.length]);
+
   return (
     <div className="Homepage">
       <div className="landing-box-main">
@@ -30,7 +50,7 @@ export default function HomePage() {
             </div>
 
             <div className="btn-box">
-              <button className="start-btn"  onClick={() => (window.location.href = 'hire')}>Let's get started!</button>
+              <button className="start-btn" onClick={() => (window.location.href = 'hire')}>Let's get started!</button>
               <button className="start-btn2" onClick={() => (window.location.href = 'hire')}>
                 <svg
                   width="42"
@@ -102,6 +122,39 @@ export default function HomePage() {
           <div>
             <img src={Angular} alt="Angular" className="img-homepage" />
           </div>
+        </div>
+
+        <div className="landing-bar-mobile">
+          <div>
+            <div className="head-main">Our Technology Strengths Fueled by:</div>
+          </div>
+
+          <div>
+            <img
+              src={images[currentImageIndex].src}
+              alt={images[currentImageIndex].alt}
+              className="img-homepage"
+            />
+          </div>
+
+          {/* <div>
+            <img src={pythontxt} alt="pythontxt" className="img-homepage" />
+          </div>
+          <div>
+            <img src={swift} alt="swift" className="img-homepage" />
+          </div>
+          <div>
+            <img src={java} alt="swift" className="img-homepage" />
+          </div>
+          <div>
+            <img src={kotlin} alt="kotlin" className="img-homepage" />
+          </div>
+          <div>
+            <img src={node} alt="node" className="img-homepage" />
+          </div>
+          <div>
+            <img src={Angular} alt="Angular" className="img-homepage" />
+          </div> */}
         </div>
       </div>
 
