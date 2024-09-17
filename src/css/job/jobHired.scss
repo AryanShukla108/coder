@@ -228,10 +228,38 @@ width: 40%;
 
         .form-job{
             background: white ;
-            width: 100%;
+            width: 95%;
+
             position: absolute;
             z-index: 10;
             top: 60vh;
+            margin: 0px 10px;
+            border-radius: 9px;
+            box-shadow: 0px 25px 50px -12px #0D102D1A;
+
+box-shadow: 0px 12px 24px 0px #0D102D1A;
+
+        }
+
+        .row{
+            flex-direction: column !important;
+        }
+
+        .col-6{
+            max-width: 100% !important;
+        }
+
+        .form-control{
+            margin: 10px 0px !important;
+        }
+
+        .p-dropdown{
+            margin: 10px 0px !important;
+        }
+
+        .resume{
+            height: fit-content !important;
+            padding: 10px;
         }
     }
 }
