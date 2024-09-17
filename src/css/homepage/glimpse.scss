@@ -173,3 +173,133 @@
                     line-height: 27px;
   }
 }
+
+
+@media only screen and (max-width: 480px) and (min-width: 390px) {
+  .Glimpse{
+     
+    .sm-team{
+      font-size: 10px;
+    }
+
+    .b-head{
+      width: 336px;
+      font-size: 22px;
+    }
+
+    .s-head{
+      font-size: 12px;
+      width: 350px;
+    }
+
+            .cards-container {
+              display: flex;
+              flex-direction: column;
+              /* Switch to column layout */
+              overflow-y: auto;
+              /* Enable vertical scrolling */
+              // max-height: 100vh;
+              max-height: 836px;
+              /* Limit height to screen size */
+              gap: 20px;
+              /* Adjust gap between cards */
+              padding: 10px;
+            }
+      
+            /* Hide scrollbar for Chrome, Safari, and Opera */
+            .cards-container::-webkit-scrollbar {
+              display: none;
+            }
+      
+            /* Hide scrollbar for IE, Edge, and Firefox */
+            .cards-container {
+              -ms-overflow-style: none;
+              /* IE and Edge */
+              scrollbar-width: none;
+              /* Firefox */
+            }
+      
+            .container {
+              width: 100%;
+              /* Full width for smaller screens */
+              height: auto;
+              /* Allow height to adjust with content */
+              margin-bottom: 20px;
+              /* Add spacing between cards */
+            }
+      
+            .img-container {
+              width: 100%;
+              // height: auto;
+                      height: 364px;
+              /* Maintain aspect ratio of the image */
+              border-radius: 15px !important;
+              /* Smaller border radius */
+              margin-top: 10px;
+            }
+      
+            .img-container::before {
+              border-radius: 15px;
+            }
+      
+            .img-banner {
+              width: 100%;
+              height: auto;
+              /* Responsive height */
+              object-fit: cover;
+              /* Cover the container properly */
+              border-radius: 15px;
+            }
+      
+            .img-container::after {
+              border-radius: 15px;
+            }
+      
+            .sm-container {
+              width: 94%;
+              display: flex;
+              justify-content: center;
+              bottom: 14px;
+              /* Adjust bottom space */
+              padding: 0px;
+              /* Smaller padding */
+            }
+      
+            .inner-container {
+              width: 300px;
+              /* Full width for smaller screens */
+              padding: 15px;
+              /* Reduced padding */
+              height: fit-content;
+              /* Let height adjust */
+              border-radius: 12px;
+              border: 1px solid #EA4232;
+            }
+      
+            .name {
+              font-size: 18px;
+              /* Adjust font size for smaller screens */
+              line-height: 26px;
+            }
+      
+            .tittle {
+              font-size: 14px;
+              line-height: 22px;
+            }
+      
+            .circle {
+              width: 50px;
+              /* Smaller circle for mobile */
+              height: 50px;
+              padding: 6px;
+              border-radius: 50%;
+            }
+      
+            .inner-circle {
+              width: 35px;
+              /* Adjusted size for inner circle */
+              height: 35px;
+            }
+
+  }
+}

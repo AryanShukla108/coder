@@ -166,3 +166,20 @@ font-family: "Poppins";
     background: linear-gradient(90deg, #FFCC21 0%, #EA4335 100%);
   }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px){
+  .LedTeam{
+    padding: 0;
+    margin-top: 74px;
+
+    .mySwiper{
+      .swiper-wrapper{
+        width: 261px;
+      }
+    }
+
+    .s-head{
+      width: 100%;
+    }
+  }
+}

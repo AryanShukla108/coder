@@ -149,33 +149,122 @@
     margin-bottom: 4px;
   }
 
-  .box-skilss{
+  .box-skilss {
     width: 114.31px;
-        height: 42px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 8px;
-        border: 1px solid #febf24;
-        font-family: "Poppins";
-            font-size: 12.25px;
-            font-weight: 500;
-            line-height: 21px;
-            color: #212529;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #febf24;
+    font-family: "Poppins";
+    font-size: 12.25px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #212529;
   }
 
-  .lets-connect{
+  .lets-connect {
     margin-top: 33px;
     width: 730px;
-        height: 52px;
-        border-radius: 50px;
-        border: none;
-        background: #EA4232;
-        font-family: "Poppins";
-            font-size: 16.73px;
-            font-weight: 500;
-            line-height: 24px;
-            text-align: center;
-            color: #FFFFFF;
+    height: 52px;
+    border-radius: 50px;
+    border: none;
+    background: #ea4232;
+    font-family: "Poppins";
+    font-size: 16.73px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 390px) {
+  .Connect-hire {
+    flex-direction: column;
+
+    .hire-parent {
+      order: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .form-hire-page {
+      width: 350px;
+      padding: 20px;
+      box-shadow: 0px 25px 50px -12px rgba(13, 16, 45, 0.1);
+      box-shadow: 0px 12px 24px 0px rgba(13, 16, 45, 0.1);
+      border-radius: 9px;
+    }
+
+    div {
+      order: -1;
+    }
+
+    .hire-img {
+      width: 100%;
+    }
+
+    .heading-main,
+    .heading-color {
+      line-height: 30px;
+      font-size: 22px !important;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    .info{
+      margin-bottom: 12px;
+        font-size: 15.47px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    
+    .mail-phone{
+      display: flex;
+      flex-direction: column;
+
+      .col-6{
+        max-width: none;
+      }
+    }
+
+    .job-card{
+      gap: 27px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .box{
+      width: 141px;
+        height: 68px;
+        border-radius: 12px;
+
+        svg{
+          width: 30px;
+          height: 30px;
+        }
+
+        .txt{
+          margin-top: 6px;
+          font-size: 14px;
+        }
+    }
+
+    .languages-card{
+      flex-wrap: wrap;
+      gap: 8px !important;
+    }
+
+    .lets-connect{
+    width: 168px;
+      height: 40px;
+      border-radius: 11px;
+      
+
+    }
   }
 }

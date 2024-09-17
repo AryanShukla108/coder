@@ -104,3 +104,17 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px) {
+  .slider-service{
+    padding: 12px;
+    .service-head{
+      font-family: "Poppins";
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 55px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+  }
+}
