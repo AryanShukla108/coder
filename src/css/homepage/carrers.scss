@@ -134,3 +134,164 @@
     margin-top: 40px;
   }
 }
+
+.Carrers-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 390px){
+  .Carrers{
+display: none;
+  }
+
+  .Carrers-mobile{
+    display: block;
+
+      padding: 67px 35px;
+        display: flex;
+        justify-content: center;
+      
+        .carrers-card {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          // padding: 49.9px 12px 79.81px 12px;
+          padding: 20px;
+          // width: 1370px;
+          height: fit-content;
+          border-radius: 20px;
+          border: 1px solid #ea4232;
+          background: #fff9f3;
+        }
+      
+        .head1 {
+          font-family: "Poppins";
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 43.2px;
+          text-align: center;
+          color: #133b58;
+          margin-bottom: 10px;
+        }
+      
+        .head2 {
+          font-family: "Poppins";
+          width: 336px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          color: #4c4c4d;
+          margin-bottom: 70px;
+      
+          span {
+            font-family: "Poppins";
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #ea4232;
+          }
+        }
+      
+        .btn {
+          border-radius: 35px;
+          height: 34px;
+          background: linear-gradient(to right, #ffcc21 0%, #ea4335 100%);
+          font-weight: 400;
+          font-size: 14px;
+          border: none;
+          padding: 4px 35px 4px 35px;
+          margin-top: 20px;
+          cursor: pointer;
+          color: white;
+        }
+      
+        .job-cards-container {
+          // display: flex;
+          // flex-wrap: wrap;
+          // gap: 29px;
+
+          display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            max-height: 490px;
+            gap: 27px;
+        }
+      
+        .job-card {
+          display: flex;
+          background-color: white;
+          width: 310px;
+          height: auto;
+          border-radius: 8px;
+          padding: 20px;
+          border: 1px solid #ea4232;
+          box-shadow: 0px 4px 20px 0px #0000001A;
+
+            flex: 0 0 auto;
+              margin-bottom: 10px;
+              /* Space between cards */
+              transition: transform 1s ease-in-out;
+      
+        }
+      
+        .trend {
+          padding: 6px 8px 2px 8px;
+          height: 35px;
+          border-radius: 30px;
+          opacity: 0px;
+          border: 1px solid #ea4232;
+          color: #ea4232;
+      
+          margin-left: 1rem;
+          margin-top: 20px;
+      
+          svg {
+            margin-right: 5px;
+          }
+        }
+      
+        .tittle {
+          font-family: "Poppins";
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24px;
+          text-align: left;
+          color: #35302f;
+          margin-bottom: 9.5px;
+        }
+      
+        .sm-title {
+          font-family: "Poppins";
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 21px;
+          color: #7e7275;
+          display: flex;
+      
+          span {
+            font-family: "Poppins";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21px;
+            text-align: left;
+          }
+        }
+      
+        .carrers-btn {
+          border: none;
+          height: 46px;
+          padding: 14px 30px;
+          border-radius: 25px;
+          background: linear-gradient(90deg, #febf24 0%, #ea4232 100%);
+          font-family: "Poppins";
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 18px;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 40px;
+        }
+  }
+
+}

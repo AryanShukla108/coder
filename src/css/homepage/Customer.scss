@@ -131,3 +131,36 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px){
+  .Customer{
+    padding: 0;
+
+    .head1,.head2{
+      font-family: "Poppins";
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .mySwiper{
+      width: 100%;
+    }
+
+    .swiper{
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+        .mySwiper .swiper-wrapper .swiper-slide-active{
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+                .mySwiper .swiper-wrapper .review{
+                  padding: 20px;
+                  height: 30vh;
+                }
+  }
+}

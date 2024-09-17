@@ -24,7 +24,7 @@ export default function App() {
         <title>{getTitleFromRoute(location.pathname)}</title>
       </Helmet>
       <Suspense fallback={<div>Loading...</div>}>
-      {pathname === "/hire" || pathname === "/job" ? "" : <Float />}
+        {pathname === "/hire" || pathname === "/job" ? "" : <Float />}
         {pathname === "/hire" || pathname === "/job" ? "" : <NavBar />}
         <Routes>
           {router.map((route) => (
@@ -32,8 +32,8 @@ export default function App() {
           ))}
         </Routes>
         {pathname === "/hire" || pathname === "/job" ? "" : <Faq />}
-        {pathname === "/hire" || pathname === "/job" ? "" : <Footer />}
-   
+        {/* {pathname === "/hire" || pathname === "/job" ? "" : <Footer />} */}
+
       </Suspense>
     </PrimeReactProvider>
   );
