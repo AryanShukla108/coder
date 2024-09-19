@@ -32,7 +32,7 @@ export default function App() {
           ))}
         </Routes>
         {pathname === "/hire" || pathname === "/job" ? "" : <Faq />}
-        {/* {pathname === "/hire" || pathname === "/job" ? "" : <Footer />} */}
+        {pathname === "/hire" || pathname === "/job" ? "" : <Footer />}
 
       </Suspense>
     </PrimeReactProvider>
