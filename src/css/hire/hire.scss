@@ -1,4 +1,6 @@
 .Connect-hire {
+  display: flex;
+
   .form-hire-page {
     padding: 62px 41px 62px 50px;
     width: 916px;
@@ -180,9 +182,9 @@
   }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 390px) {
+@media only screen and (max-width: 480px) and (min-width: 300px) {
   .Connect-hire {
-    flex-direction: column;
+    flex-direction: column !important;
 
     .hire-parent {
       order: 0;
@@ -191,6 +193,7 @@
       align-items: center;
       margin-bottom: 50px;
     }
+    
 
     .form-hire-page {
       width: 350px;
@@ -198,6 +201,10 @@
       box-shadow: 0px 25px 50px -12px rgba(13, 16, 45, 0.1);
       box-shadow: 0px 12px 24px 0px rgba(13, 16, 45, 0.1);
       border-radius: 9px;
+      position: absolute;
+      top: 85vh;
+      z-index: 10;
+      background: #FFFAF5;
     }
 
     div {
@@ -206,6 +213,7 @@
 
     .hire-img {
       width: 100%;
+      position: fixed;
     }
 
     .heading-main,

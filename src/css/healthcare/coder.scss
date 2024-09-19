@@ -84,3 +84,22 @@
         color: #1D2434B8;
   }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 340px) { 
+  .Coder-health{
+    padding: 30px !important;
+    width: fit-content;
+
+    .heading-main{
+      width: 100% !important;
+      font-size: 36px !important;
+      text-align: left !important;
+    }
+
+    .Candidate-box{
+      flex-direction: column !important;
+      flex-wrap: nowrap;
+    }
+    
+  }
+}

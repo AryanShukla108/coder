@@ -110,3 +110,20 @@ height: 18px;
             text-decoration: underline;
         }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 340px) {
+
+    .CodeLanguages{
+        padding: 50px !important;
+        width: fit-content !important;
+        margin: auto;
+
+        .call{
+            height: fit-content !important;
+        }
+
+        .expert{
+            height: fit-content !important;
+        }
+    }
+}

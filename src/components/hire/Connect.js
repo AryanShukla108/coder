@@ -6,7 +6,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 const Connect = () => {
     return (
-        <div className="Connect-hire d-flex">
+        <div className="Connect-hire">
             <div className="hire-parent">
                 <div className="form-hire-page">
                     <div className="heading-main">
