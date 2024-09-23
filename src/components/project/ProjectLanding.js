@@ -1,31 +1,41 @@
 import React from "react";
-import project from "../../assests/projectimg.png"
-import bg from "../../assests/projectbg.png"
+import { useParams } from "react-router-dom";
+
+// Example project data (in a real-world scenario, this would come from a database or API)
+const projectData = {
+    1: {
+        title: "The AI-Powered Literacy App for Kids",
+        description: "Bibli's founders, former Teach for India educators, witnessed the literacy gap firsthand.",
+        creator: "Teach for India",
+        category: "EdTech",
+    },
+    2: {
+        title: "E-Commerce Platform",
+        description: "A robust platform for small businesses.",
+        creator: "XYZ Corp",
+        category: "E-Commerce",
+    },
+};
 
 const ProjectLanding = () => {
+    const { projectId } = useParams();
+    const project = projectData[projectId]; 
+
+    if (!project) {
+        return <div>Project not found</div>;
+    }
+
     return (
         <div className="ProjectLanding">
-            {/* <div className="head">
-                <div className="heading-color">Portfolio</div>
-                <div className="sm-head">
-                    Check our recent works we delivered to our clients
-                </div>
-            </div> */}
             <div className="img-sec">
                 <div className="text-section">
-                    <div className="very-small">EdTech</div>
-                    <div className="big-text">The AI-Powered Literacy App for Kids</div>
-                    <div className="para">
-                        Bibli's founders, former Teach for India educators, witnessed the
-                        literacy gap firsthand. So, they set out to create a learning app
-                        that could change the game.
-                    </div>
+                    <div className="very-small">{project.category}</div>
+                    <div className="big-text">{project.title}</div>
+                    <div className="para">{project.description}</div>
+                    <div className="creator">Created by: {project.creator}</div>
                 </div>
-                <div className="sm-img">
-                    <img src={project} alt="project" className="img-project" />
-                </div>
+               
             </div>
-            <div><img src={bg} alt="bg" className="w-100" /></div>
         </div>
     );
 };
