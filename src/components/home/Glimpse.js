@@ -1,7 +1,7 @@
 import React from 'react'
 import glimpse1 from "../../assests/hezky.png"
-import glimpse2 from "../../assests/glimpse2.png"
-import glimpse3 from "../../assests/glimpse3.png"
+import glimpse2 from "../../assests/jedlo.png"
+import glimpse3 from "../../assests/kotak.png"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 
@@ -11,8 +11,8 @@ import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 const Glimpse = () => {
     const imgData = [
         { banner: glimpse1, name: "Hezky Tech", tittle: "Monitoring" },
-        { banner: glimpse2, name: "Zenith Gym Website", tittle: "Web Design" },
-        { banner: glimpse3, name: "Klothink E-commence", tittle: "Web Design" },
+        { banner: glimpse2, name: "jedlo app", tittle: "Food Delivery" },
+        { banner: glimpse3, name: "zurich kotak", tittle: "Insurance" },
     ];
     return (
         <div className='Glimpse'>
