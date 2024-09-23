@@ -94,6 +94,9 @@ height: 18px;
                     border: none;
         }
 
+        .btn-box{
+            display: flex;
+        }
         .expert{
         // width: 230px;
             height: 50px;
@@ -114,16 +117,51 @@ height: 18px;
 @media only screen and (max-width: 480px) and (min-width: 340px) {
 
     .CodeLanguages{
-        padding: 50px !important;
-        width: fit-content !important;
+        padding: 0px !important;
         margin: auto;
 
         .call{
             height: fit-content !important;
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 10px;
         }
 
         .expert{
             height: fit-content !important;
+            padding: 5px;
+        }
+
+        .box{
+            padding: 10px !important;
+        }
+
+        .check-data{
+            flex-wrap: wrap;
+        }
+
+        .head{
+            font-size: 22px;
+            margin-bottom: 0px;
+        }
+
+        .skill-card{
+            width: 100px;
+            height: 100px;
+            padding: 5px !important;
+
+            img{
+                margin-left: 10px;
+            }
+        }
+
+        .skills-container{
+            justify-content: center;
+        }
+
+        .btn-box{
+            flex-direction: column;
+            gap: 10px !important;
         }
     }
 }

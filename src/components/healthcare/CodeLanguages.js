@@ -63,7 +63,7 @@ const CodeLanguages = () => {
                         </div>
                     ))}
                 </div>
-                <div className="d-flex" style={{ gap: "29px" }}>
+                <div className="btn-box" style={{ gap: "29px" }}>
                     <button className="call" onClick={() => (window.location.href = '/hire')}>Schedule a call <ArrowForwardIcon /></button>
                     <button className="expert" onClick={() => (window.location.href = '/hire')}>Talk to our experts? <ArrowForwardIcon /></button>
                 </div>

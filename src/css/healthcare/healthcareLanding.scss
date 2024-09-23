@@ -170,10 +170,34 @@
     .hire-health{
       max-width: 100% !important;
       width: 100%;
+      padding: 5px;
     }
 
     .heading-main{
-      width: max-content;
+      width: 100%;
+      font-size: 22px !important;
+      line-height: 30px !important;
+    }
+
+    .heading-color{
+      font-size: 22px !important;
+    }
+
+    .small-text{
+      width: 100% !important;
+    }
+
+    .hireNowContainer{
+      width: 100%;
+    }
+
+    .form-page-health{
+      max-width: 100% !important;
+      width: 100%;
+    }
+
+    .hireButton{
+      padding: 5px 8px;
     }
  
   } 

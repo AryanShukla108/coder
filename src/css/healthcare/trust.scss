@@ -53,13 +53,37 @@
 @media only screen and (max-width: 480px) and (min-width: 340px) {
    
     .Trust-care  {
-        width: 350px;
+        width: 100% !important;
         margin: auto;
-        justify-content: normal !important;
+        padding: 10px;
 
         .box{
       flex-wrap: wrap;
       height: fit-content !important;
-    }}
+    }
+
+    .box-1{
+        width: 100% !important;
+        padding: 10px;
+        height: fit-content !important;
+        display: flex;
+    }
+
+    .head{
+        font-size: 22px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .current-icon{
+        width: 44px;
+        height: 44px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .sm-head{
+        font-size: 12px !important;
+    }
+}
   
   }

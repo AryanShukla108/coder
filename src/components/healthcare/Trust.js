@@ -17,9 +17,12 @@ const Trust = () => {
                         </svg>
 
                     </div>
+                    <div>
                     <div className='head'>Faster</div>
                     <div className='sm-head'>Get top vetted profiles
                         within 24-48 hours</div>
+                    </div>
+                    
                 </div>
                 <div className='box-1'>
                     <div className='current-icon'>
@@ -35,9 +38,12 @@ const Trust = () => {
 
 
                     </div>
+                    <div>
                     <div className='head'>Reliable</div>
                     <div className='sm-head'>Dedicated Account Manager Just one
                         email/whatsapp away</div>
+                    </div>
+                  
                 </div>  <div className='box-1'>
                     <div className='current-icon'>
                         <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,13 +63,16 @@ const Trust = () => {
 
 
                     </div>
+                    <div>
+
+                
                     <div className='head'>Assurance</div>
                     <div className='sm-head'>
                         {/* <p>4.6 Google </p> */}
                         {/* <p> 4.4 Clutch</p> */}
                         {/* <p> 4.8 G2</p> */}
                         Our team comprises seasoned professionals with years of experience across various industries.
-                    </div>
+                    </div>    </div>
                 </div>
             </div>
         </div>

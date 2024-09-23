@@ -160,14 +160,26 @@ clip-path: polygon(0 0, 101% 0, 100% calc(100% - 70px), 50% 100%, 0 calc(100% - 
 @media only screen and (max-width: 480px) and (min-width: 340px) {
    
   .HirePage  {
-    width: 650px !important;
+    width: 100% !important;
     padding: 51px 10px !important;
 
 
     .HirePage-card{
-      flex-wrap: nowrap;
       overflow-x: auto;
       height: 70vh;
+    }
+    
+    .health-submit{
+      padding: 5px 16px;
+      margin-top: 40px;
+    }
+
+    .heading-main{
+      font-size: 22px;
+    }
+    
+    .heading-color{
+      font-size: 22px !important;
     }
   }
 
