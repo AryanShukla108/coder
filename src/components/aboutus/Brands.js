@@ -45,7 +45,7 @@ const Brands = () => {
             </div>
             <div className="box-main">
                 <div className="box">
-                    <div>
+                    <div className="one-box">
                         <div className="para">
                             For over 10 years, we've been the silent force behind numerous brands, catalyzing their growth through insights, ideas and impact. With a legacy of working on 1000+ projects for 50+ brands and managing over 1+ crores of media budget, we have solidified our position as industry leaders.
                         </div>
@@ -56,7 +56,7 @@ const Brands = () => {
                             But more than just a service provider, we are partners in your journey. We celebrate your successes, navigate challenges hand in hand with you, and consistently aim for impact. For us, your growth is the compass that guides our actions, and your trust is the reward we hold dearest.
                         </div>
                     </div>
-                    <div>
+                    <div className="two-box">
                         <div className="heading-txt">
                             <span className="heading-color txt">Join us</span>, and together,
                             let's co-create stories of business success.

@@ -1,114 +1,212 @@
-.aboutus-brands{
-    padding: 51px 71px 0px 71px;
+.aboutus-brands {
+  padding: 51px 71px 0px 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .head {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 46px;
+    text-align: center;
+    color: #1d2434;
+    margin-bottom: 51px;
+  }
+
+  .heading-color {
+    font-size: 30px !important;
+  }
+
+  .brand-name {
+    padding: 25px 75px;
+    border: 1px solid #fdc023;
+    border-radius: 30px;
     display: flex;
-    justify-content: center;
+    gap: 35px;
     align-items: center;
-    flex-direction: column;
+    // background: #CACACA;
+  }
 
-    .head{
-        font-family: "Poppins";
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 46px;
-            text-align: center;
-            color: #1D2434;
-            margin-bottom: 51px;
+  .brands-img {
+    width: 120px;
+    height: 50.45px;
+    object-fit: contain;
+  }
+
+  .brands-img-3 {
+    width: 129px;
+    height: 72px;
+    object-fit: cover;
+  }
+
+  .brands-img-4 {
+    width: 150px;
+    height: 72px;
+    object-fit: cover;
+  }
+
+  .box-main {
+    margin-top: 89px;
+    margin-bottom: 84px;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #febf24;
+    border-radius: 36px;
+    background: #fff9f3;
+    padding: 40px 15px 35px 81px;
+  }
+
+  .para {
+    margin-right: 84px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.9px;
+    text-align: left;
+    color: #133b58;
+    width: 594px;
+    margin-bottom: 6px;
+  }
+
+  .heading-txt {
+    width: 552px;
+    font-family: "Poppins";
+    font-size: 62px !important;
+    font-weight: 600;
+    line-height: 73.47px;
+    text-align: left;
+    color: #133b58;
+  }
+
+  .txt {
+    font-size: 62px !important;
+  }
+
+  .vision {
+    margin-bottom: 16px;
+  }
+
+  .inner-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 109px;
+  }
+
+  .vision-head {
+    font-size: 72px !important;
+  }
+
+  .vision-para {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37.2px;
+    text-align: left;
+    width: 742px;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 390px) {
+  .aboutus-brands {
+    padding: 66px 19px;
+
+    .head {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 30px;
+      margin-bottom: 36px;
     }
 
-    .heading-color{
-         font-size: 30px !important;
+    .heading-color {
+      font-size: 22px !important;
+      font-weight: 600;
+      line-height: 30px;
     }
 
-    .brand-name{
-        padding: 25px 75px;
-        border: 1px solid #FDC023;
-        border-radius: 30px;
-        display: flex;
-        gap: 35px;
-        align-items: center;
-            // background: #CACACA;
+    .brand-name {
+      width: 360px;
+      // height: 60px;
+      padding: 0px 9px;
+      gap: 12px;
+      display: flex;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      /* Firefox */
     }
 
-    .brands-img{
-        width: 120px;
-            height: 50.45px;
-            object-fit: contain;
+    .brand-name::-webkit-scrollbar {
+      display: none;
+      /* Chrome, Safari, Opera */
     }
 
-    .brands-img-3{
-        width: 129px;
-            height: 72px;
-            object-fit: cover;
+    .brands-img,
+    .brands-img-3 {
+      width: 104px;
+      height: 32px;
     }
-
-         .brands-img-4 {
-             width: 150px;
-             height: 72px;
-             object-fit: cover;
-         }
 
     .box-main{
-        margin-top: 89px;
-        margin-bottom: 84px;
+        margin-top: 66px;
+        margin-bottom: 43px;
     }
 
     .box{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border: 1px solid #FEBF24;
+        flex-direction: column;
         border-radius: 36px;
-        background: #FFF9F3;
-        padding: 40px 15px 35px 81px;
+        padding: 33px 15px;
     }
 
-    .para{
-        margin-right: 84px;
-        font-family: "Poppins";
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 27.9px;
-            text-align: left;
-            color: #133B58;
-            width: 594px;
-            margin-bottom: 6px;
+    .one-box{
+        order: 0;
+    }
+
+    .two-box{
+        order: -1;
+        margin-bottom: 23px;
     }
 
     .heading-txt{
-        width: 552px;
-        font-family: "Poppins";
-            font-size: 62px !important;
+                width: 322px;
+            font-size: 22px !important;
             font-weight: 600;
-            line-height: 73.47px;
-            text-align: left;
-            color: #133B58;
+            line-height: 26.4px;
     }
 
-    .txt{
-        font-size: 62px !important;
-    }
-
-    .vision{
-        margin-bottom: 16px;
+    .para{
+        font-size: 12px;
+            font-weight: 500;
+            line-height: 18.6px;
+            width: 100%;
     }
 
     .inner-vision{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 109px;
-    }
+        gap: 13px;
 
-    .vision-head{
-        font-size: 72px !important;
+        svg{
+            width: 131px;
+                height: 99.43px;
+        }
+
+        img{
+            width: 131px;
+                height: 99.43px;
+                object-fit: contain;
+        }
     }
 
     .vision-para{
-        font-family: "Poppins";
-            font-size: 24px;
+        width: 100%;
+            font-size: 12px;
             font-weight: 400;
-            line-height: 37.2px;
-            text-align: left;
-            width: 742px;
+            line-height: 18.6px;
     }
+  }
 }
