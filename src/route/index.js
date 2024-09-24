@@ -184,4 +184,8 @@ export const router = [
     path: '/more-project',
     element: <ProjectMore />
   },
+  {
+    path: '/project/:id',
+    element: <Project />
+  }
 ]  

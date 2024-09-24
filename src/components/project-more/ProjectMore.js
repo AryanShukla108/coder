@@ -5,6 +5,8 @@ import glimpse1 from "../../assests/hezky.png"
 import glimpse2 from "../../assests/jedlo.png"
 import glimpse3 from "../../assests/kotak.png"
 import glimpse4 from "../../assests/locume.png"
+import glimpse5 from "../../assests/agro.png"
+import glimpse6 from "../../assests/vakil.png"
 
 const ProjectMore = () => {
     const projectsData = [
@@ -13,7 +15,7 @@ const ProjectMore = () => {
             name: "JedloApp",
             url: "https://jedloapp.in",
             description: "A robust food delivery application providing users with a wide selection of restaurants and cuisines. The platform ensures smooth navigation and easy ordering, coupled with secure payment integration.",
-            image: glimpse1, // replace with actual image path if available
+            image: glimpse2, // replace with actual image path if available
           },
           {
             title: "Insurance Platform for Zurich Kotak",
@@ -27,7 +29,13 @@ const ProjectMore = () => {
             name: "Agro Orbit",
             url: "https://agroorbit.com",
             description: "An agricultural platform offering solutions to improve crop yields and farm management. Agro Orbit leverages data analytics and IoT to provide farmers with real-time insights.",
-            image: glimpse2, // replace with actual image path if available
+            image: glimpse5, // replace with actual image path if available
+          },{
+            title: "Innovative Solutions for Hezky Tech",
+            name: "Hezky Tech",
+            url: "https://hezkytech.com", // replace with actual URL if available
+            description: "A technology solutions company offering innovative software and hardware products across multiple industries. Hezky Tech focuses on delivering user-friendly interfaces and cutting-edge technologies.",
+            image: glimpse1, // replace with actual image path if available
           },
           {
             title: "Dental Health Platform for VC Orthodontics",
@@ -68,39 +76,44 @@ const ProjectMore = () => {
             name: "Fisheye Hub",
             url: "https://apps.apple.com/in/app/fisheye-hub/id1286294135",
             description: "A creative media platform offering design and multimedia services to clients, focusing on innovation and customer satisfaction.",
-            image: "https://via.placeholder.com/150", // replace with actual image path if available
-          },
-          {
-            title: "Gaming Platform for Shibnobi Play",
-            name: "Shibnobi Play",
-            url: "https://play.google.com/store/apps/details?id=com.prox.fundacles",
-            description: "A dynamic mobile gaming platform offering a wide range of interactive games, ensuring a smooth and engaging experience for players.",
-            image: "https://via.placeholder.com/150", // replace with actual image path if available
+            image: "https://cdn.leadingedgeonly.com/innovation/fisheye-hub/hvM18HaymJo3sEt7jw0WbuLiMaGyTyxjyvqLykmv-card.jpg", // replace with actual image path if available
           },
          {
             title: "Digital Publishing Solutions for Vakils Pre Media",
             name: "Vakils Pre Media",
             url: "https://www.vakilspremedia.com",
             description: "A digital publishing platform providing end-to-end solutions for printing and media needs, including pre-press, design, and publishing services.",
-            image: "https://via.placeholder.com/150", // replace with actual image path if available
+            image: glimpse6, // replace with actual image path if available
           },{
             title: "Media Broadcasting Platform for Tu Voz Now",
             name: "Tu Voz Now",
             url: "https://www.tuvoznow.com",
             description: "An innovative media platform designed for broadcasting news, opinions, and entertainment. The platform allows users to voice their thoughts and connect with a wider audience.",
-            image: "https://via.placeholder.com/150", // replace with actual image path if available
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTzEVIXxBy6Zg91t5xs2k8prEyYNtz4Tw1g&s", // replace with actual image path if available
           },{
-            title: "Mobile News App for Tu Voz Now",
-            name: "Tu Voz Now - App",
-            url: "https://play.google.com/store/apps/details?id=com.zokoo.tuvoznow&hl=en_IN&gl=US",
-            description: "A mobile app allowing users to stay updated with the latest news and opinions. Users can share their views and contribute to discussions within the platform.",
-            image: "https://via.placeholder.com/150", // replace with actual image path if available
+            title: "Medical Testing Solutions for Vital Lab",
+            name: "Vital Lab",
+            url: "https://vitallab.com",
+            description: "A healthcare company specializing in medical testing and laboratory services. Vital Lab offers accurate diagnostic services with state-of-the-art testing technologies.",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCsBiKoe8FNx31qubRoEHgDd_rJhJHIxQOg&s", // replace with actual image path if available
           },{
-            title: "Innovative Solutions for Hezky Tech",
-            name: "Hezky Tech",
-            url: "https://hezkytech.com", // replace with actual URL if available
-            description: "A technology solutions company offering innovative software and hardware products across multiple industries. Hezky Tech focuses on delivering user-friendly interfaces and cutting-edge technologies.",
-            image: "https://via.placeholder.com/150", // replace with actual image path if available
+            title: "Crowdfunding Platform for Fundacle",
+            name: "Fundacle",
+            url: "https://fundacle.com", // replace with actual URL if available
+            description: "An online crowdfunding platform that helps startups, charities, and projects raise funds from a wide audience. Fundacle simplifies campaign management and supporter engagement.",
+            image: "https://media.licdn.com/dms/image/D5612AQGp153sAUjJJQ/article-cover_image-shrink_720_1280/0/1722293330036?e=2147483647&v=beta&t=ft-pM4pp6Tc-HRrHGOQ5ZR2AqGOI4_0zn_R03_2pGxg", // replace with actual image path if available
+          },{
+            title: "Smart Vehicle Assistance for Otto Buddy",
+            name: "Otto Buddy",
+            url: "https://ottobuddy.com", // replace with actual URL if available
+            description: "A smart vehicle assistant application offering real-time traffic updates, vehicle diagnostics, and driving assistance. Otto Buddy aims to improve driving experiences with advanced safety features.",
+            image: "https://play-lh.googleusercontent.com/qd6aXrYgb1MkzKqsSU9054DhvfbENNi8t8oET5U2m6mZbHMKi2mnR9CXHYq3-NslLJm5", // replace with actual image path if available
+          },{
+            title: "Patient Management System for Mrecord Patient",
+            name: "Mrecord Patient",
+            url: "https://mrecordpatient.com", // replace with actual URL if available
+            description: "A comprehensive patient management platform designed for healthcare providers. Mrecord Patient enables easy record keeping, appointment scheduling, and patient history tracking.",
+            image: "https://cdn.prod.website-files.com/64abb91e69c1429ab62638be/64ba7cfb4b0c2ac2a47329aa_Blog-18---How-to-maintain-Patient-Record_.svg", // replace with actual image path if available
           }
     ];
 
