@@ -27,6 +27,7 @@ display: flex;
     }
 
     .sm-card{
+        width: 280px;
         border-radius: 10px;
         background: linear-gradient(180deg, rgba(254, 191, 36, 0.03) 0%, rgba(234, 66, 50, 0.1) 100%);
         display: flex;
@@ -34,7 +35,7 @@ display: flex;
         // justify-content: space-between;
         border: 1px solid #EA423266;
         padding: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
 
     .sm-card:last-child{
@@ -127,4 +128,55 @@ display: flex;
     }
 
 
+}
+
+@media only screen and (max-width: 480px) and (min-width: 390px){ 
+
+    .SnapShot{
+        padding: 20px;
+
+        .small-other-card{
+            flex-wrap: wrap;
+        }
+
+        .head{
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+
+        .details{
+            flex-direction: column !important; 
+        }
+
+        .in-head{
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .other-card{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+            .result{
+                margin: auto !important;
+            }
+
+            .box{
+                width: fit-content;
+            }
+
+            .sm-card-main{
+                margin: auto;
+            }
+        
+            .sm-card{
+                width: 280px;
+                padding: 10px;
+                margin: auto;
+            }
+    }
 }

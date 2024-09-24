@@ -22,13 +22,23 @@
 
     .img-sec{
         display: flex;
-        justify-content: space-between;
         background: #FFF9F3;
         padding: 123px 80px 0px 80px;
+        width: 100%;
     }
 
     .text-section{
-        width: 579px;
+        width: 50%;
+        padding: 40px;
+    }
+
+    .pro-img{
+        width: 50%;
+        padding: 40px;
+
+        img{
+            width: 100%;
+        }
     }
 
     .img-project{
@@ -63,5 +73,36 @@
             line-height: 28px;
             text-align: left;
             color: #000000;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {   
+
+    .ProjectLanding{
+
+        .img-sec{
+            padding: 10px;
+            flex-direction: column;
+
+        }
+
+        .pro-img{
+            width: 100%;
+        }
+
+        .text-section{
+            width: 100%;
+            padding: 10px;
+        }
+
+        .big-text{
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .para{
+            font-size: 14px;
+            line-height: 25px;
+        }
     }
 }

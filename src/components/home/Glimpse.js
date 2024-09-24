@@ -10,9 +10,9 @@ import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 
 const Glimpse = () => {
     const imgData = [
-        { banner: glimpse1, name: "Hezky Tech", tittle: "Monitoring" , url : "https://hezkytech.com" },
-        { banner: glimpse2, name: "jedlo app", tittle: "Food Delivery" , url : "https://jedloapp.in" },
-        { banner: glimpse3, name: "zurich kotak", tittle: "Insurance" , url : "https://www.zurichkotak.com"},
+        {id: 4, banner: glimpse1, name: "Hezky Tech", tittle: "Monitoring" , url : "https://hezkytech.com" },
+        { id:1 ,banner: glimpse2, name: "jedlo app", tittle: "Food Delivery" , url : "https://jedloapp.in" },
+        { id: 2 ,banner: glimpse3, name: "zurich kotak", tittle: "Insurance" , url : "https://www.zurichkotak.com"},
     ];
     return (
         <div className='Glimpse'>
@@ -31,7 +31,7 @@ const Glimpse = () => {
                                     <div className='name'>{item.name}</div>
                                     <div className='title'>{item.tittle}</div>
                                 </div>
-                                <div className='circle'  onClick={() => window.open(item.url, '_blank')}>
+                                <div className='circle'  onClick={() => window.location.href = `/project/${item.id}`}>
                                     <div className='inner-circle'><ArrowForwardIcon style={{ color: "white" }} /></div>
                                 </div>
                             </div>

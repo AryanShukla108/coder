@@ -117,3 +117,55 @@ border: 1px solid #EA4232;
         margin-top: 20px;
     }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px){ 
+
+    .Challenge{
+        padding: 10px;
+
+        .text-space{
+            flex-direction: column;
+        }
+        .main-box {
+            justify-content: center;
+        }
+    
+        .box {
+            width: calc(50% - 15px); 
+            margin-bottom: 20px;
+            padding: 10px;
+         
+
+            svg{
+                width: 33px;
+                height: 25px;
+                margin-right: 5px;
+            }
+        }
+
+        .app{
+            font-size: 16px;
+        }
+        .para{
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .heads{
+            font-size: 22px;
+            margin-bottom: 10px;
+            line-height: 30px;
+        }
+
+        .button-chalenge-2{
+            font-size: 14px;
+        }
+
+        .button-chalenge{
+            font-size: 14px;
+        }
+
+      
+
+    }
+}
