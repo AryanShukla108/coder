@@ -84,3 +84,53 @@ padding: 0px 80px 56px 80px;
     gap: 32px;
 }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px){  
+
+    .project-Advantages{
+        padding: 10px;
+
+        .main-card{
+            flex-wrap: wrap;
+        }
+
+        .head{
+            font-size: 16px;
+        }
+
+        .bg-head{
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .para{
+            font-size: 16px;
+            text-align: justify;
+            margin-left: 20px !important;
+        }
+
+        .box-card{
+            display: flex;
+            height: fit-content;
+            padding: 10px ;
+        }
+
+        .text{
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+
+    
+      .rate{
+        margin-right: 10px;
+        font-size: 22px;
+
+      }
+
+      .para-2{
+        font-size: 16px;
+      }
+
+    }
+}

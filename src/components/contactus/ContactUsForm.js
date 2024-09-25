@@ -61,7 +61,7 @@ const ContactUsForm = () => {
                                 </svg>
                             </div>
                             <div className="txt1">Phone Number</div>
-                            <div className="txt2">+91 9117569519 / +91 7738311925</div>
+                            <div className="txt2">+91 9717569519 / +91 7738311925</div>
                         </div>
                         <div className="box">
                             <div className="icon-div">

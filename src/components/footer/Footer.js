@@ -76,7 +76,7 @@ const Footer = () => {
                             <div className="head">INDIA OFFICE</div>
 
                             <div className="haed-text">
-                                <div>+91 9117569519</div>
+                                <div>+91 9717569519</div>
                                 <div> info@sovtechnologies.com</div>
                                 plot no.921, Rani Avantibai Rd, Near Huda Market, Mohyal Colony,
                                 Sector 40, Gurugram, Haryana 122001
@@ -355,7 +355,7 @@ const Footer = () => {
                     <div>
                         <div className="head">INDIA OFFICE</div>
                         <div className="haed-text">
-                            <div>+91 9117569519</div>
+                            <div>+91 9717569519</div>
                             <div> info@sovtechnologies.com</div>
                             plot no.921, Rani Avantibai Rd, Near Huda Market, Mohyal Colony,
                             Sector 40, Gurugram, Haryana 122001

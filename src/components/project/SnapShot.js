@@ -6,45 +6,53 @@ import smartgirl from "../../assests/smartgirl.png"
 
 
 const SnapShot = () => {
+
+    const allDevelopers = [
+        { name: "Raghav S", role: "SE Developer", img: smartboy, techStack: ["React", "Node.js"] },
+        { name: "Pooja R", role: "Frontend Developer", img: smartgirl, techStack: ["HTML", "CSS", "JavaScript"] },
+        { name: "Ankit M", role: "Backend Developer", img: smartboyother, techStack: ["PostgreSQL", "MongoDB"] },
+        { name: "Sneha K", role: "Fullstack Developer", img: smartgirl, techStack: ["React", "Express"] },
+        { name: "Vikram J", role: "DevOps Engineer", img: smartboy, techStack: ["AWS", "Docker"] },
+        { name: "Neha L", role: "Data Scientist", img: smartgirl, techStack: ["Python", "TensorFlow"] },
+        { name: "Ravi D", role: "Mobile App Developer", img: smartboyother, techStack: ["Flutter", "Firebase"] },
+        { name: "Kriti P", role: "UI/UX Designer", img: smartgirl, techStack: ["Figma", "Adobe XD"] }
+      ];
+
+      const shuffleArray = (array) => {
+        return array.sort(() => Math.random() - 0.5);
+      };
+      
+      const randomDevelopers = shuffleArray(allDevelopers).slice(0, 3);
+      const allTechStacks = randomDevelopers.flatMap(dev => dev.techStack);
+
     return (
-        <div className="SnapShot">
-            <div className="head">Project Snapshot</div>
-            <div className="details">
-                <div>
-                    <div className="in-head">Team Members</div>
-                    <div className="sm-card">
-                        <div className="sm-svg">
-                            {/* <AccountCircleIcon className="AccountCircleIcon" />  */}
-                            <img src={smartboy} alt="smartboy" className="AccountCircleIcon" />
-                        </div>
-                        <div>
-                            <div className="name">Shantanu G</div>
-                            <div className="des">SE Developer</div>
-                        </div>
-                    </div>
-                    <div className="sm-card">
-                        <div className="sm-svg">
-                            {/* <AccountCircleIcon className="AccountCircleIcon" /> */}
-                            <img src={smartboyother} alt="smartboy" className="AccountCircleIcon" />
+       <div className="SnapShot">
+  <div className="head">Project Snapshot</div>
+ 
+  <div className="in-head">Team Members</div>
+  <div className="details">
+    <div className=" sm-card-main">
 
-                        </div>
-                        <div>
-                            <div className="name">Aryan S</div>
-                            <div className="des">SE Developer</div>
-                        </div>
-                    </div><div className="sm-card">
-                        <div className="sm-svg">
-                            {/* <AccountCircleIcon className="AccountCircleIcon" /> */}
-                            <img src={smartgirl} alt="smartboy" className="AccountCircleIcon" />
-
-                        </div>
-                        <div>
-                            <div className="name">Riya Y</div>
-                            <div className="des">SE Developer</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="result">
+      {randomDevelopers.map((dev, index) => (
+        <div  key={index} className="d-flex ">
+          
+        <div className="sm-card">
+          <div className="sm-svg">
+            <img src={dev.img} alt={dev.name} className="AccountCircleIcon" />
+          </div>
+          <div>
+            <div className="name">{dev.name}</div>
+            <div className="des">{dev.role}</div>
+            <div className="tech-stack">
+              {dev.techStack.join(", ")}
+            </div>
+          </div>
+        </div>    
+       
+        </div>   
+     ))}
+    </div>
+        <div className="result">
                     <div className="in-head">The results</div>
                     <div className="other-card">
                         <div className="box">
@@ -59,20 +67,24 @@ const SnapShot = () => {
                             <div className="num-text">Months Contract</div>
                         </div>
                     </div>
+                    <div className="small-other-card" > 
 
-                    <div className="small-other-card">
-                        <div className="small-box-recatngle">Postgres</div>
-                        <div className="small-box-recatngle">AWS</div>
-                        <div className="small-box-recatngle">Angular</div>
-                        <div className="small-box-recatngle">MQTT</div>
-                        <div className="small-box-recatngle">EC2 instance</div>
-                        <div className="small-box-recatngle">Flutter</div>
-                        <div className="small-box-recatngle">Node.js
-                        </div>
-                    </div>
+{allTechStacks.map((tech, techIndex) => (
+         
+        <div className="small-box-recatngle">    {tech}
+         </div>
+        ))}   </div>
+                      
+                  
+                   
                 </div>
-            </div>
-        </div>
+       
+
+    </div>
+    
+  </div>
+
+
     );
 };
 
