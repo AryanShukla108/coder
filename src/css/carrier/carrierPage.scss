@@ -368,3 +368,125 @@
         border: 1px solid #FEBF24;
     }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px){
+  .carrier-page{
+
+    .perks-data{
+      flex-direction: column;
+      div{
+        width: 300px !important;
+      }
+
+      img{
+        width: 350px;
+          height: 245.47px;
+         
+      }
+
+      .perks-head{
+        font-size: 22px;
+          font-weight: 400;
+          line-height: 26.63px;
+          text-align: left;
+          letter-spacing: normal;
+      }
+
+      .perks-para{
+        width: 357px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+          text-align: left;
+      }
+    }
+
+.box-data {
+  .box{
+    padding: 9px 20px;
+  }
+
+  .head{
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: -0.9599999785423279px;
+      text-align: left;
+  }
+
+  .box-para{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: -0.75px;
+      text-align: left;
+      width: 100%;
+  }
+}
+
+.offers-carriers{
+
+  .office-card{
+    padding: 0;
+  }
+  .office-head{
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26.63px;
+      text-align: center;
+      letter-spacing: normal;
+  }
+
+  .office-para{
+    margin-bottom: 10px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: -0.75px;
+      text-align: center;
+  }
+}
+
+.opennings{
+  .text-openings{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .txt{
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 33px;
+      text-align: left;
+      margin-bottom: 10px;
+  }
+
+  .para{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: -0.006em;
+      text-align: left;
+  }
+
+  .job-listing{
+    width: 100%;
+  }
+
+  .des{
+
+  }
+
+  .arrow-icon{
+    border-radius: 50%;
+            width: 30px;
+              height: 30px;
+            
+  }
+}
+  }
+
+    .carrier-rocket {
+      display: none;
+    }
+}

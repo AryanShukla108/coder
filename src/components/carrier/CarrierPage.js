@@ -117,7 +117,7 @@ const CarrierPage = () => {
     return (
         <>
             <div className="ContactUsImg">
-                <div>
+                <div className="one-order">
                     <div className="join">
                         Join{" "}
                         <span className="heading-color">Our Team & Shape the Future</span>
@@ -140,8 +140,8 @@ const CarrierPage = () => {
                         </button>
                     </div>
                 </div>
-                <div>
-                    <img src={carrier} alt="contactusimg" className="contactusimg" />
+                <div className="two-order">
+                    <img src={carrier} alt="contactusimg" className="contactusimg-carrier" />
                 </div>
             </div>
             <div className="carrier-page">

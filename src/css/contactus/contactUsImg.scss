@@ -221,9 +221,14 @@
       order: -1;
     }
 
-    .aboutimg {
+    .contactusimg-carrier{
+      width: 328px;
+    }
+
+    .aboutimg, .service-oferr-mob-img {
       width: 350px;
       height: 339.95px;
+      object-fit: contain;
     }
 
     .heading-color-about{
@@ -278,6 +283,16 @@
         margin-bottom: 3px;
     }
 
+    .join{
+      font-size: 18px;
+      width: 100%;
+
+span{
+      font-size: 18px;
+}
+
+    }
+
     .para{
       width: 100%;
         font-size: 12px;
@@ -311,6 +326,15 @@
         width: 350px;
           height: 310.89px;
       }
+    }
+
+    .service-txt{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-align: left;
+
     }
   }
 }

@@ -102,7 +102,7 @@ const ServiceImg = () => {
     return (
         <>
             <div className="ContactUsImg">
-                <div>
+                <div className="one-order">
                     <div className="heading-color">Services We Offer</div>
                     <div className="service-txt">Our Capabilities</div>
                     <div className="para">
@@ -110,8 +110,8 @@ const ServiceImg = () => {
                         to help you succeed
                     </div>
                 </div>
-                <div>
-                    <img src={human} alt="human" className="" />
+                <div className="two-order">
+                    <img src={human} alt="human" className="service-oferr-mob-img" />
                 </div>
             </div>
             <div className="service-data">
@@ -124,6 +124,12 @@ const ServiceImg = () => {
                             <div key={index} className="card">
                                 <div className="icon">{card.icon}</div>
                                 <div className="title">{card.title}</div>
+                                <div className="inner-icc">
+                                    <div className="inner-inn">
+                                        <div className="icons">{card.icon}</div>
+                                        <div className="titles">{card.title}</div>
+                                    </div>
+                                </div>
                                 <div className="des">{card.description}</div>
                                 <button
                                     className={
@@ -143,7 +149,7 @@ const ServiceImg = () => {
                 </div>
 
                 <div className="choose">
-                    <div>
+                    <div className="choose-1">
                         <div className="choosetxt">Why Choose Us</div>
                         <div className="choose-main-txt">
                             Reasons Why We are Best Business Consulting Agency
@@ -272,7 +278,7 @@ const ServiceImg = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className="choose-2">
                         <img src={choose} alt="choose" className="chooseimg" />
                     </div>
                 </div>
