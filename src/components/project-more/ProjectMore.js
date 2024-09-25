@@ -152,16 +152,18 @@ const ProjectMore = () => {
                     <div key={index} className="project-item">
                         <div className="pro-title">{project.title}</div>
                        
-                        <div onClick={() => window.location.href = `/project/${project.id}`} style={{cursor: "pointer"}}>
+                        <div >
                             <img
                                 src={project.image}
                                 alt={project.name}
                                 className="project-img"
+
+                                onClick={() => window.location.href = `/project/${project.id}`} style={{cursor: "pointer"}}
                             />
                             <div className="url-container d-flex justify-content-between align-items-center">
                                 <div>
-                                    <div className="pro-name">{project.name}</div>
-                                    <div className="pro-url">{project.url}</div>
+                                    <div className="pro-name" onClick={() => window.location.href = `/project/${project.id}`} style={{cursor: "pointer"}} >{project.name}</div>
+                                    <div className="pro-url"><a href={project.url} target="_blank" > {project.url} </a></div>
                                 </div>
                                 <div>
                                     <svg
@@ -170,6 +172,7 @@ const ProjectMore = () => {
                                         viewBox="0 0 46 47"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
+                                        onClick={() => window.location.href = `/project/${project.id}`} style={{cursor: "pointer"}}
                                     >
                                         <rect
                                             y="0.5"

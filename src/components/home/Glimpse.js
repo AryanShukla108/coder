@@ -1,7 +1,7 @@
 import React from 'react'
-import glimpse1 from "../../assests/hezky.png"
-import glimpse2 from "../../assests/jedlo.png"
-import glimpse3 from "../../assests/kotak.png"
+import glimpse1 from "../../assests/hezky1.png"
+import glimpse2 from "../../assests/jedlo1.png"
+import glimpse3 from "../../assests/kotak1.png"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 

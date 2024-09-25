@@ -116,3 +116,25 @@
       margin-top: 47px;
   }
 }
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {  
+
+  .project-more{
+    width: 100%;
+
+   .projects-grid{
+    width: 100%;
+   } 
+
+   .project-item{
+    width: 100%;
+    padding: 10px;
+   }
+
+   .project-img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+   }
+  }
+}
