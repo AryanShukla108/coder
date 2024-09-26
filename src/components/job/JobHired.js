@@ -4,6 +4,12 @@ import CheckIcon from "@mui/icons-material/Check";
 import flag from "../../assests/flag.png";
 import { Dropdown } from "primereact/dropdown";
 
+const generateMailtoLink = (name, lastName, email, phone) => {
+    const subject = encodeURIComponent("Job Vacancy Related");
+    const body = encodeURIComponent(`Name: ${name}\nLast Name: ${lastName}\nEmail: ${email}\nPhone: ${phone}`);
+    return `mailto:suraj@sovtechnologies.com?subject=${subject}&body=${body}`;
+};
+
 
 const JobHired = () => {
 
@@ -12,6 +18,17 @@ const JobHired = () => {
     const [selectMonth, setSelectMonth] = useState(null);
     const [selectSkills, setSelectSkills] = useState(null);
     const [selectExp, setSelectExp] = useState(null);
+    const [name, setName] = useState('');
+    const [lastName, setlastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const mailtoLink = generateMailtoLink(name, lastName, email, phone);
+        window.location.href = mailtoLink; 
+    };
 
     const years = [
         { value: '1', label: '1' },
@@ -73,35 +90,48 @@ const JobHired = () => {
             </div>
             <div className="form-job">
                 <div className="job-txt"  onClick={() => (window.location.href = 'hire')}>Lets Get Hired</div>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="row form-data">
                         <div className="col-6">
                             <label htmlFor="name">
-                                First Name<span className="mandatory">*</span>
+                            
+                                First Name <span className="mandatory">*</span>
                             </label>
-                            <input type="text" className="form-control" placeholder="name" />
+                            <input
+                                        type="text"
+                                        className="form-control"
+                                        placeholder="First Name"
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
+                                    />
                         </div>
                         <div className="col-6">
                             <label htmlFor="name">
                                 Last Name<span className="mandatory">*</span>
                             </label>
                             <input
-                                type="text"
-                                className="form-control"
-                                placeholder="surname"
-                            />
+                                        type="text"
+                                        className="form-control"
+                                        placeholder="Last Name"
+                                        value={lastName}
+                                        onChange={(e) => setlastName(e.target.value)}
+                                    />
                         </div>
                     </div>
                     <div className="row form-data">
+
+                
                         <div className="col-6">
                             <label htmlFor="name">
                                 Email<span className="mandatory">*</span>
                             </label>
                             <input
-                                type="text"
-                                className="form-control"
-                                placeholder="eg123@gmail.com"
-                            />
+                                        type="text"
+                                        className="form-control"
+                                        placeholder="Your Email"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                    />
                         </div>
                         <div className="col-6">
                             <label htmlFor="name">
@@ -112,11 +142,14 @@ const JobHired = () => {
                                     {" "}
                                     <img src={flag} alt="flag" className="flag" /> +91
                                 </span>
-                                <input
-                                    type="number"
-                                    className="form-control ind-input"
-                                    placeholder="phone number"
-                                />
+                              
+                    <input
+                                        type="text"
+                                        className="form-control"
+                                        placeholder="Phone Number"
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
+                                    />
                             </div>
                         </div>
                     </div>
@@ -251,7 +284,8 @@ const JobHired = () => {
                             
                         </div>
                     </div>
-                    <button className="drem-job">Find Dream Jobs</button>
+       
+                    <button className="drem-job" type="submit"> Find Dream Jobs</button>
                 </form>
             </div>
         </div>

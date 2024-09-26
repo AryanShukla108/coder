@@ -6,6 +6,7 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 // import logoCoder from "../assests/logo-coder.png"
 // import sovlogo from "../assests/sovlogo.png"
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { ArrowDownwardSharp } from '@mui/icons-material';
 
 export const NavBar = () => {
 
@@ -147,7 +148,7 @@ const dropdownCategories = [
       <ul className='list2' >
       <li onClick={() => (window.location.href = 'service')}>Service</li>
       <div className="dropdown">
-      <button className="dropdown-button" onClick={toggleMenu2}>Categories</button>
+      <button className="dropdown-button" onClick={toggleMenu2}>Categories <ArrowDownwardSharp  className='arrow' /> </button>
       {
         isMenuOpen2 &&    <div className="dropdown-content">
         {dropdownCategories.map((category, index) => (
