@@ -59,8 +59,8 @@ const Impact = () => {
             </div>
 
             <div className="button-main">
-                <button className="button-chalenge" onClick={() => (window.location.href = "hire")}>Hire Talent <ArrowForwardIcon /> </button>
-                <button className="button-chalenge-2" onClick={() => (window.location.href = "job")}>Find remote jobs <ArrowForwardIcon /></button>
+                <button className="button-chalenge" onClick={() => (window.location.href = "/hire")}>Hire Talent <ArrowForwardIcon /> </button>
+                <button className="button-chalenge-2" onClick={() => (window.location.href = "/job")}>Find remote jobs <ArrowForwardIcon /></button>
             </div>
         </div>
     );

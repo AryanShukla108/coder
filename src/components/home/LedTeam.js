@@ -73,7 +73,7 @@ const LedTeam = () => {
                     className="mySwiper">
                     {services.map((service, index) => (
                         <SwiperSlide key={index}>
-                            <div className="service-card cursor-pointer"  onClick={() => (window.location.href = "hire")}>
+                            <div className="service-card cursor-pointer"  onClick={() => (window.location.href = "/hire")}>
                                 <div className='img-div'> <img src={service.icon} alt={`${service.title} icon`} className="service-icon" /></div>
                                 <div className='title'>{service.title}</div>
                                 <div className='des'>{service.description}</div>
@@ -82,8 +82,8 @@ const LedTeam = () => {
                     ))}
                 </Swiper>
                 <div className="button-down">
-                    <button className="swiper-btn border-btn" onClick={() => (window.location.href = "hire")}>Schedule a call</button>
-                    <button className="swiper-btn background-btn" onClick={() => (window.location.href = "hire")}>Hire Developers</button>
+                    <button className="swiper-btn border-btn" onClick={() => (window.location.href = "/hire")}>Schedule a call</button>
+                    <button className="swiper-btn background-btn" onClick={() => (window.location.href = "/hire")}>Hire Developers</button>
                 </div>
             </div>
         </div>

@@ -287,7 +287,7 @@ const CarrierPage = () => {
                                         </div>
                                         <div className="des">{job.description}</div>
                                     </div>
-                                    <div className="arrow-icon" onClick={() => (window.location.href = "job")}>
+                                    <div className="arrow-icon" onClick={() => (window.location.href = "/job")}>
                                         <ArrowForwardIcon
                                             style={{ color: "rgba(254, 191, 36, 1)" }}
 
@@ -326,13 +326,13 @@ const CarrierPage = () => {
                         <div className="d-flex" style={{ gap: "28px" }}>
                             <button
                                 className="touch-btn"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 Get in touch
                             </button>
                             <button
                                 className="started-btn"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 Get Started
                             </button>

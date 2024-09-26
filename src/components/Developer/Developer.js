@@ -87,7 +87,7 @@ export const Developer = () => {
               Apply Today <ArrowForwardIcon />
             </button>
           </div>
-          <h3 onClick={() => (window.location.href = 'job')}>Or Browse Jobs </h3>
+          <h3 onClick={() => (window.location.href = '/job')}>Or Browse Jobs </h3>
         </div>
         <div className="devright">
           <img src={dev} alt="" />
@@ -206,8 +206,8 @@ export const Developer = () => {
         </div>
       </div>
       <div className="btn-box">
-        <button className="btn1" onClick={() => (window.location.href = 'job')}>Apply Today</button> <span>Or </span>{" "}
-        <button className="btn2" onClick={() => (window.location.href = 'job')}>Browse Jobs</button>
+        <button className="btn1" onClick={() => (window.location.href = '/job')}>Apply Today</button> <span>Or </span>{" "}
+        <button className="btn2" onClick={() => (window.location.href = '/job')}>Browse Jobs</button>
       </div>
 
       <div className="growth-box-main">

@@ -132,12 +132,6 @@ const projectsData = [
     url: "https://fundacle.com", // replace with actual URL if available
     description: "An online crowdfunding platform that helps startups, charities, and projects raise funds from a wide audience. Fundacle simplifies campaign management and supporter engagement.",
     image: "https://media.licdn.com/dms/image/D5612AQGp153sAUjJJQ/article-cover_image-shrink_720_1280/0/1722293330036?e=2147483647&v=beta&t=ft-pM4pp6Tc-HRrHGOQ5ZR2AqGOI4_0zn_R03_2pGxg", // replace with actual image path if available
-  },{  id:19,
-    title: "Smart Vehicle Assistance for Otto Buddy",
-    name: "Otto Buddy",
-    url: "https://ottobuddy.com", // replace with actual URL if available
-    description: "A smart vehicle assistant application offering real-time traffic updates, vehicle diagnostics, and driving assistance. Otto Buddy aims to improve driving experiences with advanced safety features.",
-    image: "https://play-lh.googleusercontent.com/qd6aXrYgb1MkzKqsSU9054DhvfbENNi8t8oET5U2m6mZbHMKi2mnR9CXHYq3-NslLJm5", // replace with actual image path if available
   },{  id:20,
     title: "Patient Management System for Mrecord Patient",
     name: "Mrecord Patient",

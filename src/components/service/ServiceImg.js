@@ -291,13 +291,13 @@ const ServiceImg = () => {
                         <div className="d-flex" style={{ gap: "28px" }}>
                             <button
                                 className="touch-btn"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 Get in touch
                             </button>
                             <button
                                 className="started-btn"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 Get Started
                             </button>

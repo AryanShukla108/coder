@@ -271,7 +271,7 @@ const ContactUsForm = () => {
                     <div className="inner-card">
                         <div className="heading-color">Interested in Working Together?</div>
                         <div className="para">Every day we market your profile to dozens of clients directly. You won't have to scout dozens of job boards, send cold emails, search on LinkedIn or talk to recruiters. We'll do that for you and more.</div>
-                        <button className="call-btn" onClick={() => (window.location.href = "hire")}>Schedule a Call</button>
+                        <button className="call-btn" onClick={() => (window.location.href = "/hire")}>Schedule a Call</button>
                     </div>
                 </div>
             </div>

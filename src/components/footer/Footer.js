@@ -20,6 +20,7 @@ const Footer = () => {
                         viewBox="0 0 239 103"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
+                        onClick={() => (window.location.href = "/")}
                     >
                         <path
                             d="M133.948 82.8628V84.3852H130.919V94.24H129.053V84.3852H126.008V82.8628H133.948ZM144.105 89.5091C144.105 89.8474 144.083 90.1529 144.039 90.4258H137.147C137.202 91.1461 137.469 91.7245 137.95 92.161C138.43 92.5975 139.019 92.8158 139.718 92.8158C140.722 92.8158 141.431 92.3956 141.846 91.5553H143.859C143.586 92.3847 143.09 93.0668 142.369 93.6016C141.66 94.1254 140.776 94.3873 139.718 94.3873C138.855 94.3873 138.081 94.1963 137.393 93.8144C136.716 93.4215 136.182 92.8758 135.789 92.1774C135.407 91.468 135.216 90.6495 135.216 89.7219C135.216 88.7942 135.401 87.9812 135.772 87.2827C136.154 86.5734 136.684 86.0277 137.36 85.6457C138.048 85.2638 138.834 85.0728 139.718 85.0728C140.569 85.0728 141.327 85.2583 141.993 85.6294C142.659 86.0004 143.177 86.5243 143.548 87.2009C143.919 87.8666 144.105 88.636 144.105 89.5091ZM142.157 88.9197C142.146 88.2322 141.9 87.6811 141.42 87.2664C140.94 86.8517 140.345 86.6443 139.636 86.6443C138.992 86.6443 138.441 86.8517 137.982 87.2664C137.524 87.6702 137.251 88.2213 137.164 88.9197H142.157ZM145.319 89.7219C145.319 88.7942 145.505 87.9812 145.876 87.2827C146.258 86.5734 146.782 86.0277 147.447 85.6457C148.113 85.2638 148.877 85.0728 149.739 85.0728C150.83 85.0728 151.731 85.3347 152.44 85.8585C153.16 86.3715 153.646 87.1081 153.897 88.0685H151.884C151.72 87.6211 151.458 87.2718 151.098 87.0208C150.738 86.7698 150.285 86.6443 149.739 86.6443C148.975 86.6443 148.364 86.9171 147.906 87.4628C147.458 87.9976 147.234 88.7506 147.234 89.7219C147.234 90.6932 147.458 91.4516 147.906 91.9973C148.364 92.543 148.975 92.8158 149.739 92.8158C150.819 92.8158 151.534 92.3411 151.884 91.3916H153.897C153.635 92.3083 153.144 93.0395 152.424 93.5852C151.703 94.1199 150.809 94.3873 149.739 94.3873C148.877 94.3873 148.113 94.1963 147.447 93.8144C146.782 93.4215 146.258 92.8758 145.876 92.1774C145.505 91.468 145.319 90.6495 145.319 89.7219ZM160.422 85.0728C161.11 85.0728 161.721 85.2201 162.256 85.5148C162.801 85.8094 163.227 86.246 163.533 86.8244C163.849 87.4028 164.007 88.1012 164.007 88.9197V94.24H162.157V89.198C162.157 88.3904 161.956 87.7738 161.552 87.3482C161.148 86.9117 160.597 86.6934 159.898 86.6934C159.2 86.6934 158.643 86.9117 158.229 87.3482C157.825 87.7738 157.623 88.3904 157.623 89.198V94.24H155.757V82.1262H157.623V86.2678C157.939 85.8858 158.338 85.5912 158.818 85.3838C159.309 85.1765 159.844 85.0728 160.422 85.0728ZM170.939 85.0728C171.648 85.0728 172.281 85.2201 172.837 85.5148C173.405 85.8094 173.847 86.246 174.163 86.8244C174.48 87.4028 174.638 88.1012 174.638 88.9197V94.24H172.788V89.198C172.788 88.3904 172.586 87.7738 172.183 87.3482C171.779 86.9117 171.228 86.6934 170.529 86.6934C169.831 86.6934 169.274 86.9117 168.86 87.3482C168.456 87.7738 168.254 88.3904 168.254 89.198V94.24H166.388V85.2201H168.254V86.2514C168.559 85.8804 168.947 85.5912 169.416 85.3838C169.896 85.1765 170.404 85.0728 170.939 85.0728ZM180.931 94.3873C180.08 94.3873 179.31 94.1963 178.623 93.8144C177.935 93.4215 177.395 92.8758 177.002 92.1774C176.609 91.468 176.413 90.6495 176.413 89.7219C176.413 88.8051 176.615 87.9921 177.019 87.2827C177.422 86.5734 177.974 86.0277 178.672 85.6457C179.37 85.2638 180.151 85.0728 181.013 85.0728C181.875 85.0728 182.655 85.2638 183.354 85.6457C184.052 86.0277 184.603 86.5734 185.007 87.2827C185.411 87.9921 185.613 88.8051 185.613 89.7219C185.613 90.6386 185.406 91.4516 184.991 92.161C184.576 92.8704 184.009 93.4215 183.288 93.8144C182.579 94.1963 181.793 94.3873 180.931 94.3873ZM180.931 92.7667C181.411 92.7667 181.859 92.6521 182.273 92.4229C182.699 92.1937 183.043 91.85 183.305 91.3916C183.567 90.9332 183.698 90.3767 183.698 89.7219C183.698 89.0671 183.572 88.5159 183.321 88.0685C183.07 87.6101 182.737 87.2664 182.323 87.0372C181.908 86.808 181.46 86.6934 180.98 86.6934C180.5 86.6934 180.053 86.808 179.638 87.0372C179.234 87.2664 178.912 87.6101 178.672 88.0685C178.432 88.5159 178.312 89.0671 178.312 89.7219C178.312 90.6932 178.557 91.4462 179.049 91.9809C179.551 92.5048 180.178 92.7667 180.931 92.7667ZM189.324 82.1262V94.24H187.458V82.1262H189.324ZM195.686 94.3873C194.835 94.3873 194.066 94.1963 193.378 93.8144C192.691 93.4215 192.151 92.8758 191.758 92.1774C191.365 91.468 191.168 90.6495 191.168 89.7219C191.168 88.8051 191.37 87.9921 191.774 87.2827C192.178 86.5734 192.729 86.0277 193.427 85.6457C194.126 85.2638 194.906 85.0728 195.768 85.0728C196.63 85.0728 197.411 85.2638 198.109 85.6457C198.808 86.0277 199.359 86.5734 199.763 87.2827C200.166 87.9921 200.368 88.8051 200.368 89.7219C200.368 90.6386 200.161 91.4516 199.746 92.161C199.331 92.8704 198.764 93.4215 198.044 93.8144C197.334 94.1963 196.549 94.3873 195.686 94.3873ZM195.686 92.7667C196.167 92.7667 196.614 92.6521 197.029 92.4229C197.454 92.1937 197.798 91.85 198.06 91.3916C198.322 90.9332 198.453 90.3767 198.453 89.7219C198.453 89.0671 198.327 88.5159 198.076 88.0685C197.825 87.6101 197.493 87.2664 197.078 87.0372C196.663 86.808 196.216 86.6934 195.736 86.6934C195.255 86.6934 194.808 86.808 194.393 87.0372C193.989 87.2664 193.667 87.6101 193.427 88.0685C193.187 88.5159 193.067 89.0671 193.067 89.7219C193.067 90.6932 193.313 91.4462 193.804 91.9809C194.306 92.5048 194.933 92.7667 195.686 92.7667ZM205.847 85.0728C206.546 85.0728 207.162 85.2147 207.697 85.4984C208.243 85.7712 208.668 86.115 208.974 86.5297V85.2201H210.856V94.3873C210.856 95.2167 210.682 95.9534 210.333 96.5973C209.983 97.2521 209.476 97.765 208.81 98.1361C208.155 98.5071 207.37 98.6926 206.453 98.6926C205.231 98.6926 204.216 98.4034 203.408 97.825C202.601 97.2575 202.142 96.4827 202.033 95.5005H203.883C204.025 95.9698 204.325 96.3463 204.783 96.63C205.252 96.9247 205.809 97.072 206.453 97.072C207.206 97.072 207.812 96.8428 208.27 96.3845C208.739 95.9261 208.974 95.2604 208.974 94.3873V92.8813C208.657 93.3069 208.226 93.667 207.681 93.9617C207.146 94.2454 206.535 94.3873 205.847 94.3873C205.061 94.3873 204.341 94.1909 203.686 93.798C203.042 93.3942 202.53 92.8376 202.148 92.1283C201.777 91.408 201.591 90.5949 201.591 89.6891C201.591 88.7833 201.777 87.9812 202.148 87.2827C202.53 86.5843 203.042 86.0441 203.686 85.6621C204.341 85.2692 205.061 85.0728 205.847 85.0728ZM208.974 89.7219C208.974 89.0998 208.843 88.5596 208.581 88.1012C208.33 87.6429 207.997 87.2937 207.582 87.0536C207.168 86.8135 206.72 86.6934 206.24 86.6934C205.76 86.6934 205.312 86.8135 204.898 87.0536C204.483 87.2827 204.145 87.6265 203.883 88.0849C203.632 88.5323 203.506 89.0671 203.506 89.6891C203.506 90.3112 203.632 90.8569 203.883 91.3261C204.145 91.7954 204.483 92.1555 204.898 92.4066C205.323 92.6466 205.771 92.7667 206.24 92.7667C206.72 92.7667 207.168 92.6466 207.582 92.4066C207.997 92.1665 208.33 91.8172 208.581 91.3589C208.843 90.8896 208.974 90.3439 208.974 89.7219ZM214.257 84.0251C213.919 84.0251 213.635 83.9105 213.406 83.6813C213.177 83.4522 213.062 83.1684 213.062 82.8301C213.062 82.4918 213.177 82.208 213.406 81.9789C213.635 81.7497 213.919 81.6351 214.257 81.6351C214.584 81.6351 214.863 81.7497 215.092 81.9789C215.321 82.208 215.436 82.4918 215.436 82.8301C215.436 83.1684 215.321 83.4522 215.092 83.6813C214.863 83.9105 214.584 84.0251 214.257 84.0251ZM215.174 85.2201V94.24H213.308V85.2201H215.174ZM225.891 89.5091C225.891 89.8474 225.869 90.1529 225.825 90.4258H218.933C218.988 91.1461 219.255 91.7245 219.736 92.161C220.216 92.5975 220.805 92.8158 221.504 92.8158C222.508 92.8158 223.217 92.3956 223.632 91.5553H225.645C225.372 92.3847 224.876 93.0668 224.156 93.6016C223.446 94.1254 222.562 94.3873 221.504 94.3873C220.641 94.3873 219.867 94.1963 219.179 93.8144C218.502 93.4215 217.968 92.8758 217.575 92.1774C217.193 91.468 217.002 90.6495 217.002 89.7219C217.002 88.7942 217.187 87.9812 217.558 87.2827C217.94 86.5734 218.47 86.0277 219.146 85.6457C219.834 85.2638 220.62 85.0728 221.504 85.0728C222.355 85.0728 223.113 85.2583 223.779 85.6294C224.445 86.0004 224.963 86.5243 225.334 87.2009C225.705 87.8666 225.891 88.636 225.891 89.5091ZM223.943 88.9197C223.932 88.2322 223.686 87.6811 223.206 87.2664C222.726 86.8517 222.131 86.6443 221.422 86.6443C220.778 86.6443 220.227 86.8517 219.768 87.2664C219.31 87.6702 219.037 88.2213 218.95 88.9197H223.943ZM231.001 94.3873C230.292 94.3873 229.653 94.2618 229.086 94.0108C228.529 93.7489 228.087 93.3997 227.76 92.9631C227.433 92.5157 227.258 92.0191 227.236 91.4735H229.168C229.201 91.8554 229.381 92.1774 229.708 92.4393C230.046 92.6903 230.467 92.8158 230.969 92.8158C231.492 92.8158 231.896 92.7176 232.18 92.5211C232.475 92.3138 232.622 92.0519 232.622 91.7354C232.622 91.3971 232.458 91.1461 232.131 90.9824C231.814 90.8187 231.307 90.6386 230.608 90.4421C229.932 90.2566 229.381 90.0766 228.955 89.9019C228.529 89.7273 228.158 89.4599 227.842 89.0998C227.536 88.7397 227.383 88.2649 227.383 87.6756C227.383 87.1954 227.525 86.7589 227.809 86.366C228.093 85.9622 228.497 85.6457 229.02 85.4166C229.555 85.1874 230.166 85.0728 230.854 85.0728C231.88 85.0728 232.704 85.3347 233.326 85.8585C233.959 86.3715 234.297 87.0754 234.341 87.9703H232.475C232.442 87.5665 232.278 87.2445 231.983 87.0044C231.689 86.7644 231.29 86.6443 230.788 86.6443C230.297 86.6443 229.921 86.7371 229.659 86.9226C229.397 87.1081 229.266 87.3537 229.266 87.6592C229.266 87.8993 229.353 88.1012 229.528 88.2649C229.703 88.4286 229.915 88.5596 230.166 88.6578C230.417 88.7451 230.788 88.8597 231.28 89.0016C231.934 89.1762 232.469 89.3563 232.884 89.5418C233.309 89.7164 233.675 89.9783 233.981 90.3276C234.286 90.6768 234.444 91.1406 234.455 91.719C234.455 92.2319 234.313 92.6903 234.03 93.0941C233.746 93.4979 233.342 93.8144 232.818 94.0436C232.305 94.2727 231.7 94.3873 231.001 94.3873Z"
@@ -89,19 +90,19 @@ const Footer = () => {
                             <div className="head">Company</div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "about-us")}
+                                onClick={() => (window.location.href = "/about-us")}
                             >
                                 About Us
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "contact-us")}
+                                onClick={() => (window.location.href = "/contact-us")}
                             >
                                 Contact Us
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "career")}
+                                onClick={() => (window.location.href = "/career")}
                             >
                                 Careers
                             </div>
@@ -112,13 +113,13 @@ const Footer = () => {
                             <div className="haed-text sp">Sitemap</div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "privacy")}
+                                onClick={() => (window.location.href = "/privacy")}
                             >
                                 Privacy Policy
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "terms")}
+                                onClick={() => (window.location.href = "/terms")}
                             >
                                 Terms & Conditions
                             </div>
@@ -127,13 +128,13 @@ const Footer = () => {
                             <div className="head">For Customers</div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 Submit Enquiry
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 Hire Developer
                             </div>
@@ -142,7 +143,7 @@ const Footer = () => {
                             <div className="head">For Developers</div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "developer")}
+                                onClick={() => (window.location.href = "/developer")}
                             >
                                 Developers
                             </div>
@@ -155,69 +156,69 @@ const Footer = () => {
                             <div className="head">Tech talent for Companies</div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-enterprise")}
+                                onClick={() => (window.location.href = "/healthcare-enterprise")}
                             >
                                 Enterprise Software{" "}
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-companies")}
+                                onClick={() => (window.location.href = "/healthcare-companies")}
                             >
                                 Healthcare
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-fintech")}
+                                onClick={() => (window.location.href = "/healthcare-fintech")}
                             >
                                 Fintech
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-startup")}
+                                onClick={() => (window.location.href = "/healthcare-startup")}
                             >
                                 Startups
                             </div>
                             <div
                                 className="haed-text sp"
                                 onClick={() =>
-                                    (window.location.href = "usa-startup-bussinesses")
+                                    (window.location.href = "/usa-startup-bussinesses")
                                 }
                             >
                                 USA Startups & Businesses
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-salesforce")}
+                                onClick={() => (window.location.href = "/healthcare-salesforce")}
                             >
                                 Salesforce Need
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-portfolio")}
+                                onClick={() => (window.location.href = "/healthcare-portfolio")}
                             >
                                 VC Portfolio
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-pharma")}
+                                onClick={() => (window.location.href = "/healthcare-pharma")}
                             >
                                 Pharma Industry
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-service")}
+                                onClick={() => (window.location.href = "/healthcare-service")}
                             >
                                 ServiceNow
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-workday")}
+                                onClick={() => (window.location.href = "/healthcare-workday")}
                             >
                                 Workday
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "healthcare-sap")}
+                                onClick={() => (window.location.href = "/healthcare-sap")}
                             >
                                 SAP
                             </div>
@@ -286,55 +287,55 @@ const Footer = () => {
                             <div className="head">Compare</div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Fiverr
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Credo
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Freelancer
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Freeup
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs PeoplePerHour
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Guru
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Andela
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Upwork
                             </div>
                             <div
                                 className="haed-text sp"
-                                onClick={() => (window.location.href = "hire")}
+                                onClick={() => (window.location.href = "/hire")}
                             >
                                 SOV vs Top IT Services Companies
                             </div>
@@ -366,31 +367,31 @@ const Footer = () => {
                         <div className="head">Company</div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "about-us")}
+                            onClick={() => (window.location.href = "/about-us")}
                         >
                             About Us
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "contact-us")}
+                            onClick={() => (window.location.href = "/contact-us")}
                         >
                             Contact Us
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "career")}
+                            onClick={() => (window.location.href = "/career")}
                         >
                             Careers
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "privacy")}
+                            onClick={() => (window.location.href = "/privacy")}
                         >
                             Privacy Policy
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "terms")}
+                            onClick={() => (window.location.href = "/terms")}
                         >
                             Terms
                         </div>
@@ -402,13 +403,13 @@ const Footer = () => {
                         <div className="head">For Customers</div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             Submit Enquiry
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             Hire Developer
                         </div>
@@ -417,7 +418,7 @@ const Footer = () => {
                         <div className="head">For Developers</div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "developer")}
+                            onClick={() => (window.location.href = "/developer")}
                         >
                             Developers
                         </div>
@@ -431,55 +432,55 @@ const Footer = () => {
                         <div className="head">Tech talent for</div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-enterprise")}
+                            onClick={() => (window.location.href = "/healthcare-enterprise")}
                         >
                             Enterprise Software{" "}
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-companies")}
+                            onClick={() => (window.location.href = "/healthcare-companies")}
                         >
                             Healthcare
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-fintech")}
+                            onClick={() => (window.location.href = "/healthcare-fintech")}
                         >
                             Fintech
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-startup")}
+                            onClick={() => (window.location.href = "/healthcare-startup")}
                         >
                             Startups
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "usa-startup-bussinesses")}
+                            onClick={() => (window.location.href = "/usa-startup-bussinesses")}
                         >
                             USA Startups & Businesses
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-salesforce")}
+                            onClick={() => (window.location.href = "/healthcare-salesforce")}
                         >
                             Salesforce Need
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-portfolio")}
+                            onClick={() => (window.location.href = "/healthcare-portfolio")}
                         >
                             VC Portfolio
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-pharma")}
+                            onClick={() => (window.location.href = "/healthcare-pharma")}
                         >
                             Pharma Industry
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "healthcare-service")}
+                            onClick={() => (window.location.href = "/healthcare-service")}
                         >
                             ServiceNow
                         </div>
@@ -500,55 +501,55 @@ const Footer = () => {
                         <div className="head">Compare</div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Fiverr
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Credo
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Freelancer
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Freeup
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs PeoplePerHour
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Guru
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Andela
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Upwork
                         </div>
                         <div
                             className="haed-text sp"
-                            onClick={() => (window.location.href = "hire")}
+                            onClick={() => (window.location.href = "/hire")}
                         >
                             SOV vs Top IT Services
                         </div>

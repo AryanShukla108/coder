@@ -42,17 +42,17 @@ const dropdownCategories = [
   {
     title: 'By Industries',
     items: [
-      { label: 'Enterprise software ', url: 'healthcare-enterprise', imgSrc: <Ent /> },
-      { label: 'Healthcare ', url: 'healthcare-companies', imgSrc: <Healthcarev2 /> },
-      { label: 'Fintech ', url: 'healthcare-fintech', imgSrc: <FinTech /> },
-      { label: 'USA Startups & Businesses', url: 'usa-startup-bussinesses', imgSrc:  <Usa /> },
-      { label: 'Startups', url: 'healthcare-startup', imgSrc: <Startup />  },
-      { label: 'Salesforce', url: 'healthcare-salesforce', imgSrc: <SalesForce />  },
-      { label: 'SAP', url: 'healthcare-sap', imgSrc: <SapSvg />  }, 
-      { label: 'VC Portfolio', url: 'healthcare-portfolio', imgSrc: < Ent/>  }, 
-      { label: 'Pharma Industry', url: 'healthcare-pharma', imgSrc: <Healthcarev2 />  }, 
-      { label: 'ServiceNow', url: 'healthcare-service', imgSrc: <Usa />  }, 
-      { label: 'Workday', url: 'healthcare-workday', imgSrc: <SalesForce />  }, 
+      { label: 'Enterprise software ', url: '/healthcare-enterprise', imgSrc: <Ent /> },
+      { label: 'Healthcare ', url: '/healthcare-companies', imgSrc: <Healthcarev2 /> },
+      { label: 'Fintech ', url: '/healthcare-fintech', imgSrc: <FinTech /> },
+      { label: 'USA Startups & Businesses', url: '/usa-startup-bussinesses', imgSrc:  <Usa /> },
+      { label: 'Startups', url: '/healthcare-startup', imgSrc: <Startup />  },
+      { label: 'Salesforce', url: '/healthcare-salesforce', imgSrc: <SalesForce />  },
+      { label: 'SAP', url: '/healthcare-sap', imgSrc: <SapSvg />  }, 
+      { label: 'VC Portfolio', url: '/healthcare-portfolio', imgSrc: < Ent/>  }, 
+      { label: 'Pharma Industry', url: '/healthcare-pharma', imgSrc: <Healthcarev2 />  }, 
+      { label: 'ServiceNow', url: '/healthcare-service', imgSrc: <Usa />  }, 
+      { label: 'Workday', url: '/healthcare-workday', imgSrc: <SalesForce />  }, 
     ] },
     
     // {
@@ -89,7 +89,7 @@ const dropdownCategories = [
  
       <ul className='list' >
         {/* <li onClick={() => (window.location.href = 'about-us')}>About Us</li> */}
-        <li onClick={() => (window.location.href = 'service')}>Service</li>
+        <li onClick={() => (window.location.href = '/service')}>Service</li>
         {/* <li onClick={() => (window.location.href = 'project')}>Case Studies</li> */}
         <li onMouseEnter={handleMouseEnter} >
           
@@ -129,15 +129,15 @@ const dropdownCategories = [
       )}
         
         </li> 
-        <li onClick={() => (window.location.href = 'developer')}>For Developers  </li>
+        <li onClick={() => (window.location.href = '/developer')}>For Developers  </li>
         {/* <li>Reviews</li> */}
         {/* <li onClick={() => (window.location.href = 'privacy')}>Privacy & Policy</li> */}
-        <li onClick={() => (window.location.href = 'hire')}>Schedule a call</li>
+        <li onClick={() => (window.location.href = '/hire')}>Schedule a call</li>
         {/* <li onClick={() => (window.location.href = 'service-other')}>Other service</li> */}
       </ul>
       <div className='nav-btn-box'>
         {/* <button className='nav-btn'> Sign In</button> */}
-        <button onClick={() => (window.location.href = 'hire')} className='nav-btn'>  Hire Developers</button>
+        <button onClick={() => (window.location.href = '/hire')} className='nav-btn'>  Hire Developers</button>
       </div>
 
       <div className='ham' onClick={toggleMenu}>
@@ -146,7 +146,7 @@ const dropdownCategories = [
 
       <div className={`list-box ${isMenuOpen ? 'active' : ''}`} >
       <ul className='list2' >
-      <li onClick={() => (window.location.href = 'service')}>Service</li>
+      <li onClick={() => (window.location.href = '/service')}>Service</li>
       <div className="dropdown">
       <button className="dropdown-button" onClick={toggleMenu2}>Categories <ArrowDownwardSharp  className='arrow' /> </button>
       {
@@ -174,10 +174,10 @@ const dropdownCategories = [
    
 
     </div>
-      <li onClick={() => (window.location.href = 'developer')}>For Developers  </li>
-      <li onClick={() => (window.location.href = 'hire')}>Schedule a call</li>
+      <li onClick={() => (window.location.href = '/developer')}>For Developers  </li>
+      <li onClick={() => (window.location.href = '/hire')}>Schedule a call</li>
       <div className='nav-btn-box2'>
-        <button onClick={() => (window.location.href = 'hire')} className='nav-btn'>  Hire Developers</button>
+        <button onClick={() => (window.location.href = '/hire')} className='nav-btn'>  Hire Developers</button>
       </div>
       </ul>
         </div>

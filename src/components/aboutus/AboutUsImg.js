@@ -12,7 +12,7 @@ const AboutUsImg = () => {
             <div className='one-order'>
                 <div className='heading-color-about'>ABOUT US </div>
                 <div className="para-about">Mobile designs and builds software for mobile devices, working alongside our clients.</div>
-                <button className='enquire' onClick={() => (window.location.href = "contact-us")}>Enquire Now <ArrowForwardIcon /></button>
+                <button className='enquire' onClick={() => (window.location.href = "/contact-us")}>Enquire Now <ArrowForwardIcon /></button>
             </div>
             <div className='two-order'>
                 <img src={aboutimg} alt="aboutimg" className='aboutimg' />

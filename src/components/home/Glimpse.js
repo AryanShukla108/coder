@@ -10,9 +10,9 @@ import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 
 const Glimpse = () => {
     const imgData = [
-        {id: 4, banner: glimpse1, name: "Hezky Tech", tittle: "Monitoring" , url : "https://hezkytech.com" },
-        { id:1 ,banner: glimpse2, name: "jedlo app", tittle: "Food Delivery" , url : "https://jedloapp.in" },
-        { id: 2 ,banner: glimpse3, name: "zurich kotak", tittle: "Insurance" , url : "https://www.zurichkotak.com"},
+        {id: 3, banner: glimpse1, name: "Hezky Tech", tittle: "Monitoring" , url : "https://hezkytech.com" },
+        { id:6 ,banner: glimpse2, name: "jedlo app", tittle: "Food Delivery" , url : "https://jedloapp.in" },
+        { id: 1 ,banner: glimpse3, name: "zurich kotak", tittle: "Insurance" , url : "https://www.zurichkotak.com"},
     ];
     return (
         <div className='Glimpse'>
@@ -39,7 +39,7 @@ const Glimpse = () => {
                     </div>
                 ))
             }</div>
-            <button onClick={() => (window.location.href = "more-project")} className='project'><ElectricBoltIcon style={{ color: "white" }} /> View All Projects</button>
+            <button onClick={() => (window.location.href = "/more-project")} className='project'><ElectricBoltIcon style={{ color: "white" }} /> View All Projects</button>
         </div>
     )
 }

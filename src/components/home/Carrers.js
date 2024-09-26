@@ -174,7 +174,7 @@ const Carrers = () => {
                             </div>
                         ))}
                     </div>
-                    <button className="carrers-btn" onClick={() => (window.location.href = 'career')}>Explore more careers →</button>
+                    <button className="carrers-btn" onClick={() => (window.location.href = '/career')}>Explore more careers →</button>
                 </div>
             </div>
             <div className="Carrers-mobile">
@@ -226,7 +226,7 @@ const Carrers = () => {
                             </div>
                         ))}
                     </div>
-                    <button className="carrers-btn" onClick={() => (window.location.href = 'career')}>Explore more careers →</button>
+                    <button className="carrers-btn" onClick={() => (window.location.href = '/career')}>Explore more careers →</button>
                 </div>
             </div>
         </>

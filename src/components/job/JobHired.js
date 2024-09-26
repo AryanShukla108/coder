@@ -89,7 +89,7 @@ const JobHired = () => {
                 </div> */}
             </div>
             <div className="form-job">
-                <div className="job-txt"  onClick={() => (window.location.href = 'hire')}>Lets Get Hired</div>
+                <div className="job-txt"  onClick={() => (window.location.href = '/hire')}>Lets Get Hired</div>
                 <form onSubmit={handleSubmit}>
                     <div className="row form-data">
                         <div className="col-6">
@@ -145,7 +145,7 @@ const JobHired = () => {
                               
                     <input
                                         type="text"
-                                        className="form-control"
+                                        className="form-control ind-input"
                                         placeholder="Phone Number"
                                         value={phone}
                                         onChange={(e) => setPhone(e.target.value)}
