@@ -603,3 +603,193 @@ color: rgba(51, 51, 51, 1);
  }
  
 }
+
+@media only screen and (max-width: 480px) and (min-width: 390px){
+  .serviceone{
+    margin-top: 100px;
+    .list{
+      padding: 12px;
+      flex-direction: column;
+    }
+
+    .box-data{
+      width: 100%;
+      height: 100%;
+      padding: 40px;
+    }
+
+    .txt{
+      font-size: 30px;
+    }
+
+    .list-para{
+      gap: 10px;
+    }
+
+    .head-color{
+      font-size: 18px;
+    }
+
+    .headpara{
+      width: 100%;
+      font-size: 12px;
+    }
+
+    .transform{
+      margin-top: 50px;
+      padding: 12px;
+      flex-direction: column;
+      gap: 20px;
+
+      img{
+        width: 350px;
+        object-fit: contain;
+      }
+    }
+
+    .transform-card{
+      width: 100%;
+    }
+
+    .transform-txt{
+      font-size: 22px;
+    }
+
+    .transform-para{
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .numbers{
+      margin-top: 50px;
+      grid-area: 20px;
+      flex-direction: column;
+      padding: 12px;
+    }
+
+    .project-behind{
+      margin-top: 50px;
+      padding: 12px;
+    }
+
+    .process{
+      font-size: 22px;
+    }
+
+    .behind{
+      font-size: 22px;
+    }
+
+    .process-para{
+      font-size: 12px;
+      line-height: 22px;
+    margin-bottom: 30px;
+    width: 100%;
+    }
+
+    .main-rank{
+      gap: 10px;
+    }
+
+    .rank{
+      gap: 10px;
+    }
+
+    .num-1{
+      width: 30px;
+      height: 30px;
+      font-size: 14px;
+      padding: 12px;
+    }
+
+    .num-head{
+      font-size: 16px;
+    }
+
+    .num-para{
+      font-size: 12px;
+      line-height: 22px;
+      width: 100%;
+    }
+
+    .commitments{
+      margin-top: 50px;
+      padding: 12px;
+    }
+
+    .commitments-card{
+      width: 100%;
+      height: 100%;
+      padding: 12px;
+    }
+
+    .our{
+      font-size: 22px;
+      text-align: center;
+      line-height: 22px;
+    }
+
+    .Guarantee-txt{
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+
+    .para-guareeentee{
+      font-size: 12px;
+      line-height: 22px;
+      margin-bottom: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .txt-inner-one{
+      text-align: center;
+    }
+
+    .txt-inner-para{
+      text-align: center;
+      font-size: 12px;
+        line-height: 22px;
+      width: 100%;
+    }
+
+    .trust{
+      display: none;
+    }
+
+    .case{
+      display: none;
+    }
+
+    .full-case{
+      display: none;
+    }
+
+    .reach-out{
+      gap: 20px;
+      padding: 15px;
+      flex-direction: column;
+    }
+
+    .reach-img{
+      width: 350px !important;
+      object-fit: contain !important;
+    }
+
+     .reach-out{
+
+     .reach-txt{
+      font-size: 22px;
+      bottom: 0;
+    }
+
+    .heading-color{
+      font-size: 22px;
+    }
+
+  }
+
+  }
+}

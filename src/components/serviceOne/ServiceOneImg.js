@@ -16,7 +16,7 @@ const generateMailtoLink = (name, company, email, phone, message) => {
     const subject = encodeURIComponent("Contact Form Submission");
     const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
     return `mailto:${email}?subject=${subject}&body=${body}`;
-  };
+};
 
 
 
@@ -31,7 +31,7 @@ const ServiceOneImg = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         const mailtoLink = generateMailtoLink(name, company, email, phone, message);
-        window.location.href = mailtoLink; 
+        window.location.href = mailtoLink;
     };
 
 
@@ -54,7 +54,7 @@ const ServiceOneImg = () => {
     return (
         <>
             <div className="ContactUsImg">
-                <div>
+                <div className="one-order">
                     <div className="serviceonetxt">{getDynamicText()}</div>
                     <div className="heading-color">Company</div>
                     <div className="para">
@@ -63,8 +63,8 @@ const ServiceOneImg = () => {
                     </div>
                     <button className="service-contact" onClick={() => (window.location.href = "contact-us")}>Contact Us</button>
                 </div>
-                <div>
-                    <img src={serviceAll} alt="serviceAll" className="contactusimg" />
+                <div className="two-order">
+                    <img src={serviceAll} alt="serviceAll" className="contactusimg-carrier" />
                 </div>
             </div>
             <div className="serviceone">
@@ -421,40 +421,40 @@ const ServiceOneImg = () => {
                             <div className="row">
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="Name" 
-                                     value={name}
-                                    onChange={(e) => setName(e.target.value)} /> 
+                                    <input type="text" className="form-control" placeholder="Name"
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)} />
                                 </div>
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
                                     <input type="text" className="form-control" placeholder="Company"
-                                           value={company}
-                                           onChange={(e) => setCompany(e.target.value)}
+                                        value={company}
+                                        onChange={(e) => setCompany(e.target.value)}
                                     />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="E-mail Address" 
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    <input type="text" className="form-control" placeholder="E-mail Address"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
                                     />
                                 </div>
                                 <div className="col-6">
                                     <div className="star-reach">*</div>
                                     <input type="text" className="form-control" placeholder="Phone Number"
-                                     value={phone}
-                                     onChange={(e) => setPhone(e.target.value)}
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
                                     />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12">
                                     <div className="star-reach">*</div>
-                                    <input type="text" className="form-control" placeholder="Requirements" 
-                                    value={message}
-                                    onChange={(e) => setMessage(e.target.value)}
+                                    <input type="text" className="form-control" placeholder="Requirements"
+                                        value={message}
+                                        onChange={(e) => setMessage(e.target.value)}
                                     />
                                 </div>
                             </div>
