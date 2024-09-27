@@ -10,10 +10,13 @@ import glimpse6 from "../../assests/vakil.png"
 import glimpse7 from "../../assests/robo.png"
 import glimpse8 from "../../assests/cyber.png"
 import glimpse9 from "../../assests/bring.png"
-import yuj from "../../assests/yuj.png"
-import hdb from "../../assests/hdb.png"
-import data from "../../assests/data.png"
-import { Link } from "react-router-dom";
+import poorva from "../../assests/poorva.jpg"
+import della from "../../assests/della.png"
+import fisheye from "../../assests/fisheye.png"
+import fund from "../../assests/fund.png"
+import otto from "../../assests/otto.png"
+import ozone from "../../assests/ozone.png"
+import tuvo from "../../assests/tuvoz.png"
 
 const ProjectMore = () => {
     const projectsData = [
@@ -44,12 +47,12 @@ const ProjectMore = () => {
             description: "A healthcare staffing platform that connects medical professionals with temporary positions in hospitals and clinics. The platform simplifies job matching and streamlines the hiring process.",
             image: glimpse4, // replace with actual image path if available
           },{  id:5,
-            title: "Smart Vehicle Assistance for Otto Buddy",
+            title: "Otto Buddy",
             name: "Otto Buddy",
-            url: "https://ottobuddy.com", // replace with actual URL if available
+            url: "https://play.google.com/store/apps/details?id=com.icici.surveyapp_revamp&hl=en", // replace with actual URL if available
             description: "A smart vehicle assistant application offering real-time traffic updates, vehicle diagnostics, and driving assistance. Otto Buddy aims to improve driving experiences with advanced safety features.",
-            image: "https://play-lh.googleusercontent.com/qd6aXrYgb1MkzKqsSU9054DhvfbENNi8t8oET5U2m6mZbHMKi2mnR9CXHYq3-NslLJm5", // replace with actual image path if available
-          },{
+            image: otto
+              },{
             id:6,
             title: "Food Delivery Platform for JedloApp",
             name: "JedloApp",
@@ -64,13 +67,7 @@ const ProjectMore = () => {
             description: "A comprehensive platform offering orthodontic solutions with seamless online appointment scheduling and patient management tools.",
             image: "https://vcorthodontics.com/assets/slide2-bee2285d.jpeg", // replace with actual image path if available
           },
-          {  id:8,
-            title: "Mobile Game Platform for Shibnobi Play",
-            name: "Shibnobi Play",
-            url: "https://play.google.com/store/apps/details?id=com.prox.fundacles",
-            description: "A mobile gaming platform offering players an exciting and immersive experience across various genres. Features smooth gameplay and social engagement.",
-            image: "https://img.etimg.com/thumb/width-420,height-315,imgsize-678018,resizemode-75,msid-79280279/markets/stocks/news/bitcoins-gunning-for-a-record-and-no-ones-talking-about-it/bitcoin.jpg", // replace with actual image path if available
-          },{ id:9,
+          { id:9,
             title: "Cybersecurity Solutions for Cyberquess",
             name: "Cyberquess",
             url: "https://cyberquess.com",
@@ -84,31 +81,24 @@ const ProjectMore = () => {
             image: glimpse9, // replace with actual image path if available
           },
           {  id:11,
-            title: "Health & Wellness App for ICICI Lombard",
+            title: "ICICI Lombard Ozone Plus",
             name: "ICICI Lombard Ozone Plus",
             url: "https://play.google.com/store/apps/details?id=com.icicilombard.ozoneplus&hl=en",
             description: "A health and wellness app designed to track fitness, offer health advice, and provide insurance-based wellness programs.",
-            image: "https://media.licdn.com/dms/image/C4E22AQFWpyXDSXTGAw/feedshare-shrink_800/0/1631768907615?e=2147483647&v=beta&t=Glqb3ec9oVp3DYtP75QmM8-v03aqPlZ5b-UPJLyJmxU", // replace with actual image path if available
-          },{id:12,
+            image: ozone
+              },{id:12,
             title: "Automation Solutions for Roboquess",
             name: "Roboquess",
             url: "https://roboquess.com",
             description: "Roboquess specializes in delivering advanced robotics and automation solutions for industries. Their innovative technology optimizes production lines, improves efficiency, and reduces operational costs.",
             image: glimpse7, // replace with actual image path if available
           },
-          {  id:13,
-            title: "Survey & Feedback App for ICICI",
-            name: "ICICI Survey App",
-            url: "https://play.google.com/store/apps/details?id=com.icici.surveyapp_revamp&hl=en",
-            description: "An internal survey tool designed for collecting feedback, managing customer surveys, and ensuring high-quality service standards for ICICI.",
-            image: "https://motorbash.com/wp-content/uploads/2016/11/ICICI-Mobile-Self-Inspection-Insure-App-1280x720.jpg", // replace with actual image path if available
-          },
           {  id:14,
             title: "Creative Media Platform for Fisheye Hub",
             name: "Fisheye Hub",
             url: "https://apps.apple.com/in/app/fisheye-hub/id1286294135",
             description: "A creative media platform offering design and multimedia services to clients, focusing on innovation and customer satisfaction.",
-            image: "https://cdn.leadingedgeonly.com/innovation/fisheye-hub/hvM18HaymJo3sEt7jw0WbuLiMaGyTyxjyvqLykmv-card.jpg", // replace with actual image path if available
+            image: fisheye
           },
          {  id:15,
             title: "Digital Publishing Solutions for Vakils Pre Media",
@@ -121,8 +111,8 @@ const ProjectMore = () => {
             name: "Tu Voz Now",
             url: "https://www.tuvoznow.com",
             description: "An innovative media platform designed for broadcasting news, opinions, and entertainment. The platform allows users to voice their thoughts and connect with a wider audience.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTzEVIXxBy6Zg91t5xs2k8prEyYNtz4Tw1g&s", // replace with actual image path if available
-          },{  id:17,
+            image: tuvo
+                    },{  id:17,
             title: "Medical Testing Solutions for Vital Lab",
             name: "Vital Lab",
             url: "https://vitallab.com",
@@ -131,35 +121,32 @@ const ProjectMore = () => {
           },{  id:18,
             title: "Crowdfunding Platform for Fundacle",
             name: "Fundacle",
-            url: "https://fundacle.com", // replace with actual URL if available
+            url: "https://play.google.com/store/apps/details?id=com.prox.fundacles", // replace with actual URL if available
             description: "An online crowdfunding platform that helps startups, charities, and projects raise funds from a wide audience. Fundacle simplifies campaign management and supporter engagement.",
-            image: "https://media.licdn.com/dms/image/D5612AQGp153sAUjJJQ/article-cover_image-shrink_720_1280/0/1722293330036?e=2147483647&v=beta&t=ft-pM4pp6Tc-HRrHGOQ5ZR2AqGOI4_0zn_R03_2pGxg", // replace with actual image path if available
-          },{  id:20,
+            image:fund
+              },{  id:20,
             title: "Patient Management System for Mrecord Patient",
             name: "Mrecord Patient",
             url: "https://mrecordpatient.com", // replace with actual URL if available
             description: "A comprehensive patient management platform designed for healthcare providers. Mrecord Patient enables easy record keeping, appointment scheduling, and patient history tracking.",
             image: "https://cdn.prod.website-files.com/64abb91e69c1429ab62638be/64ba7cfb4b0c2ac2a47329aa_Blog-18---How-to-maintain-Patient-Record_.svg", // replace with actual image path if available
-          },
-          {id:21,
-            title: "Financial Solutions for HDB Financial Services",
-            name: "HDB Financial Services",
-            url: "https://hdbfs.com", // replace with actual URL if available
-            description: "HDB Financial Services offers a wide range of financial products, including personal loans, business loans, and insurance solutions. HDBFS provides tailored financial assistance to help customers achieve their financial goals.",
-            image: hdb, // replace with actual image path if available
-          },{id:22,
-            title: "Design and Innovation Consulting for YUJ",
-            name: "YUJ",
-            url: "https://yujdesigns.com/", // replace with actual URL if available
-            description: "YUJ is a design and innovation consulting firm that helps businesses craft engaging experiences, product designs, and strategic insights. They focus on user-centric solutions to drive growth and innovation.",
-            image: yuj, // replace with actual image path if available
-          },{id:23,
-            title: "Software Solutions for Datacomp",
-            name: "Datacomp",
-            url: "https://www.datacompwebtech.com/", // replace with actual URL if available
-            description: "Datacomp provides cutting-edge software solutions for industries such as insurance, finance, and healthcare. Their platforms enhance operational efficiency, provide insights, and help businesses manage their data effectively.",
-            image: data, // replace with actual image path if available
-          }
+          },{
+            id: 21,
+            title: "Travel Solutions for Poorva Holidays",
+            name: "Poorva Holidays",
+            url: "https://www.facebook.com/poorvaholidaysindia/", // replace with actual URL if available
+            description: "Poorva Holidays is a travel and tourism company that offers personalized vacation packages, flight bookings, and hotel accommodations for domestic and international trips.",
+            image: poorva
+        },
+        
+        {
+            id: 22,
+            title: "Luxury Hospitality for Della International",
+            name: "Della International",
+            url: "https://dellainternationalpvtltd.com/", 
+            description: "Della International is a luxury hospitality and adventure resort offering world-class experiences, including five-star accommodations, dining, and extreme adventure activities.",
+            image: della
+        }
     ];
 
     const [currentSet, setCurrentSet] = useState(1);
@@ -205,8 +192,8 @@ const ProjectMore = () => {
                             />
                             <div className="url-container d-flex justify-content-between align-items-center">
                                 <div>
-                                    <div className="pro-name" onClick={() => window.location.href = `/project/${project.id}`} style={{cursor: "pointer"}} >{project.name}</div>
-                                    <div className="pro-url"><a href={project.url} target="_blank" > {project.url} </a></div>
+                                    {/* <div className="pro-name" onClick={() => window.location.href = `/project/${project.id}`} style={{cursor: "pointer"}} >{project.name}</div> */}
+                                    <div className="pro-url"><a href={project.url} target="_blank" > {project.name} </a></div>
                                 </div>
                                 <div>
                                     <svg
