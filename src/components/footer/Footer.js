@@ -6,14 +6,15 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Link } from "react-router-dom";
+import { Logos, Logos2 } from "../../assests/Appicons";
 
 const Footer = () => {
     return (
         <>
             <div className="Footer">
-                <div>
+                <div className="fotter-sov-svg">
                     {/* <img src={coder} alt="coder" className="coder" /> */}
-                    <svg
+                    {/* <svg
                         className="fotter-sov-svg"
                         width="239"
                         height="103"
@@ -63,7 +64,8 @@ const Footer = () => {
                                 <stop offset="1" stop-color="#EA4232" />
                             </linearGradient>
                         </defs>
-                    </svg>
+                    </svg> */}
+             <Logos2 />
                 </div>
                 <div className="row mobile-div">
                     <div className="col-3 mob-chil">

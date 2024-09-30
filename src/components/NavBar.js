@@ -1,10 +1,10 @@
 
 import React, {  useState } from 'react'
-import { Ent, FinTech, Fintechv2, Ham, Healthcarev2, Logos, SalesForce, SapSvg, Startup, Usa, WorkdayV2 } from '../assests/Appicons';
+import { Ent, FinTech,  Ham, Healthcarev2, Logos, Logos2, SalesForce, SapSvg, Startup, Usa } from '../assests/Appicons';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 // import logoCoder from "../assests/logo-coder.png"
-import sovlogo from "../assests/logo1.png"
+// import sovlogo from "../assests/logo1.png"
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { ArrowDownwardSharp } from '@mui/icons-material';
 
@@ -24,19 +24,19 @@ export const NavBar = () => {
   };
 
 
-  const options = [
-    { label: "Enterprise software companies", value: 'healthcare-enterprise' },
-    { label: "Healthcare Companies", value: 'healthcare-companies' },
-    { label: "Fintech Companies", value: 'healthcare-fintech' },
-    { label: "Startups", value: 'healthcare-startup' },
-    { label: "USA Startups & Businesses", value: 'usa-startup-bussinesses' },
-    { label: "Salesforce Need", value: 'healthcare-salesforce' },
-    { label: "VC Portfolio Companies", value: 'healthcare-portfolio' },
-    { label: "Pharma Industry", value: 'healthcare-pharma' },
-    { label: "ServiceNow", value: 'healthcare-service' },
-    { label: "Workday", value: 'healthcare-workday' },
-    { label: "SAP", value: 'healthcare-sap' }
-];
+//   const options = [
+//     { label: "Enterprise software companies", value: 'healthcare-enterprise' },
+//     { label: "Healthcare Companies", value: 'healthcare-companies' },
+//     { label: "Fintech Companies", value: 'healthcare-fintech' },
+//     { label: "Startups", value: 'healthcare-startup' },
+//     { label: "USA Startups & Businesses", value: 'usa-startup-bussinesses' },
+//     { label: "Salesforce Need", value: 'healthcare-salesforce' },
+//     { label: "VC Portfolio Companies", value: 'healthcare-portfolio' },
+//     { label: "Pharma Industry", value: 'healthcare-pharma' },
+//     { label: "ServiceNow", value: 'healthcare-service' },
+//     { label: "Workday", value: 'healthcare-workday' },
+//     { label: "SAP", value: 'healthcare-sap' }
+// ];
 
 const dropdownCategories = [
   {
@@ -82,7 +82,7 @@ const dropdownCategories = [
       <div className='logo-box' onClick={() => (window.location.href = '/')}>
         {/* <img src={sovlogo} alt="" className='logo'></img> */}
         
-        <Logos />
+       <Logos2 />
 
 
       </div>

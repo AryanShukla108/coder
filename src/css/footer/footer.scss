@@ -8,6 +8,14 @@
         
     }
 
+    .logo{
+
+        svg{
+            width: 150px;
+            height: 150px;
+        }
+    }
+
     .linkdin-text{
         padding: 6px 16px;
         width: 279px;
@@ -24,7 +32,6 @@
     }
 
     .normal-text{
-                margin-top: 34px;
         font-family: "Poppins";
             font-size: 13.75px;
             font-weight: 400;
@@ -76,6 +83,11 @@
 
     .fotter-sov-svg{
             cursor: pointer;
+
+            svg{
+                width: 150px;
+                height: 150px;
+            }
     }
 
 
@@ -109,7 +121,6 @@
         }
 
                 .normal-text {
-                    margin-top: 14px;
                     font-family: "Poppins";
                     font-size: 10px;
                     font-weight: 400;
