@@ -8,15 +8,17 @@ import glimpse5 from "../../assests/agro.png"
 import glimpse6 from "../../assests/vakil.png"
 import glimpse7 from "../../assests/robo.png"
 import glimpse8 from "../../assests/cyber.png"
-import glimpse9 from "../../assests/bring.png"
+import glimpse9 from "../../assests/gas.png"
 import della from "../../assests/della.png"
 import fisheye from "../../assests/fisheye.png"
 import fund from "../../assests/fund.png"
 import otto from "../../assests/otto.png"
 import ozone from "../../assests/ozone.png"
-import tuvo from "../../assests/tuvoz.png"
+import tuvo from "../../assests/tuvo.png"
 import nestpro from "../../assests/nestpro.png"
-
+import vc from "../../assests/vc.png"
+import flight from "../../assests/flight.png"
+import ott from "../../assests/ott.png"
 
 const projectsData = [
 
@@ -70,7 +72,7 @@ const projectsData = [
     name: "VC Orthodontics",
     url: "https://vcorthodontics.com",
     description: "A comprehensive platform offering orthodontic solutions with seamless online appointment scheduling and patient management tools.",
-    image: "https://vcorthodontics.com/assets/slide2-bee2285d.jpeg", // replace with actual image path if available
+    image: vc, // replace with actual image path if available
   }
   , {
     id: 8,
@@ -149,7 +151,7 @@ const projectsData = [
     id: 21,
     title: "Travel Solutions for Poorva Holidays",
     name: "Poorva Holidays",
-    url: "https://poorvaholidays.com", // replace with actual URL if available
+    // url: "https://poorvaholidays.com", // replace with actual URL if available
     description: "Poorva Holidays is a travel and tourism company that offers personalized vacation packages, flight bookings, and hotel accommodations for domestic and international trips.",
     image: "https://media.istockphoto.com/id/1179632938/photo/travel-planning-concept.jpg?s=612x612&w=0&k=20&c=anCdRAzlvZbh47kP5rM5T-Sy7bOj3FFZFTTYAtTQvY8", // replace with actual image path if available
   },
@@ -168,7 +170,20 @@ const projectsData = [
     name: "NestPro",
     description: "At Nestpro, we specialize in delivering high-quality freelance solutions tailored to meet your specific needs. With expertise in cutting-edge technologies and a commitment to excellence, we provide seamless, efficient, and cost-effective services to help businesses thrive in the digital world.",
     image: nestpro
-  }
+  },{
+    id: 24,
+    title: "Entertainment Platform for StreamFlix",
+    name: "StreamFlix",
+    url: "https://streamflix.com", // replace with actual URL if available
+    description: "StreamFlix is a premier OTT platform offering a vast library of movies, TV shows, documentaries, and original content. The platform supports multi-device streaming, personalized recommendations, and offline downloads.",
+    image: ott  },{
+  id: 25,
+  title: "Flight Booking Solutions for FlyMate",
+  name: "FlyMate",
+  url: "https://flymate.com", // replace with actual URL if available
+  description: "FlyMate is a comprehensive flight booking platform that provides users with easy access to flight schedules, ticket booking, seat selection, and real-time updates. It offers competitive pricing, flight deals, and 24/7 customer support.",
+  image: flight
+}
 ];
 
 const ProjectLanding = () => {
