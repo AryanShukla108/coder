@@ -27,7 +27,7 @@ import avant from "../../assests/avant.png"
 import burnfit from "../../assests/burnfit.png"
 import star11 from "../../assests/star11.png"
 import poorva from "../../assests/poorva.png"
-import vite from "../../assests/vitelab.png"
+import vite from "../../assests/vita.png"
 import mrecord from "../../assests/mrecord.svg"
 
 

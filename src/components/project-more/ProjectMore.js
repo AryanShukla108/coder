@@ -28,7 +28,7 @@ import selas from "../../assests/seales.png"
 import avant from "../../assests/avant.png"
 import burnfit from "../../assests/burnfit.png"
 import star11 from "../../assests/star11.png"
-import vite from "../../assests/vitelab.png"
+import vite from "../../assests/vita.png"
 import mrecord from "../../assests/mrecord.svg"
 
 
@@ -250,7 +250,7 @@ const ProjectMore = () => {
       name: "My11Star",
       description: "My11Star is your premier fantasy sports app, designed to bring the thrill of competitive play to your fingertips. Create your dream teams, strategize your gameplay, and compete against others for a chance to win real money. Join us and turn your sports knowledge into rewards—where every game is an opportunity!",
       image: star11
-    },
+    }
   ];
 
   const [currentSet, setCurrentSet] = useState(1);
