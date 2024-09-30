@@ -226,7 +226,7 @@ const ProjectMore = () => {
     {
       id: 29,
       title: "Selas: Your School Management Hub",
-      name: "Selar",
+      name: "Selas",
       description: "Selas is a comprehensive school management panel designed to streamline communication and organization within educational institutions. With features like a centralized dashboard, messaging, calendar, and database management, Selas empowers educators, students, and parents to stay connected and informed.",
       image: selas
     },
