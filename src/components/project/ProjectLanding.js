@@ -19,6 +19,19 @@ import nestpro from "../../assests/nestpro.png"
 import vc from "../../assests/vc.png"
 import flight from "../../assests/flight.png"
 import ott from "../../assests/ott.png"
+import tutor from "../../assests/tutor.png"
+import vf from "../../assests/vf.png"
+import fishey from "../../assests/fishey.png"
+import selas from "../../assests/seales.png"
+import avant from "../../assests/avant.png"
+import burnfit from "../../assests/burnfit.png"
+import star11 from "../../assests/star11.png"
+import poorva from "../../assests/poorva.png"
+import vite from "../../assests/vitelab.png"
+import mrecord from "../../assests/mrecord.svg"
+
+
+
 
 const projectsData = [
 
@@ -75,7 +88,7 @@ const projectsData = [
     image: vc, // replace with actual image path if available
   }
   , {
-    id: 8,
+    id: 9,
     title: "Cybersecurity Solutions for Cyberquess",
     name: "Cyberquess",
     url: "https://cyberquess.com",
@@ -132,7 +145,7 @@ const projectsData = [
     name: "Vital Lab",
     url: "https://vitallab.com",
     description: "A healthcare company specializing in medical testing and laboratory services. Vital Lab offers accurate diagnostic services with state-of-the-art testing technologies.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCsBiKoe8FNx31qubRoEHgDd_rJhJHIxQOg&s", // replace with actual image path if available
+    image: vite, // replace with actual image path if available
   }, {
     id: 18,
     title: "Crowdfunding Platform for Fundacle",
@@ -146,14 +159,14 @@ const projectsData = [
     name: "Mrecord Patient",
     url: "https://mrecordpatient.com", // replace with actual URL if available
     description: "A comprehensive patient management platform designed for healthcare providers. Mrecord Patient enables easy record keeping, appointment scheduling, and patient history tracking.",
-    image: "https://cdn.prod.website-files.com/64abb91e69c1429ab62638be/64ba7cfb4b0c2ac2a47329aa_Blog-18---How-to-maintain-Patient-Record_.svg", // replace with actual image path if available
+    image: mrecord, // replace with actual image path if available
   }, {
     id: 21,
     title: "Travel Solutions for Poorva Holidays",
     name: "Poorva Holidays",
     // url: "https://poorvaholidays.com", // replace with actual URL if available
     description: "Poorva Holidays is a travel and tourism company that offers personalized vacation packages, flight bookings, and hotel accommodations for domestic and international trips.",
-    image: "https://media.istockphoto.com/id/1179632938/photo/travel-planning-concept.jpg?s=612x612&w=0&k=20&c=anCdRAzlvZbh47kP5rM5T-Sy7bOj3FFZFTTYAtTQvY8", // replace with actual image path if available
+    image: poorva, // replace with actual image path if available
   },
 
   {
@@ -170,20 +183,69 @@ const projectsData = [
     name: "NestPro",
     description: "At Nestpro, we specialize in delivering high-quality freelance solutions tailored to meet your specific needs. With expertise in cutting-edge technologies and a commitment to excellence, we provide seamless, efficient, and cost-effective services to help businesses thrive in the digital world.",
     image: nestpro
-  },{
+  }, {
     id: 24,
     title: "Entertainment Platform for StreamFlix",
     name: "StreamFlix",
     url: "https://streamflix.com", // replace with actual URL if available
     description: "StreamFlix is a premier OTT platform offering a vast library of movies, TV shows, documentaries, and original content. The platform supports multi-device streaming, personalized recommendations, and offline downloads.",
-    image: ott  },{
-  id: 25,
-  title: "Flight Booking Solutions for FlyMate",
-  name: "FlyMate",
-  url: "https://flymate.com", // replace with actual URL if available
-  description: "FlyMate is a comprehensive flight booking platform that provides users with easy access to flight schedules, ticket booking, seat selection, and real-time updates. It offers competitive pricing, flight deals, and 24/7 customer support.",
-  image: flight
-}
+    image: ott
+  }, {
+    id: 25,
+    title: "Flight Booking Solutions for FlyMate",
+    name: "FlyMate",
+    url: "https://flymate.com", // replace with actual URL if available
+    description: "FlyMate is a comprehensive flight booking platform that provides users with easy access to flight schedules, ticket booking, seat selection, and real-time updates. It offers competitive pricing, flight deals, and 24/7 customer support.",
+    image: flight
+  }, {
+    id: 26,
+    title: "Your Learning Partner",
+    name: "Tutor App",
+    description: "At Tutot, we believe that every learner deserves personalized guidance to unlock their full potential. Our mission is to provide a seamless and engaging tutoring experience that connects students with expert tutors across various subjects and skills",
+    image: tutor
+  },
+  {
+    id: 27,
+    title: "VF: Discover, Dance, and Connect",
+    name: "VF App",
+    description: "At VF, we are dedicated to bringing people together through engaging tasks, vibrant dance experiences, and exciting offline events. Our platform empowers users to discover new activities, connect with others, and create unforgettable memories",
+    image: vf
+  },
+  {
+    id: 28,
+    title: "Fishey: Streamlined Attendance Management",
+    name: "Fishey App",
+    description: "Fishey is an innovative mobile app designed to simplify attendance tracking for students and staff. With features for roll calls, attendance records, and more, Fishey helps educational institutions manage attendance efficiently.",
+    image: fishey
+  },
+  {
+    id: 29,
+    title: "Selas: Your School Management Hub",
+    name: "Selar",
+    description: "Selas is a comprehensive school management panel designed to streamline communication and organization within educational institutions. With features like a centralized dashboard, messaging, calendar, and database management, Selas empowers educators, students, and parents to stay connected and informed.",
+    image: selas
+  },
+  {
+    id: 30,
+    title: "Avant: The Art of Diamonds",
+    name: "Avant",
+    description: "At Avant, we celebrate the timeless beauty of diamonds. Our curated collection features exquisite stones crafted to perfection, showcasing elegance and luxury. Whether you're searching for the perfect engagement ring or a stunning piece of jewelry, Avant is dedicated to providing exceptional quality and personalized service.",
+    image: avant
+  },
+  {
+    id: 31,
+    title: "BurnFit: Your Ultimate Fitness Companion",
+    name: "BurnFit",
+    description: "BurnFit is your go-to app for achieving fitness goals and embracing a healthier lifestyle. Offering personalized workout plans, exercise tracking, and nutrition tips, BurnFit empowers users to stay motivated and reach their peak performance. Join our community and ignite your fitness journey today!",
+    image: burnfit
+  },
+  {
+    id: 32,
+    title: "My11Star: Play. Compete. Win.",
+    name: "My11Star",
+    description: "My11Star is your premier fantasy sports app, designed to bring the thrill of competitive play to your fingertips. Create your dream teams, strategize your gameplay, and compete against others for a chance to win real money. Join us and turn your sports knowledge into rewards—where every game is an opportunity!",
+    image: star11
+  },
 ];
 
 const ProjectLanding = () => {
