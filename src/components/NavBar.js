@@ -4,7 +4,7 @@ import { Ent, FinTech, Fintechv2, Ham, Healthcarev2, Logos, SalesForce, SapSvg, 
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 // import logoCoder from "../assests/logo-coder.png"
-// import sovlogo from "../assests/sovlogo.png"
+import sovlogo from "../assests/logo1.png"
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { ArrowDownwardSharp } from '@mui/icons-material';
 
