@@ -43,7 +43,7 @@
     flex-wrap: nowrap;
     align-items: center;
     /* Prevents wrapping of items */
-    gap: 30px;
+    // gap: 30px;
   }
 
   /* Hide scrollbar for Chrome, Safari, and Opera */
@@ -60,14 +60,14 @@
   }
 
   .container {
-    width: 490px;
+    // width: 490px;
     height: 506px;
     position: relative;
   }
 
     .img-container {
       position: relative;
-      width: 490px;
+      // width: 490px;
       height: 445px;
       border-radius: 20px !important;
       background: white; 
